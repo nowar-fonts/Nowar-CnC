@@ -1,0 +1,20 @@
+## Interface: 80205
+
+## Title: Nowar C² Typeface
+## Notes: Register Nowar C² typeface to SharedMedia.
+## Title-zhCN: 有爱锐方
+## Notes-zhCN: 向 SharedMedia 注册有爱锐方字族。
+## Title-zhTW: 有愛銳方
+## Notes-zhTW: 向 SharedMedia 登錄有愛銳方字體。
+
+## Version: __REPLACE_IN_BUILD__VERSION__
+## Author: Cyano Hao
+## X-Category: Miscellaneous
+## X-Credits: This addon is derived from on SharedMediaAdditionalFont.
+
+## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
+
+Libs\LibStub\LibStub.lua
+
+Core.lua
+NowarCnCTypeface.lua
