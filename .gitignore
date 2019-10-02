@@ -1,0 +1,10 @@
+*.otd
+*.7z
+/shs/*.otf
+/build/
+/out/
+/node_modules/
+__pycache__/
+/??-???/
+/OSF-???/
+/NowarCnCTypeface/
