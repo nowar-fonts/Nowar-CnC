@@ -9,6 +9,7 @@ from fontlib.dereference import Dereference
 from fontlib.transform import Transform, ChangeAdvanceWidth
 from fontlib.gsub import GetGsubFlat
 from fontlib.gsub import ApplyGsubSingle
+from fontlib.instruct import SetHintFlag
 import configure
 
 langIdList = [ 0x0409, 0x0804, 0x0404, 0x0C04, 0x0411, 0x0412 ]
@@ -156,6 +157,7 @@ if __name__ == '__main__':
 	with open("noto/{}.otd".format(configure.GenerateFilename(dep['Latin'])), 'rb') as baseFile:
 		baseFont = json.loads(baseFile.read().decode('UTF-8', errors='replace'))
 	NameFont(param, baseFont)
+	SetHintFlag(baseFont)
 
 	baseFont['hhea']['ascender'] = 880
 	baseFont['hhea']['descender'] = -120
