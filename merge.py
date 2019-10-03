@@ -58,7 +58,7 @@ def NameFont(param, font):
 			"encodingID": 1,
 			"languageID": 1033,
 			"nameID": 6,
-			"nameString": friendly[1033].replace(" ", "-")
+			"nameString": friendly[1033].replace(" ", "-").replace("C²", "C&C")
 		},
 		{
 			"platformID": 3,
