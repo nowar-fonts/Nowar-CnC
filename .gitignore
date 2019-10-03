@@ -1,10 +1,6 @@
-*.otd
-*.7z
-/shs/*.otf
+/source/shs/*.otf
 /build/
+/cache/
 /out/
-/node_modules/
+node_modules/
 __pycache__/
-/??-???/
-/OSF-???/
-/NowarCnCTypeface/

@@ -154,7 +154,7 @@ if __name__ == '__main__':
 
 	dep = configure.ResolveDependency(param)
 
-	with open("noto/{}.otd".format(configure.GenerateFilename(dep['Latin'])), 'rb') as baseFile:
+	with open("build/noto/{}.otd".format(configure.GenerateFilename(dep['Latin'])), 'rb') as baseFile:
 		baseFont = json.loads(baseFile.read().decode('UTF-8', errors='replace'))
 	NameFont(param, baseFont)
 	SetHintFlag(baseFont)
@@ -176,7 +176,7 @@ if __name__ == '__main__':
 
 	# replace numerals
 	if param.family in [ "WarcraftSans", "WarcraftUI" ]:
-		with open("noto/{}.otd".format(configure.GenerateFilename(dep['Numeral'])), 'rb') as numFile:
+		with open("build/noto/{}.otd".format(configure.GenerateFilename(dep['Numeral'])), 'rb') as numFile:
 			numFont = json.loads(numFile.read().decode('UTF-8', errors='replace'))
 
 			maxWidth = 490
@@ -216,7 +216,7 @@ if __name__ == '__main__':
 
 	# merge CJK
 	if param.family in [ "Sans", "UI", "WarcraftSans", "WarcraftUI" ]:
-		with open("shs/{}.otd".format(configure.GenerateFilename(dep['CJK'])), 'rb') as asianFile:
+		with open("build/shs/{}.otd".format(configure.GenerateFilename(dep['CJK'])), 'rb') as asianFile:
 			asianFont = json.loads(asianFile.read().decode('UTF-8', errors = 'replace'))
 
 		# pre-apply `palt` in UI family
@@ -245,5 +245,5 @@ if __name__ == '__main__':
 			baseFont['cmap'][str(ord('丶'))] = baseFont['cmap'][str(ord('·'))]
 
 	outStr = json.dumps(baseFont, ensure_ascii=False)
-	with codecs.open("nowar/{}.otd".format(configure.GenerateFilename(param)), 'w', 'UTF-8') as outFile:
+	with codecs.open("build/unhinted/{}.otd".format(configure.GenerateFilename(param)), 'w', 'UTF-8') as outFile:
 		outFile.write(outStr)
