@@ -634,7 +634,7 @@ if __name__ == "__main__":
 			"build/hint2/{}.otd".format(GenerateFilename(f)) for f in hintGroup[w]
 		])
 		makefile["rule"]["hint2"]["command"].append(
-			"node node_modules/@chlorophytum/cli/lib/index.js hint -c source/idh/{0}.json -h cache/idh-{0}.gz -j ${{IDH_JOBS}} ".format(w) +
+			"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js hint -c source/idh/{0}.json -h cache/idh-{0}.gz -j ${{IDH_JOBS}} ".format(w) +
 				" ".join([ "build/hint2/{0}.otd build/hint2/{0}.hint.gz".format(GenerateFilename(f)) for f in hintGroup[w] ])
 		)
 		for f in hintGroup[w]:
@@ -646,13 +646,13 @@ if __name__ == "__main__":
 				"depend": [ "build/hint2/{}.instr.gz".format(GenerateFilename(f)) ],
 				"command": [
 					"mkdir -p build/nowar/",
-					"node node_modules/@chlorophytum/cli/lib/index.js integrate -c {0}.json build/hint2/{1}.instr.gz build/hint2/{1}.otd build/nowar/{1}.otd".format(w, GenerateFilename(f)),
+					"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c {0}.json build/hint2/{1}.instr.gz build/hint2/{1}.otd build/nowar/{1}.otd".format(w, GenerateFilename(f)),
 				],
 			}
 			makefile["rule"]["build/hint2/{}.instr.gz".format(GenerateFilename(f))] = {
 				"depend": [ "build/hint2/{}.hint.gz".format(GenerateFilename(f)) ],
 				"command": [
-					"node node_modules/@chlorophytum/cli/lib/index.js instruct -c {0}.json build/hint2/{1}.otd build/hint2/{1}.hint.gz build/hint2/{1}.instr.gz".format(w, GenerateFilename(f)),
+					"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c {0}.json build/hint2/{1}.otd build/hint2/{1}.hint.gz build/hint2/{1}.instr.gz".format(w, GenerateFilename(f)),
 				],
 			}
 			makefile["rule"]["build/hint2/{}.hint.gz".format(GenerateFilename(f))] = {
