@@ -2566,9 +2566,9 @@ build/nowar/unspec-NowarCnCUI-CN-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-CN-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-CN-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-CN-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2577,9 +2577,9 @@ build/nowar/unspec-NowarCnCUI-TW-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-TW-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-TW-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-TW-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2588,9 +2588,9 @@ build/nowar/unspec-NowarCnCUI-HK-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-HK-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-HK-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-HK-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2599,9 +2599,9 @@ build/nowar/unspec-NowarCnCUI-JP-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-JP-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-JP-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-JP-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2610,9 +2610,9 @@ build/nowar/unspec-NowarCnCUI-CN-ExtraLight.ttf: build/nowar/unspec-NowarCnCUI-C
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-ExtraLight.otd: build/hint2/unspec-NowarCnCUI-CN-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-CN-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtraLight.otd build/nowar/unspec-NowarCnCUI-CN-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CN-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtraLight.otd build/nowar/unspec-NowarCnCUI-CN-ExtraLight.otd
 build/hint2/unspec-NowarCnCUI-CN-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-CN-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-CN-ExtraLight.otd build/hint2/unspec-NowarCnCUI-CN-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CN-ExtraLight.otd build/hint2/unspec-NowarCnCUI-CN-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-ExtraLight.otd: build/hint1/unspec-NowarCnCUI-CN-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2621,9 +2621,9 @@ build/nowar/unspec-NowarCnCUI-TW-ExtraLight.ttf: build/nowar/unspec-NowarCnCUI-T
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-ExtraLight.otd: build/hint2/unspec-NowarCnCUI-TW-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-TW-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtraLight.otd build/nowar/unspec-NowarCnCUI-TW-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-TW-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtraLight.otd build/nowar/unspec-NowarCnCUI-TW-ExtraLight.otd
 build/hint2/unspec-NowarCnCUI-TW-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-TW-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-TW-ExtraLight.otd build/hint2/unspec-NowarCnCUI-TW-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-TW-ExtraLight.otd build/hint2/unspec-NowarCnCUI-TW-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-ExtraLight.otd: build/hint1/unspec-NowarCnCUI-TW-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2632,9 +2632,9 @@ build/nowar/unspec-NowarCnCUI-HK-ExtraLight.ttf: build/nowar/unspec-NowarCnCUI-H
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-ExtraLight.otd: build/hint2/unspec-NowarCnCUI-HK-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-HK-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtraLight.otd build/nowar/unspec-NowarCnCUI-HK-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-HK-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtraLight.otd build/nowar/unspec-NowarCnCUI-HK-ExtraLight.otd
 build/hint2/unspec-NowarCnCUI-HK-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-HK-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-HK-ExtraLight.otd build/hint2/unspec-NowarCnCUI-HK-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-HK-ExtraLight.otd build/hint2/unspec-NowarCnCUI-HK-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-ExtraLight.otd: build/hint1/unspec-NowarCnCUI-HK-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2643,9 +2643,9 @@ build/nowar/unspec-NowarCnCUI-JP-ExtraLight.ttf: build/nowar/unspec-NowarCnCUI-J
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-ExtraLight.otd: build/hint2/unspec-NowarCnCUI-JP-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-JP-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtraLight.otd build/nowar/unspec-NowarCnCUI-JP-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-JP-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtraLight.otd build/nowar/unspec-NowarCnCUI-JP-ExtraLight.otd
 build/hint2/unspec-NowarCnCUI-JP-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-JP-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-JP-ExtraLight.otd build/hint2/unspec-NowarCnCUI-JP-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-JP-ExtraLight.otd build/hint2/unspec-NowarCnCUI-JP-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-ExtraLight.otd: build/hint1/unspec-NowarCnCUI-JP-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2654,9 +2654,9 @@ build/nowar/unspec-NowarCnCUI-CN-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-CN-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2665,9 +2665,9 @@ build/nowar/unspec-NowarCnCUI-TW-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-TW-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2676,9 +2676,9 @@ build/nowar/unspec-NowarCnCUI-HK-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-HK-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2687,9 +2687,9 @@ build/nowar/unspec-NowarCnCUI-JP-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-JP-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2698,9 +2698,9 @@ build/nowar/unspec-NowarCnCUI-CL-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-CL-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-CL-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-CL-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2709,9 +2709,9 @@ build/nowar/unspec-NowarCnCUI-OSF-CondensedExtraLight.ttf: build/nowar/unspec-No
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-OSF-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2720,9 +2720,9 @@ build/nowar/unspec-NowarCnCUI-CL-ExtraLight.ttf: build/nowar/unspec-NowarCnCUI-C
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-ExtraLight.otd: build/hint2/unspec-NowarCnCUI-CL-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-CL-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtraLight.otd build/nowar/unspec-NowarCnCUI-CL-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CL-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtraLight.otd build/nowar/unspec-NowarCnCUI-CL-ExtraLight.otd
 build/hint2/unspec-NowarCnCUI-CL-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-CL-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-CL-ExtraLight.otd build/hint2/unspec-NowarCnCUI-CL-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CL-ExtraLight.otd build/hint2/unspec-NowarCnCUI-CL-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-ExtraLight.otd: build/hint1/unspec-NowarCnCUI-CL-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2731,9 +2731,9 @@ build/nowar/unspec-NowarCnCUI-OSF-ExtraLight.ttf: build/nowar/unspec-NowarCnCUI-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-ExtraLight.otd: build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.otd build/nowar/unspec-NowarCnCUI-OSF-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.otd build/nowar/unspec-NowarCnCUI-OSF-ExtraLight.otd
 build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.otd build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.otd build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-ExtraLight.otd: build/hint1/unspec-NowarCnCUI-OSF-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2742,9 +2742,9 @@ build/nowar/unspec-NowarCnCUI-CL-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-CL-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2753,9 +2753,9 @@ build/nowar/unspec-NowarCnCUI-OSF-ExtendedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-OSF-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2764,9 +2764,9 @@ build/nowar/unspec-NowarCnC-CN-CondensedExtraLight.ttf: build/nowar/unspec-Nowar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-CondensedExtraLight.otd: build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-CN-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-CN-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-CondensedExtraLight.otd: build/hint1/unspec-NowarCnC-CN-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2775,9 +2775,9 @@ build/nowar/unspec-NowarCnC-CL-CondensedExtraLight.ttf: build/nowar/unspec-Nowar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-CondensedExtraLight.otd: build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-CL-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-CL-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-CondensedExtraLight.otd: build/hint1/unspec-NowarCnC-CL-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2786,9 +2786,9 @@ build/nowar/unspec-NowarCnC-CN-ExtraLight.ttf: build/nowar/unspec-NowarCnC-CN-Ex
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-ExtraLight.otd: build/hint2/unspec-NowarCnC-CN-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-CN-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-CN-ExtraLight.otd build/nowar/unspec-NowarCnC-CN-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-CN-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-CN-ExtraLight.otd build/nowar/unspec-NowarCnC-CN-ExtraLight.otd
 build/hint2/unspec-NowarCnC-CN-ExtraLight.instr.gz: build/hint2/unspec-NowarCnC-CN-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-CN-ExtraLight.otd build/hint2/unspec-NowarCnC-CN-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-CN-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-CN-ExtraLight.otd build/hint2/unspec-NowarCnC-CN-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-CN-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-CN-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-ExtraLight.otd: build/hint1/unspec-NowarCnC-CN-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2797,9 +2797,9 @@ build/nowar/unspec-NowarCnC-CL-ExtraLight.ttf: build/nowar/unspec-NowarCnC-CL-Ex
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-ExtraLight.otd: build/hint2/unspec-NowarCnC-CL-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-CL-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-CL-ExtraLight.otd build/nowar/unspec-NowarCnC-CL-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-CL-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-CL-ExtraLight.otd build/nowar/unspec-NowarCnC-CL-ExtraLight.otd
 build/hint2/unspec-NowarCnC-CL-ExtraLight.instr.gz: build/hint2/unspec-NowarCnC-CL-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-CL-ExtraLight.otd build/hint2/unspec-NowarCnC-CL-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-CL-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-CL-ExtraLight.otd build/hint2/unspec-NowarCnC-CL-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-CL-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-CL-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-ExtraLight.otd: build/hint1/unspec-NowarCnC-CL-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2808,9 +2808,9 @@ build/nowar/unspec-NowarCnC-CN-ExtendedExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-CN-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-CN-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnC-CN-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2819,9 +2819,9 @@ build/nowar/unspec-NowarCnC-CL-ExtendedExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-CL-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-CL-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnC-CL-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2830,9 +2830,9 @@ build/nowar/unspec-NowarCnC-TW-CondensedExtraLight.ttf: build/nowar/unspec-Nowar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-CondensedExtraLight.otd: build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-TW-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-TW-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-CondensedExtraLight.otd: build/hint1/unspec-NowarCnC-TW-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2841,9 +2841,9 @@ build/nowar/unspec-NowarCnC-HK-CondensedExtraLight.ttf: build/nowar/unspec-Nowar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-CondensedExtraLight.otd: build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-HK-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-HK-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-CondensedExtraLight.otd: build/hint1/unspec-NowarCnC-HK-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2852,9 +2852,9 @@ build/nowar/unspec-NowarCnC-TW-ExtraLight.ttf: build/nowar/unspec-NowarCnC-TW-Ex
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-ExtraLight.otd: build/hint2/unspec-NowarCnC-TW-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-TW-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-TW-ExtraLight.otd build/nowar/unspec-NowarCnC-TW-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-TW-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-TW-ExtraLight.otd build/nowar/unspec-NowarCnC-TW-ExtraLight.otd
 build/hint2/unspec-NowarCnC-TW-ExtraLight.instr.gz: build/hint2/unspec-NowarCnC-TW-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-TW-ExtraLight.otd build/hint2/unspec-NowarCnC-TW-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-TW-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-TW-ExtraLight.otd build/hint2/unspec-NowarCnC-TW-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-TW-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-TW-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-ExtraLight.otd: build/hint1/unspec-NowarCnC-TW-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2863,9 +2863,9 @@ build/nowar/unspec-NowarCnC-HK-ExtraLight.ttf: build/nowar/unspec-NowarCnC-HK-Ex
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-ExtraLight.otd: build/hint2/unspec-NowarCnC-HK-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-HK-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-HK-ExtraLight.otd build/nowar/unspec-NowarCnC-HK-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-HK-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-HK-ExtraLight.otd build/nowar/unspec-NowarCnC-HK-ExtraLight.otd
 build/hint2/unspec-NowarCnC-HK-ExtraLight.instr.gz: build/hint2/unspec-NowarCnC-HK-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-HK-ExtraLight.otd build/hint2/unspec-NowarCnC-HK-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-HK-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-HK-ExtraLight.otd build/hint2/unspec-NowarCnC-HK-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-HK-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-HK-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-ExtraLight.otd: build/hint1/unspec-NowarCnC-HK-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2874,9 +2874,9 @@ build/nowar/unspec-NowarCnC-TW-ExtendedExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-TW-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-TW-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnC-TW-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2885,9 +2885,9 @@ build/nowar/unspec-NowarCnC-HK-ExtendedExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-HK-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-HK-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnC-HK-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2896,9 +2896,9 @@ build/nowar/unspec-NowarCnC-KR-CondensedExtraLight.ttf: build/nowar/unspec-Nowar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-CondensedExtraLight.otd: build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-KR-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-KR-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-CondensedExtraLight.otd: build/hint1/unspec-NowarCnC-KR-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2907,9 +2907,9 @@ build/nowar/unspec-NowarCnC-KR-ExtraLight.ttf: build/nowar/unspec-NowarCnC-KR-Ex
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-ExtraLight.otd: build/hint2/unspec-NowarCnC-KR-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-KR-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-KR-ExtraLight.otd build/nowar/unspec-NowarCnC-KR-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-KR-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-KR-ExtraLight.otd build/nowar/unspec-NowarCnC-KR-ExtraLight.otd
 build/hint2/unspec-NowarCnC-KR-ExtraLight.instr.gz: build/hint2/unspec-NowarCnC-KR-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-KR-ExtraLight.otd build/hint2/unspec-NowarCnC-KR-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-KR-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-KR-ExtraLight.otd build/hint2/unspec-NowarCnC-KR-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-KR-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-KR-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-ExtraLight.otd: build/hint1/unspec-NowarCnC-KR-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2918,9 +2918,9 @@ build/nowar/unspec-NowarCnC-KR-ExtendedExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-KR-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-KR-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnC-KR-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2929,9 +2929,9 @@ build/nowar/unspec-NowarCnCWarcraft-CN-ExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CN-ExtraLight.otd: build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-CN-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-CN-ExtraLight.otd
 build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CN-ExtraLight.otd: build/hint1/unspec-NowarCnCWarcraft-CN-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2940,9 +2940,9 @@ build/nowar/unspec-NowarCnCWarcraft-TW-ExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-TW-ExtraLight.otd: build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-TW-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-TW-ExtraLight.otd
 build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-TW-ExtraLight.otd: build/hint1/unspec-NowarCnCWarcraft-TW-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2951,9 +2951,9 @@ build/nowar/unspec-NowarCnCWarcraft-HK-ExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-HK-ExtraLight.otd: build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-HK-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-HK-ExtraLight.otd
 build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-HK-ExtraLight.otd: build/hint1/unspec-NowarCnCWarcraft-HK-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2962,9 +2962,9 @@ build/nowar/unspec-NowarCnCUI-KR-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-KR-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-KR-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-KR-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2973,9 +2973,9 @@ build/nowar/unspec-NowarCnCUI-KR-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-KR-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2984,9 +2984,9 @@ build/nowar/unspec-NowarCnCWarcraft-CL-ExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CL-ExtraLight.otd: build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-CL-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-CL-ExtraLight.otd
 build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CL-ExtraLight.otd: build/hint1/unspec-NowarCnCWarcraft-CL-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -2995,9 +2995,9 @@ build/nowar/unspec-NowarCnCUI-GB-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-GB-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-GB-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-GB-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3006,9 +3006,9 @@ build/nowar/unspec-NowarCnCUI-GB-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-GB-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3017,9 +3017,9 @@ build/nowar/unspec-NowarCnC-GB-ExtendedExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-GB-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-GB-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnC-GB-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3028,9 +3028,9 @@ build/nowar/unspec-NowarCnCWarcraft-GB-ExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-GB-ExtraLight.otd: build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-GB-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-GB-ExtraLight.otd
 build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-GB-ExtraLight.otd: build/hint1/unspec-NowarCnCWarcraft-GB-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3039,9 +3039,9 @@ build/nowar/unspec-NowarCnC-GB-CondensedExtraLight.ttf: build/nowar/unspec-Nowar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-CondensedExtraLight.otd: build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-GB-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-GB-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-CondensedExtraLight.otd: build/hint1/unspec-NowarCnC-GB-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3050,9 +3050,9 @@ build/nowar/unspec-NowarCnC-GB-ExtraLight.ttf: build/nowar/unspec-NowarCnC-GB-Ex
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-ExtraLight.otd: build/hint2/unspec-NowarCnC-GB-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-GB-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-GB-ExtraLight.otd build/nowar/unspec-NowarCnC-GB-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-GB-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-GB-ExtraLight.otd build/nowar/unspec-NowarCnC-GB-ExtraLight.otd
 build/hint2/unspec-NowarCnC-GB-ExtraLight.instr.gz: build/hint2/unspec-NowarCnC-GB-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-GB-ExtraLight.otd build/hint2/unspec-NowarCnC-GB-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-GB-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-GB-ExtraLight.otd build/hint2/unspec-NowarCnC-GB-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-GB-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-GB-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-ExtraLight.otd: build/hint1/unspec-NowarCnC-GB-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3061,9 +3061,9 @@ build/nowar/unspec-NowarCnCUI-RP-CondensedExtraLight.ttf: build/nowar/unspec-Now
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-CondensedExtraLight.otd: build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-RP-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.otd build/nowar/unspec-NowarCnCUI-RP-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.otd build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-CondensedExtraLight.otd: build/hint1/unspec-NowarCnCUI-RP-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3072,9 +3072,9 @@ build/nowar/unspec-NowarCnCUI-RP-ExtendedExtraLight.ttf: build/nowar/unspec-Nowa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnCUI-RP-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3083,9 +3083,9 @@ build/nowar/unspec-NowarCnC-RP-ExtendedExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-ExtendedExtraLight.otd: build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-RP-ExtendedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.otd build/nowar/unspec-NowarCnC-RP-ExtendedExtraLight.otd
 build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.otd build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-ExtendedExtraLight.otd: build/hint1/unspec-NowarCnC-RP-ExtendedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3094,9 +3094,9 @@ build/nowar/unspec-NowarCnCWarcraft-RP-ExtraLight.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-RP-ExtraLight.otd: build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-RP-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.otd build/nowar/unspec-NowarCnCWarcraft-RP-ExtraLight.otd
 build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.instr.gz: build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.otd build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-RP-ExtraLight.otd: build/hint1/unspec-NowarCnCWarcraft-RP-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3105,9 +3105,9 @@ build/nowar/unspec-NowarCnC-RP-CondensedExtraLight.ttf: build/nowar/unspec-Nowar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-CondensedExtraLight.otd: build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-RP-CondensedExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.otd build/nowar/unspec-NowarCnC-RP-CondensedExtraLight.otd
 build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.instr.gz: build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.otd build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-CondensedExtraLight.otd: build/hint1/unspec-NowarCnC-RP-CondensedExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3116,9 +3116,9 @@ build/nowar/unspec-NowarCnC-RP-ExtraLight.ttf: build/nowar/unspec-NowarCnC-RP-Ex
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-ExtraLight.otd: build/hint2/unspec-NowarCnC-RP-ExtraLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 200.json build/hint2/unspec-NowarCnC-RP-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-RP-ExtraLight.otd build/nowar/unspec-NowarCnC-RP-ExtraLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/200.json build/hint2/unspec-NowarCnC-RP-ExtraLight.instr.gz build/hint2/unspec-NowarCnC-RP-ExtraLight.otd build/nowar/unspec-NowarCnC-RP-ExtraLight.otd
 build/hint2/unspec-NowarCnC-RP-ExtraLight.instr.gz: build/hint2/unspec-NowarCnC-RP-ExtraLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 200.json build/hint2/unspec-NowarCnC-RP-ExtraLight.otd build/hint2/unspec-NowarCnC-RP-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-RP-ExtraLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/200.json build/hint2/unspec-NowarCnC-RP-ExtraLight.otd build/hint2/unspec-NowarCnC-RP-ExtraLight.hint.gz build/hint2/unspec-NowarCnC-RP-ExtraLight.instr.gz
 build/hint2/unspec-NowarCnC-RP-ExtraLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-ExtraLight.otd: build/hint1/unspec-NowarCnC-RP-ExtraLight.ttf
 	mkdir -p build/hint2/
@@ -3129,9 +3129,9 @@ build/nowar/unspec-NowarCnCUI-CN-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-CN-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-CN-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedLight.otd build/nowar/unspec-NowarCnCUI-CN-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CN-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedLight.otd build/nowar/unspec-NowarCnCUI-CN-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-CN-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-CN-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-CN-CondensedLight.otd build/hint2/unspec-NowarCnCUI-CN-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CN-CondensedLight.otd build/hint2/unspec-NowarCnCUI-CN-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-CN-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3140,9 +3140,9 @@ build/nowar/unspec-NowarCnCUI-TW-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-TW-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-TW-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedLight.otd build/nowar/unspec-NowarCnCUI-TW-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-TW-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedLight.otd build/nowar/unspec-NowarCnCUI-TW-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-TW-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-TW-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-TW-CondensedLight.otd build/hint2/unspec-NowarCnCUI-TW-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-TW-CondensedLight.otd build/hint2/unspec-NowarCnCUI-TW-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-TW-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3151,9 +3151,9 @@ build/nowar/unspec-NowarCnCUI-HK-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-HK-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-HK-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedLight.otd build/nowar/unspec-NowarCnCUI-HK-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-HK-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedLight.otd build/nowar/unspec-NowarCnCUI-HK-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-HK-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-HK-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-HK-CondensedLight.otd build/hint2/unspec-NowarCnCUI-HK-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-HK-CondensedLight.otd build/hint2/unspec-NowarCnCUI-HK-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-HK-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3162,9 +3162,9 @@ build/nowar/unspec-NowarCnCUI-JP-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-JP-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-JP-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedLight.otd build/nowar/unspec-NowarCnCUI-JP-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-JP-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedLight.otd build/nowar/unspec-NowarCnCUI-JP-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-JP-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-JP-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-JP-CondensedLight.otd build/hint2/unspec-NowarCnCUI-JP-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-JP-CondensedLight.otd build/hint2/unspec-NowarCnCUI-JP-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-JP-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3173,9 +3173,9 @@ build/nowar/unspec-NowarCnCUI-CN-Light.ttf: build/nowar/unspec-NowarCnCUI-CN-Lig
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-Light.otd: build/hint2/unspec-NowarCnCUI-CN-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-CN-Light.instr.gz build/hint2/unspec-NowarCnCUI-CN-Light.otd build/nowar/unspec-NowarCnCUI-CN-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CN-Light.instr.gz build/hint2/unspec-NowarCnCUI-CN-Light.otd build/nowar/unspec-NowarCnCUI-CN-Light.otd
 build/hint2/unspec-NowarCnCUI-CN-Light.instr.gz: build/hint2/unspec-NowarCnCUI-CN-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-CN-Light.otd build/hint2/unspec-NowarCnCUI-CN-Light.hint.gz build/hint2/unspec-NowarCnCUI-CN-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CN-Light.otd build/hint2/unspec-NowarCnCUI-CN-Light.hint.gz build/hint2/unspec-NowarCnCUI-CN-Light.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-Light.otd: build/hint1/unspec-NowarCnCUI-CN-Light.ttf
 	mkdir -p build/hint2/
@@ -3184,9 +3184,9 @@ build/nowar/unspec-NowarCnCUI-TW-Light.ttf: build/nowar/unspec-NowarCnCUI-TW-Lig
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-Light.otd: build/hint2/unspec-NowarCnCUI-TW-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-TW-Light.instr.gz build/hint2/unspec-NowarCnCUI-TW-Light.otd build/nowar/unspec-NowarCnCUI-TW-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-TW-Light.instr.gz build/hint2/unspec-NowarCnCUI-TW-Light.otd build/nowar/unspec-NowarCnCUI-TW-Light.otd
 build/hint2/unspec-NowarCnCUI-TW-Light.instr.gz: build/hint2/unspec-NowarCnCUI-TW-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-TW-Light.otd build/hint2/unspec-NowarCnCUI-TW-Light.hint.gz build/hint2/unspec-NowarCnCUI-TW-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-TW-Light.otd build/hint2/unspec-NowarCnCUI-TW-Light.hint.gz build/hint2/unspec-NowarCnCUI-TW-Light.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-Light.otd: build/hint1/unspec-NowarCnCUI-TW-Light.ttf
 	mkdir -p build/hint2/
@@ -3195,9 +3195,9 @@ build/nowar/unspec-NowarCnCUI-HK-Light.ttf: build/nowar/unspec-NowarCnCUI-HK-Lig
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-Light.otd: build/hint2/unspec-NowarCnCUI-HK-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-HK-Light.instr.gz build/hint2/unspec-NowarCnCUI-HK-Light.otd build/nowar/unspec-NowarCnCUI-HK-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-HK-Light.instr.gz build/hint2/unspec-NowarCnCUI-HK-Light.otd build/nowar/unspec-NowarCnCUI-HK-Light.otd
 build/hint2/unspec-NowarCnCUI-HK-Light.instr.gz: build/hint2/unspec-NowarCnCUI-HK-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-HK-Light.otd build/hint2/unspec-NowarCnCUI-HK-Light.hint.gz build/hint2/unspec-NowarCnCUI-HK-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-HK-Light.otd build/hint2/unspec-NowarCnCUI-HK-Light.hint.gz build/hint2/unspec-NowarCnCUI-HK-Light.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-Light.otd: build/hint1/unspec-NowarCnCUI-HK-Light.ttf
 	mkdir -p build/hint2/
@@ -3206,9 +3206,9 @@ build/nowar/unspec-NowarCnCUI-JP-Light.ttf: build/nowar/unspec-NowarCnCUI-JP-Lig
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-Light.otd: build/hint2/unspec-NowarCnCUI-JP-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-JP-Light.instr.gz build/hint2/unspec-NowarCnCUI-JP-Light.otd build/nowar/unspec-NowarCnCUI-JP-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-JP-Light.instr.gz build/hint2/unspec-NowarCnCUI-JP-Light.otd build/nowar/unspec-NowarCnCUI-JP-Light.otd
 build/hint2/unspec-NowarCnCUI-JP-Light.instr.gz: build/hint2/unspec-NowarCnCUI-JP-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-JP-Light.otd build/hint2/unspec-NowarCnCUI-JP-Light.hint.gz build/hint2/unspec-NowarCnCUI-JP-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-JP-Light.otd build/hint2/unspec-NowarCnCUI-JP-Light.hint.gz build/hint2/unspec-NowarCnCUI-JP-Light.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-Light.otd: build/hint1/unspec-NowarCnCUI-JP-Light.ttf
 	mkdir -p build/hint2/
@@ -3217,9 +3217,9 @@ build/nowar/unspec-NowarCnCUI-CN-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-CN-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3228,9 +3228,9 @@ build/nowar/unspec-NowarCnCUI-TW-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-TW-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3239,9 +3239,9 @@ build/nowar/unspec-NowarCnCUI-HK-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-HK-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3250,9 +3250,9 @@ build/nowar/unspec-NowarCnCUI-JP-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-JP-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3261,9 +3261,9 @@ build/nowar/unspec-NowarCnCUI-CL-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-CL-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-CL-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedLight.otd build/nowar/unspec-NowarCnCUI-CL-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CL-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedLight.otd build/nowar/unspec-NowarCnCUI-CL-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-CL-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-CL-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-CL-CondensedLight.otd build/hint2/unspec-NowarCnCUI-CL-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CL-CondensedLight.otd build/hint2/unspec-NowarCnCUI-CL-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-CL-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3272,9 +3272,9 @@ build/nowar/unspec-NowarCnCUI-OSF-CondensedLight.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-OSF-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3283,9 +3283,9 @@ build/nowar/unspec-NowarCnCUI-CL-Light.ttf: build/nowar/unspec-NowarCnCUI-CL-Lig
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-Light.otd: build/hint2/unspec-NowarCnCUI-CL-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-CL-Light.instr.gz build/hint2/unspec-NowarCnCUI-CL-Light.otd build/nowar/unspec-NowarCnCUI-CL-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CL-Light.instr.gz build/hint2/unspec-NowarCnCUI-CL-Light.otd build/nowar/unspec-NowarCnCUI-CL-Light.otd
 build/hint2/unspec-NowarCnCUI-CL-Light.instr.gz: build/hint2/unspec-NowarCnCUI-CL-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-CL-Light.otd build/hint2/unspec-NowarCnCUI-CL-Light.hint.gz build/hint2/unspec-NowarCnCUI-CL-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CL-Light.otd build/hint2/unspec-NowarCnCUI-CL-Light.hint.gz build/hint2/unspec-NowarCnCUI-CL-Light.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-Light.otd: build/hint1/unspec-NowarCnCUI-CL-Light.ttf
 	mkdir -p build/hint2/
@@ -3294,9 +3294,9 @@ build/nowar/unspec-NowarCnCUI-OSF-Light.ttf: build/nowar/unspec-NowarCnCUI-OSF-L
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-Light.otd: build/hint2/unspec-NowarCnCUI-OSF-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-OSF-Light.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Light.otd build/nowar/unspec-NowarCnCUI-OSF-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-OSF-Light.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Light.otd build/nowar/unspec-NowarCnCUI-OSF-Light.otd
 build/hint2/unspec-NowarCnCUI-OSF-Light.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-OSF-Light.otd build/hint2/unspec-NowarCnCUI-OSF-Light.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-OSF-Light.otd build/hint2/unspec-NowarCnCUI-OSF-Light.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Light.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-Light.otd: build/hint1/unspec-NowarCnCUI-OSF-Light.ttf
 	mkdir -p build/hint2/
@@ -3305,9 +3305,9 @@ build/nowar/unspec-NowarCnCUI-CL-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-CL-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3316,9 +3316,9 @@ build/nowar/unspec-NowarCnCUI-OSF-ExtendedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-OSF-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3327,9 +3327,9 @@ build/nowar/unspec-NowarCnC-CN-CondensedLight.ttf: build/nowar/unspec-NowarCnC-C
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-CondensedLight.otd: build/hint2/unspec-NowarCnC-CN-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-CN-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedLight.otd build/nowar/unspec-NowarCnC-CN-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-CN-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedLight.otd build/nowar/unspec-NowarCnC-CN-CondensedLight.otd
 build/hint2/unspec-NowarCnC-CN-CondensedLight.instr.gz: build/hint2/unspec-NowarCnC-CN-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-CN-CondensedLight.otd build/hint2/unspec-NowarCnC-CN-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-CN-CondensedLight.otd build/hint2/unspec-NowarCnC-CN-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnC-CN-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-CondensedLight.otd: build/hint1/unspec-NowarCnC-CN-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3338,9 +3338,9 @@ build/nowar/unspec-NowarCnC-CL-CondensedLight.ttf: build/nowar/unspec-NowarCnC-C
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-CondensedLight.otd: build/hint2/unspec-NowarCnC-CL-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-CL-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedLight.otd build/nowar/unspec-NowarCnC-CL-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-CL-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedLight.otd build/nowar/unspec-NowarCnC-CL-CondensedLight.otd
 build/hint2/unspec-NowarCnC-CL-CondensedLight.instr.gz: build/hint2/unspec-NowarCnC-CL-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-CL-CondensedLight.otd build/hint2/unspec-NowarCnC-CL-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-CL-CondensedLight.otd build/hint2/unspec-NowarCnC-CL-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnC-CL-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-CondensedLight.otd: build/hint1/unspec-NowarCnC-CL-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3349,9 +3349,9 @@ build/nowar/unspec-NowarCnC-CN-Light.ttf: build/nowar/unspec-NowarCnC-CN-Light.o
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-Light.otd: build/hint2/unspec-NowarCnC-CN-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-CN-Light.instr.gz build/hint2/unspec-NowarCnC-CN-Light.otd build/nowar/unspec-NowarCnC-CN-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-CN-Light.instr.gz build/hint2/unspec-NowarCnC-CN-Light.otd build/nowar/unspec-NowarCnC-CN-Light.otd
 build/hint2/unspec-NowarCnC-CN-Light.instr.gz: build/hint2/unspec-NowarCnC-CN-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-CN-Light.otd build/hint2/unspec-NowarCnC-CN-Light.hint.gz build/hint2/unspec-NowarCnC-CN-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-CN-Light.otd build/hint2/unspec-NowarCnC-CN-Light.hint.gz build/hint2/unspec-NowarCnC-CN-Light.instr.gz
 build/hint2/unspec-NowarCnC-CN-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-Light.otd: build/hint1/unspec-NowarCnC-CN-Light.ttf
 	mkdir -p build/hint2/
@@ -3360,9 +3360,9 @@ build/nowar/unspec-NowarCnC-CL-Light.ttf: build/nowar/unspec-NowarCnC-CL-Light.o
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-Light.otd: build/hint2/unspec-NowarCnC-CL-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-CL-Light.instr.gz build/hint2/unspec-NowarCnC-CL-Light.otd build/nowar/unspec-NowarCnC-CL-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-CL-Light.instr.gz build/hint2/unspec-NowarCnC-CL-Light.otd build/nowar/unspec-NowarCnC-CL-Light.otd
 build/hint2/unspec-NowarCnC-CL-Light.instr.gz: build/hint2/unspec-NowarCnC-CL-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-CL-Light.otd build/hint2/unspec-NowarCnC-CL-Light.hint.gz build/hint2/unspec-NowarCnC-CL-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-CL-Light.otd build/hint2/unspec-NowarCnC-CL-Light.hint.gz build/hint2/unspec-NowarCnC-CL-Light.instr.gz
 build/hint2/unspec-NowarCnC-CL-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-Light.otd: build/hint1/unspec-NowarCnC-CL-Light.ttf
 	mkdir -p build/hint2/
@@ -3371,9 +3371,9 @@ build/nowar/unspec-NowarCnC-CN-ExtendedLight.ttf: build/nowar/unspec-NowarCnC-CN
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-ExtendedLight.otd: build/hint2/unspec-NowarCnC-CN-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-CN-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedLight.otd build/nowar/unspec-NowarCnC-CN-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-CN-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedLight.otd build/nowar/unspec-NowarCnC-CN-ExtendedLight.otd
 build/hint2/unspec-NowarCnC-CN-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnC-CN-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-CN-ExtendedLight.otd build/hint2/unspec-NowarCnC-CN-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-CN-ExtendedLight.otd build/hint2/unspec-NowarCnC-CN-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnC-CN-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-ExtendedLight.otd: build/hint1/unspec-NowarCnC-CN-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3382,9 +3382,9 @@ build/nowar/unspec-NowarCnC-CL-ExtendedLight.ttf: build/nowar/unspec-NowarCnC-CL
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-ExtendedLight.otd: build/hint2/unspec-NowarCnC-CL-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-CL-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedLight.otd build/nowar/unspec-NowarCnC-CL-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-CL-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedLight.otd build/nowar/unspec-NowarCnC-CL-ExtendedLight.otd
 build/hint2/unspec-NowarCnC-CL-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnC-CL-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-CL-ExtendedLight.otd build/hint2/unspec-NowarCnC-CL-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-CL-ExtendedLight.otd build/hint2/unspec-NowarCnC-CL-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnC-CL-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-ExtendedLight.otd: build/hint1/unspec-NowarCnC-CL-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3393,9 +3393,9 @@ build/nowar/unspec-NowarCnC-TW-CondensedLight.ttf: build/nowar/unspec-NowarCnC-T
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-CondensedLight.otd: build/hint2/unspec-NowarCnC-TW-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-TW-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedLight.otd build/nowar/unspec-NowarCnC-TW-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-TW-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedLight.otd build/nowar/unspec-NowarCnC-TW-CondensedLight.otd
 build/hint2/unspec-NowarCnC-TW-CondensedLight.instr.gz: build/hint2/unspec-NowarCnC-TW-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-TW-CondensedLight.otd build/hint2/unspec-NowarCnC-TW-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-TW-CondensedLight.otd build/hint2/unspec-NowarCnC-TW-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnC-TW-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-CondensedLight.otd: build/hint1/unspec-NowarCnC-TW-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3404,9 +3404,9 @@ build/nowar/unspec-NowarCnC-HK-CondensedLight.ttf: build/nowar/unspec-NowarCnC-H
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-CondensedLight.otd: build/hint2/unspec-NowarCnC-HK-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-HK-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedLight.otd build/nowar/unspec-NowarCnC-HK-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-HK-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedLight.otd build/nowar/unspec-NowarCnC-HK-CondensedLight.otd
 build/hint2/unspec-NowarCnC-HK-CondensedLight.instr.gz: build/hint2/unspec-NowarCnC-HK-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-HK-CondensedLight.otd build/hint2/unspec-NowarCnC-HK-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-HK-CondensedLight.otd build/hint2/unspec-NowarCnC-HK-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnC-HK-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-CondensedLight.otd: build/hint1/unspec-NowarCnC-HK-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3415,9 +3415,9 @@ build/nowar/unspec-NowarCnC-TW-Light.ttf: build/nowar/unspec-NowarCnC-TW-Light.o
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-Light.otd: build/hint2/unspec-NowarCnC-TW-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-TW-Light.instr.gz build/hint2/unspec-NowarCnC-TW-Light.otd build/nowar/unspec-NowarCnC-TW-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-TW-Light.instr.gz build/hint2/unspec-NowarCnC-TW-Light.otd build/nowar/unspec-NowarCnC-TW-Light.otd
 build/hint2/unspec-NowarCnC-TW-Light.instr.gz: build/hint2/unspec-NowarCnC-TW-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-TW-Light.otd build/hint2/unspec-NowarCnC-TW-Light.hint.gz build/hint2/unspec-NowarCnC-TW-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-TW-Light.otd build/hint2/unspec-NowarCnC-TW-Light.hint.gz build/hint2/unspec-NowarCnC-TW-Light.instr.gz
 build/hint2/unspec-NowarCnC-TW-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-Light.otd: build/hint1/unspec-NowarCnC-TW-Light.ttf
 	mkdir -p build/hint2/
@@ -3426,9 +3426,9 @@ build/nowar/unspec-NowarCnC-HK-Light.ttf: build/nowar/unspec-NowarCnC-HK-Light.o
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-Light.otd: build/hint2/unspec-NowarCnC-HK-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-HK-Light.instr.gz build/hint2/unspec-NowarCnC-HK-Light.otd build/nowar/unspec-NowarCnC-HK-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-HK-Light.instr.gz build/hint2/unspec-NowarCnC-HK-Light.otd build/nowar/unspec-NowarCnC-HK-Light.otd
 build/hint2/unspec-NowarCnC-HK-Light.instr.gz: build/hint2/unspec-NowarCnC-HK-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-HK-Light.otd build/hint2/unspec-NowarCnC-HK-Light.hint.gz build/hint2/unspec-NowarCnC-HK-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-HK-Light.otd build/hint2/unspec-NowarCnC-HK-Light.hint.gz build/hint2/unspec-NowarCnC-HK-Light.instr.gz
 build/hint2/unspec-NowarCnC-HK-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-Light.otd: build/hint1/unspec-NowarCnC-HK-Light.ttf
 	mkdir -p build/hint2/
@@ -3437,9 +3437,9 @@ build/nowar/unspec-NowarCnC-TW-ExtendedLight.ttf: build/nowar/unspec-NowarCnC-TW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-ExtendedLight.otd: build/hint2/unspec-NowarCnC-TW-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-TW-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedLight.otd build/nowar/unspec-NowarCnC-TW-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-TW-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedLight.otd build/nowar/unspec-NowarCnC-TW-ExtendedLight.otd
 build/hint2/unspec-NowarCnC-TW-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnC-TW-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-TW-ExtendedLight.otd build/hint2/unspec-NowarCnC-TW-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-TW-ExtendedLight.otd build/hint2/unspec-NowarCnC-TW-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnC-TW-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-ExtendedLight.otd: build/hint1/unspec-NowarCnC-TW-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3448,9 +3448,9 @@ build/nowar/unspec-NowarCnC-HK-ExtendedLight.ttf: build/nowar/unspec-NowarCnC-HK
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-ExtendedLight.otd: build/hint2/unspec-NowarCnC-HK-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-HK-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedLight.otd build/nowar/unspec-NowarCnC-HK-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-HK-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedLight.otd build/nowar/unspec-NowarCnC-HK-ExtendedLight.otd
 build/hint2/unspec-NowarCnC-HK-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnC-HK-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-HK-ExtendedLight.otd build/hint2/unspec-NowarCnC-HK-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-HK-ExtendedLight.otd build/hint2/unspec-NowarCnC-HK-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnC-HK-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-ExtendedLight.otd: build/hint1/unspec-NowarCnC-HK-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3459,9 +3459,9 @@ build/nowar/unspec-NowarCnC-KR-CondensedLight.ttf: build/nowar/unspec-NowarCnC-K
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-CondensedLight.otd: build/hint2/unspec-NowarCnC-KR-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-KR-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedLight.otd build/nowar/unspec-NowarCnC-KR-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-KR-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedLight.otd build/nowar/unspec-NowarCnC-KR-CondensedLight.otd
 build/hint2/unspec-NowarCnC-KR-CondensedLight.instr.gz: build/hint2/unspec-NowarCnC-KR-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-KR-CondensedLight.otd build/hint2/unspec-NowarCnC-KR-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-KR-CondensedLight.otd build/hint2/unspec-NowarCnC-KR-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnC-KR-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-CondensedLight.otd: build/hint1/unspec-NowarCnC-KR-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3470,9 +3470,9 @@ build/nowar/unspec-NowarCnC-KR-Light.ttf: build/nowar/unspec-NowarCnC-KR-Light.o
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-Light.otd: build/hint2/unspec-NowarCnC-KR-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-KR-Light.instr.gz build/hint2/unspec-NowarCnC-KR-Light.otd build/nowar/unspec-NowarCnC-KR-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-KR-Light.instr.gz build/hint2/unspec-NowarCnC-KR-Light.otd build/nowar/unspec-NowarCnC-KR-Light.otd
 build/hint2/unspec-NowarCnC-KR-Light.instr.gz: build/hint2/unspec-NowarCnC-KR-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-KR-Light.otd build/hint2/unspec-NowarCnC-KR-Light.hint.gz build/hint2/unspec-NowarCnC-KR-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-KR-Light.otd build/hint2/unspec-NowarCnC-KR-Light.hint.gz build/hint2/unspec-NowarCnC-KR-Light.instr.gz
 build/hint2/unspec-NowarCnC-KR-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-Light.otd: build/hint1/unspec-NowarCnC-KR-Light.ttf
 	mkdir -p build/hint2/
@@ -3481,9 +3481,9 @@ build/nowar/unspec-NowarCnC-KR-ExtendedLight.ttf: build/nowar/unspec-NowarCnC-KR
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-ExtendedLight.otd: build/hint2/unspec-NowarCnC-KR-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-KR-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedLight.otd build/nowar/unspec-NowarCnC-KR-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-KR-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedLight.otd build/nowar/unspec-NowarCnC-KR-ExtendedLight.otd
 build/hint2/unspec-NowarCnC-KR-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnC-KR-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-KR-ExtendedLight.otd build/hint2/unspec-NowarCnC-KR-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-KR-ExtendedLight.otd build/hint2/unspec-NowarCnC-KR-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnC-KR-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-ExtendedLight.otd: build/hint1/unspec-NowarCnC-KR-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3492,9 +3492,9 @@ build/nowar/unspec-NowarCnCWarcraft-CN-Light.ttf: build/nowar/unspec-NowarCnCWar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CN-Light.otd: build/hint2/unspec-NowarCnCWarcraft-CN-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCWarcraft-CN-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Light.otd build/nowar/unspec-NowarCnCWarcraft-CN-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-CN-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Light.otd build/nowar/unspec-NowarCnCWarcraft-CN-Light.otd
 build/hint2/unspec-NowarCnCWarcraft-CN-Light.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CN-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCWarcraft-CN-Light.otd build/hint2/unspec-NowarCnCWarcraft-CN-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-CN-Light.otd build/hint2/unspec-NowarCnCWarcraft-CN-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Light.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CN-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CN-Light.otd: build/hint1/unspec-NowarCnCWarcraft-CN-Light.ttf
 	mkdir -p build/hint2/
@@ -3503,9 +3503,9 @@ build/nowar/unspec-NowarCnCWarcraft-TW-Light.ttf: build/nowar/unspec-NowarCnCWar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-TW-Light.otd: build/hint2/unspec-NowarCnCWarcraft-TW-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCWarcraft-TW-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Light.otd build/nowar/unspec-NowarCnCWarcraft-TW-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-TW-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Light.otd build/nowar/unspec-NowarCnCWarcraft-TW-Light.otd
 build/hint2/unspec-NowarCnCWarcraft-TW-Light.instr.gz: build/hint2/unspec-NowarCnCWarcraft-TW-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCWarcraft-TW-Light.otd build/hint2/unspec-NowarCnCWarcraft-TW-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-TW-Light.otd build/hint2/unspec-NowarCnCWarcraft-TW-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Light.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-TW-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-TW-Light.otd: build/hint1/unspec-NowarCnCWarcraft-TW-Light.ttf
 	mkdir -p build/hint2/
@@ -3514,9 +3514,9 @@ build/nowar/unspec-NowarCnCWarcraft-HK-Light.ttf: build/nowar/unspec-NowarCnCWar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-HK-Light.otd: build/hint2/unspec-NowarCnCWarcraft-HK-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCWarcraft-HK-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Light.otd build/nowar/unspec-NowarCnCWarcraft-HK-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-HK-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Light.otd build/nowar/unspec-NowarCnCWarcraft-HK-Light.otd
 build/hint2/unspec-NowarCnCWarcraft-HK-Light.instr.gz: build/hint2/unspec-NowarCnCWarcraft-HK-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCWarcraft-HK-Light.otd build/hint2/unspec-NowarCnCWarcraft-HK-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-HK-Light.otd build/hint2/unspec-NowarCnCWarcraft-HK-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Light.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-HK-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-HK-Light.otd: build/hint1/unspec-NowarCnCWarcraft-HK-Light.ttf
 	mkdir -p build/hint2/
@@ -3525,9 +3525,9 @@ build/nowar/unspec-NowarCnCUI-KR-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-KR-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-KR-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedLight.otd build/nowar/unspec-NowarCnCUI-KR-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-KR-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedLight.otd build/nowar/unspec-NowarCnCUI-KR-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-KR-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-KR-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-KR-CondensedLight.otd build/hint2/unspec-NowarCnCUI-KR-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-KR-CondensedLight.otd build/hint2/unspec-NowarCnCUI-KR-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-KR-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3536,9 +3536,9 @@ build/nowar/unspec-NowarCnCUI-KR-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-KR-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3547,9 +3547,9 @@ build/nowar/unspec-NowarCnCWarcraft-CL-Light.ttf: build/nowar/unspec-NowarCnCWar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CL-Light.otd: build/hint2/unspec-NowarCnCWarcraft-CL-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCWarcraft-CL-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Light.otd build/nowar/unspec-NowarCnCWarcraft-CL-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-CL-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Light.otd build/nowar/unspec-NowarCnCWarcraft-CL-Light.otd
 build/hint2/unspec-NowarCnCWarcraft-CL-Light.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CL-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCWarcraft-CL-Light.otd build/hint2/unspec-NowarCnCWarcraft-CL-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-CL-Light.otd build/hint2/unspec-NowarCnCWarcraft-CL-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Light.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CL-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CL-Light.otd: build/hint1/unspec-NowarCnCWarcraft-CL-Light.ttf
 	mkdir -p build/hint2/
@@ -3558,9 +3558,9 @@ build/nowar/unspec-NowarCnCUI-GB-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-GB-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-GB-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedLight.otd build/nowar/unspec-NowarCnCUI-GB-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-GB-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedLight.otd build/nowar/unspec-NowarCnCUI-GB-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-GB-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-GB-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-GB-CondensedLight.otd build/hint2/unspec-NowarCnCUI-GB-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-GB-CondensedLight.otd build/hint2/unspec-NowarCnCUI-GB-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-GB-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3569,9 +3569,9 @@ build/nowar/unspec-NowarCnCUI-GB-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-GB-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3580,9 +3580,9 @@ build/nowar/unspec-NowarCnC-GB-ExtendedLight.ttf: build/nowar/unspec-NowarCnC-GB
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-ExtendedLight.otd: build/hint2/unspec-NowarCnC-GB-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-GB-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedLight.otd build/nowar/unspec-NowarCnC-GB-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-GB-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedLight.otd build/nowar/unspec-NowarCnC-GB-ExtendedLight.otd
 build/hint2/unspec-NowarCnC-GB-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnC-GB-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-GB-ExtendedLight.otd build/hint2/unspec-NowarCnC-GB-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-GB-ExtendedLight.otd build/hint2/unspec-NowarCnC-GB-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnC-GB-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-ExtendedLight.otd: build/hint1/unspec-NowarCnC-GB-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3591,9 +3591,9 @@ build/nowar/unspec-NowarCnCWarcraft-GB-Light.ttf: build/nowar/unspec-NowarCnCWar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-GB-Light.otd: build/hint2/unspec-NowarCnCWarcraft-GB-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCWarcraft-GB-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Light.otd build/nowar/unspec-NowarCnCWarcraft-GB-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-GB-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Light.otd build/nowar/unspec-NowarCnCWarcraft-GB-Light.otd
 build/hint2/unspec-NowarCnCWarcraft-GB-Light.instr.gz: build/hint2/unspec-NowarCnCWarcraft-GB-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCWarcraft-GB-Light.otd build/hint2/unspec-NowarCnCWarcraft-GB-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-GB-Light.otd build/hint2/unspec-NowarCnCWarcraft-GB-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Light.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-GB-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-GB-Light.otd: build/hint1/unspec-NowarCnCWarcraft-GB-Light.ttf
 	mkdir -p build/hint2/
@@ -3602,9 +3602,9 @@ build/nowar/unspec-NowarCnC-GB-CondensedLight.ttf: build/nowar/unspec-NowarCnC-G
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-CondensedLight.otd: build/hint2/unspec-NowarCnC-GB-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-GB-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedLight.otd build/nowar/unspec-NowarCnC-GB-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-GB-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedLight.otd build/nowar/unspec-NowarCnC-GB-CondensedLight.otd
 build/hint2/unspec-NowarCnC-GB-CondensedLight.instr.gz: build/hint2/unspec-NowarCnC-GB-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-GB-CondensedLight.otd build/hint2/unspec-NowarCnC-GB-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-GB-CondensedLight.otd build/hint2/unspec-NowarCnC-GB-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnC-GB-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-CondensedLight.otd: build/hint1/unspec-NowarCnC-GB-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3613,9 +3613,9 @@ build/nowar/unspec-NowarCnC-GB-Light.ttf: build/nowar/unspec-NowarCnC-GB-Light.o
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-Light.otd: build/hint2/unspec-NowarCnC-GB-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-GB-Light.instr.gz build/hint2/unspec-NowarCnC-GB-Light.otd build/nowar/unspec-NowarCnC-GB-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-GB-Light.instr.gz build/hint2/unspec-NowarCnC-GB-Light.otd build/nowar/unspec-NowarCnC-GB-Light.otd
 build/hint2/unspec-NowarCnC-GB-Light.instr.gz: build/hint2/unspec-NowarCnC-GB-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-GB-Light.otd build/hint2/unspec-NowarCnC-GB-Light.hint.gz build/hint2/unspec-NowarCnC-GB-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-GB-Light.otd build/hint2/unspec-NowarCnC-GB-Light.hint.gz build/hint2/unspec-NowarCnC-GB-Light.instr.gz
 build/hint2/unspec-NowarCnC-GB-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-Light.otd: build/hint1/unspec-NowarCnC-GB-Light.ttf
 	mkdir -p build/hint2/
@@ -3624,9 +3624,9 @@ build/nowar/unspec-NowarCnCUI-RP-CondensedLight.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-CondensedLight.otd: build/hint2/unspec-NowarCnCUI-RP-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-RP-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedLight.otd build/nowar/unspec-NowarCnCUI-RP-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-RP-CondensedLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedLight.otd build/nowar/unspec-NowarCnCUI-RP-CondensedLight.otd
 build/hint2/unspec-NowarCnCUI-RP-CondensedLight.instr.gz: build/hint2/unspec-NowarCnCUI-RP-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-RP-CondensedLight.otd build/hint2/unspec-NowarCnCUI-RP-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-RP-CondensedLight.otd build/hint2/unspec-NowarCnCUI-RP-CondensedLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-CondensedLight.otd: build/hint1/unspec-NowarCnCUI-RP-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3635,9 +3635,9 @@ build/nowar/unspec-NowarCnCUI-RP-ExtendedLight.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-ExtendedLight.otd: build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedLight.otd
 build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-ExtendedLight.otd: build/hint1/unspec-NowarCnCUI-RP-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3646,9 +3646,9 @@ build/nowar/unspec-NowarCnC-RP-ExtendedLight.ttf: build/nowar/unspec-NowarCnC-RP
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-ExtendedLight.otd: build/hint2/unspec-NowarCnC-RP-ExtendedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-RP-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedLight.otd build/nowar/unspec-NowarCnC-RP-ExtendedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-RP-ExtendedLight.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedLight.otd build/nowar/unspec-NowarCnC-RP-ExtendedLight.otd
 build/hint2/unspec-NowarCnC-RP-ExtendedLight.instr.gz: build/hint2/unspec-NowarCnC-RP-ExtendedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-RP-ExtendedLight.otd build/hint2/unspec-NowarCnC-RP-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-RP-ExtendedLight.otd build/hint2/unspec-NowarCnC-RP-ExtendedLight.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedLight.instr.gz
 build/hint2/unspec-NowarCnC-RP-ExtendedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-ExtendedLight.otd: build/hint1/unspec-NowarCnC-RP-ExtendedLight.ttf
 	mkdir -p build/hint2/
@@ -3657,9 +3657,9 @@ build/nowar/unspec-NowarCnCWarcraft-RP-Light.ttf: build/nowar/unspec-NowarCnCWar
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-RP-Light.otd: build/hint2/unspec-NowarCnCWarcraft-RP-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnCWarcraft-RP-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Light.otd build/nowar/unspec-NowarCnCWarcraft-RP-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-RP-Light.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Light.otd build/nowar/unspec-NowarCnCWarcraft-RP-Light.otd
 build/hint2/unspec-NowarCnCWarcraft-RP-Light.instr.gz: build/hint2/unspec-NowarCnCWarcraft-RP-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnCWarcraft-RP-Light.otd build/hint2/unspec-NowarCnCWarcraft-RP-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnCWarcraft-RP-Light.otd build/hint2/unspec-NowarCnCWarcraft-RP-Light.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Light.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-RP-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-RP-Light.otd: build/hint1/unspec-NowarCnCWarcraft-RP-Light.ttf
 	mkdir -p build/hint2/
@@ -3668,9 +3668,9 @@ build/nowar/unspec-NowarCnC-RP-CondensedLight.ttf: build/nowar/unspec-NowarCnC-R
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-CondensedLight.otd: build/hint2/unspec-NowarCnC-RP-CondensedLight.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-RP-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedLight.otd build/nowar/unspec-NowarCnC-RP-CondensedLight.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-RP-CondensedLight.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedLight.otd build/nowar/unspec-NowarCnC-RP-CondensedLight.otd
 build/hint2/unspec-NowarCnC-RP-CondensedLight.instr.gz: build/hint2/unspec-NowarCnC-RP-CondensedLight.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-RP-CondensedLight.otd build/hint2/unspec-NowarCnC-RP-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedLight.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-RP-CondensedLight.otd build/hint2/unspec-NowarCnC-RP-CondensedLight.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedLight.instr.gz
 build/hint2/unspec-NowarCnC-RP-CondensedLight.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-CondensedLight.otd: build/hint1/unspec-NowarCnC-RP-CondensedLight.ttf
 	mkdir -p build/hint2/
@@ -3679,9 +3679,9 @@ build/nowar/unspec-NowarCnC-RP-Light.ttf: build/nowar/unspec-NowarCnC-RP-Light.o
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-Light.otd: build/hint2/unspec-NowarCnC-RP-Light.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 300.json build/hint2/unspec-NowarCnC-RP-Light.instr.gz build/hint2/unspec-NowarCnC-RP-Light.otd build/nowar/unspec-NowarCnC-RP-Light.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/300.json build/hint2/unspec-NowarCnC-RP-Light.instr.gz build/hint2/unspec-NowarCnC-RP-Light.otd build/nowar/unspec-NowarCnC-RP-Light.otd
 build/hint2/unspec-NowarCnC-RP-Light.instr.gz: build/hint2/unspec-NowarCnC-RP-Light.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 300.json build/hint2/unspec-NowarCnC-RP-Light.otd build/hint2/unspec-NowarCnC-RP-Light.hint.gz build/hint2/unspec-NowarCnC-RP-Light.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/300.json build/hint2/unspec-NowarCnC-RP-Light.otd build/hint2/unspec-NowarCnC-RP-Light.hint.gz build/hint2/unspec-NowarCnC-RP-Light.instr.gz
 build/hint2/unspec-NowarCnC-RP-Light.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-Light.otd: build/hint1/unspec-NowarCnC-RP-Light.ttf
 	mkdir -p build/hint2/
@@ -3692,9 +3692,9 @@ build/nowar/unspec-NowarCnCUI-CN-Condensed.ttf: build/nowar/unspec-NowarCnCUI-CN
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-Condensed.otd: build/hint2/unspec-NowarCnCUI-CN-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-CN-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-CN-Condensed.otd build/nowar/unspec-NowarCnCUI-CN-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CN-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-CN-Condensed.otd build/nowar/unspec-NowarCnCUI-CN-Condensed.otd
 build/hint2/unspec-NowarCnCUI-CN-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-CN-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-CN-Condensed.otd build/hint2/unspec-NowarCnCUI-CN-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-CN-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CN-Condensed.otd build/hint2/unspec-NowarCnCUI-CN-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-CN-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-Condensed.otd: build/hint1/unspec-NowarCnCUI-CN-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3703,9 +3703,9 @@ build/nowar/unspec-NowarCnCUI-TW-Condensed.ttf: build/nowar/unspec-NowarCnCUI-TW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-Condensed.otd: build/hint2/unspec-NowarCnCUI-TW-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-TW-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-TW-Condensed.otd build/nowar/unspec-NowarCnCUI-TW-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-TW-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-TW-Condensed.otd build/nowar/unspec-NowarCnCUI-TW-Condensed.otd
 build/hint2/unspec-NowarCnCUI-TW-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-TW-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-TW-Condensed.otd build/hint2/unspec-NowarCnCUI-TW-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-TW-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-TW-Condensed.otd build/hint2/unspec-NowarCnCUI-TW-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-TW-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-Condensed.otd: build/hint1/unspec-NowarCnCUI-TW-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3714,9 +3714,9 @@ build/nowar/unspec-NowarCnCUI-HK-Condensed.ttf: build/nowar/unspec-NowarCnCUI-HK
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-Condensed.otd: build/hint2/unspec-NowarCnCUI-HK-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-HK-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-HK-Condensed.otd build/nowar/unspec-NowarCnCUI-HK-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-HK-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-HK-Condensed.otd build/nowar/unspec-NowarCnCUI-HK-Condensed.otd
 build/hint2/unspec-NowarCnCUI-HK-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-HK-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-HK-Condensed.otd build/hint2/unspec-NowarCnCUI-HK-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-HK-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-HK-Condensed.otd build/hint2/unspec-NowarCnCUI-HK-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-HK-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-Condensed.otd: build/hint1/unspec-NowarCnCUI-HK-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3725,9 +3725,9 @@ build/nowar/unspec-NowarCnCUI-JP-Condensed.ttf: build/nowar/unspec-NowarCnCUI-JP
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-Condensed.otd: build/hint2/unspec-NowarCnCUI-JP-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-JP-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-JP-Condensed.otd build/nowar/unspec-NowarCnCUI-JP-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-JP-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-JP-Condensed.otd build/nowar/unspec-NowarCnCUI-JP-Condensed.otd
 build/hint2/unspec-NowarCnCUI-JP-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-JP-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-JP-Condensed.otd build/hint2/unspec-NowarCnCUI-JP-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-JP-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-JP-Condensed.otd build/hint2/unspec-NowarCnCUI-JP-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-JP-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-Condensed.otd: build/hint1/unspec-NowarCnCUI-JP-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3736,9 +3736,9 @@ build/nowar/unspec-NowarCnCUI-CN-Regular.ttf: build/nowar/unspec-NowarCnCUI-CN-R
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-Regular.otd: build/hint2/unspec-NowarCnCUI-CN-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-CN-Regular.instr.gz build/hint2/unspec-NowarCnCUI-CN-Regular.otd build/nowar/unspec-NowarCnCUI-CN-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CN-Regular.instr.gz build/hint2/unspec-NowarCnCUI-CN-Regular.otd build/nowar/unspec-NowarCnCUI-CN-Regular.otd
 build/hint2/unspec-NowarCnCUI-CN-Regular.instr.gz: build/hint2/unspec-NowarCnCUI-CN-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-CN-Regular.otd build/hint2/unspec-NowarCnCUI-CN-Regular.hint.gz build/hint2/unspec-NowarCnCUI-CN-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CN-Regular.otd build/hint2/unspec-NowarCnCUI-CN-Regular.hint.gz build/hint2/unspec-NowarCnCUI-CN-Regular.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-Regular.otd: build/hint1/unspec-NowarCnCUI-CN-Regular.ttf
 	mkdir -p build/hint2/
@@ -3747,9 +3747,9 @@ build/nowar/unspec-NowarCnCUI-TW-Regular.ttf: build/nowar/unspec-NowarCnCUI-TW-R
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-Regular.otd: build/hint2/unspec-NowarCnCUI-TW-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-TW-Regular.instr.gz build/hint2/unspec-NowarCnCUI-TW-Regular.otd build/nowar/unspec-NowarCnCUI-TW-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-TW-Regular.instr.gz build/hint2/unspec-NowarCnCUI-TW-Regular.otd build/nowar/unspec-NowarCnCUI-TW-Regular.otd
 build/hint2/unspec-NowarCnCUI-TW-Regular.instr.gz: build/hint2/unspec-NowarCnCUI-TW-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-TW-Regular.otd build/hint2/unspec-NowarCnCUI-TW-Regular.hint.gz build/hint2/unspec-NowarCnCUI-TW-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-TW-Regular.otd build/hint2/unspec-NowarCnCUI-TW-Regular.hint.gz build/hint2/unspec-NowarCnCUI-TW-Regular.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-Regular.otd: build/hint1/unspec-NowarCnCUI-TW-Regular.ttf
 	mkdir -p build/hint2/
@@ -3758,9 +3758,9 @@ build/nowar/unspec-NowarCnCUI-HK-Regular.ttf: build/nowar/unspec-NowarCnCUI-HK-R
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-Regular.otd: build/hint2/unspec-NowarCnCUI-HK-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-HK-Regular.instr.gz build/hint2/unspec-NowarCnCUI-HK-Regular.otd build/nowar/unspec-NowarCnCUI-HK-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-HK-Regular.instr.gz build/hint2/unspec-NowarCnCUI-HK-Regular.otd build/nowar/unspec-NowarCnCUI-HK-Regular.otd
 build/hint2/unspec-NowarCnCUI-HK-Regular.instr.gz: build/hint2/unspec-NowarCnCUI-HK-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-HK-Regular.otd build/hint2/unspec-NowarCnCUI-HK-Regular.hint.gz build/hint2/unspec-NowarCnCUI-HK-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-HK-Regular.otd build/hint2/unspec-NowarCnCUI-HK-Regular.hint.gz build/hint2/unspec-NowarCnCUI-HK-Regular.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-Regular.otd: build/hint1/unspec-NowarCnCUI-HK-Regular.ttf
 	mkdir -p build/hint2/
@@ -3769,9 +3769,9 @@ build/nowar/unspec-NowarCnCUI-JP-Regular.ttf: build/nowar/unspec-NowarCnCUI-JP-R
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-Regular.otd: build/hint2/unspec-NowarCnCUI-JP-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-JP-Regular.instr.gz build/hint2/unspec-NowarCnCUI-JP-Regular.otd build/nowar/unspec-NowarCnCUI-JP-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-JP-Regular.instr.gz build/hint2/unspec-NowarCnCUI-JP-Regular.otd build/nowar/unspec-NowarCnCUI-JP-Regular.otd
 build/hint2/unspec-NowarCnCUI-JP-Regular.instr.gz: build/hint2/unspec-NowarCnCUI-JP-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-JP-Regular.otd build/hint2/unspec-NowarCnCUI-JP-Regular.hint.gz build/hint2/unspec-NowarCnCUI-JP-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-JP-Regular.otd build/hint2/unspec-NowarCnCUI-JP-Regular.hint.gz build/hint2/unspec-NowarCnCUI-JP-Regular.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-Regular.otd: build/hint1/unspec-NowarCnCUI-JP-Regular.ttf
 	mkdir -p build/hint2/
@@ -3780,9 +3780,9 @@ build/nowar/unspec-NowarCnCUI-CN-Extended.ttf: build/nowar/unspec-NowarCnCUI-CN-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-Extended.otd: build/hint2/unspec-NowarCnCUI-CN-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-CN-Extended.instr.gz build/hint2/unspec-NowarCnCUI-CN-Extended.otd build/nowar/unspec-NowarCnCUI-CN-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CN-Extended.instr.gz build/hint2/unspec-NowarCnCUI-CN-Extended.otd build/nowar/unspec-NowarCnCUI-CN-Extended.otd
 build/hint2/unspec-NowarCnCUI-CN-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-CN-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-CN-Extended.otd build/hint2/unspec-NowarCnCUI-CN-Extended.hint.gz build/hint2/unspec-NowarCnCUI-CN-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CN-Extended.otd build/hint2/unspec-NowarCnCUI-CN-Extended.hint.gz build/hint2/unspec-NowarCnCUI-CN-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-Extended.otd: build/hint1/unspec-NowarCnCUI-CN-Extended.ttf
 	mkdir -p build/hint2/
@@ -3791,9 +3791,9 @@ build/nowar/unspec-NowarCnCUI-TW-Extended.ttf: build/nowar/unspec-NowarCnCUI-TW-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-Extended.otd: build/hint2/unspec-NowarCnCUI-TW-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-TW-Extended.instr.gz build/hint2/unspec-NowarCnCUI-TW-Extended.otd build/nowar/unspec-NowarCnCUI-TW-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-TW-Extended.instr.gz build/hint2/unspec-NowarCnCUI-TW-Extended.otd build/nowar/unspec-NowarCnCUI-TW-Extended.otd
 build/hint2/unspec-NowarCnCUI-TW-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-TW-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-TW-Extended.otd build/hint2/unspec-NowarCnCUI-TW-Extended.hint.gz build/hint2/unspec-NowarCnCUI-TW-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-TW-Extended.otd build/hint2/unspec-NowarCnCUI-TW-Extended.hint.gz build/hint2/unspec-NowarCnCUI-TW-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-Extended.otd: build/hint1/unspec-NowarCnCUI-TW-Extended.ttf
 	mkdir -p build/hint2/
@@ -3802,9 +3802,9 @@ build/nowar/unspec-NowarCnCUI-HK-Extended.ttf: build/nowar/unspec-NowarCnCUI-HK-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-Extended.otd: build/hint2/unspec-NowarCnCUI-HK-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-HK-Extended.instr.gz build/hint2/unspec-NowarCnCUI-HK-Extended.otd build/nowar/unspec-NowarCnCUI-HK-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-HK-Extended.instr.gz build/hint2/unspec-NowarCnCUI-HK-Extended.otd build/nowar/unspec-NowarCnCUI-HK-Extended.otd
 build/hint2/unspec-NowarCnCUI-HK-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-HK-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-HK-Extended.otd build/hint2/unspec-NowarCnCUI-HK-Extended.hint.gz build/hint2/unspec-NowarCnCUI-HK-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-HK-Extended.otd build/hint2/unspec-NowarCnCUI-HK-Extended.hint.gz build/hint2/unspec-NowarCnCUI-HK-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-Extended.otd: build/hint1/unspec-NowarCnCUI-HK-Extended.ttf
 	mkdir -p build/hint2/
@@ -3813,9 +3813,9 @@ build/nowar/unspec-NowarCnCUI-JP-Extended.ttf: build/nowar/unspec-NowarCnCUI-JP-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-Extended.otd: build/hint2/unspec-NowarCnCUI-JP-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-JP-Extended.instr.gz build/hint2/unspec-NowarCnCUI-JP-Extended.otd build/nowar/unspec-NowarCnCUI-JP-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-JP-Extended.instr.gz build/hint2/unspec-NowarCnCUI-JP-Extended.otd build/nowar/unspec-NowarCnCUI-JP-Extended.otd
 build/hint2/unspec-NowarCnCUI-JP-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-JP-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-JP-Extended.otd build/hint2/unspec-NowarCnCUI-JP-Extended.hint.gz build/hint2/unspec-NowarCnCUI-JP-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-JP-Extended.otd build/hint2/unspec-NowarCnCUI-JP-Extended.hint.gz build/hint2/unspec-NowarCnCUI-JP-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-Extended.otd: build/hint1/unspec-NowarCnCUI-JP-Extended.ttf
 	mkdir -p build/hint2/
@@ -3824,9 +3824,9 @@ build/nowar/unspec-NowarCnCUI-CL-Condensed.ttf: build/nowar/unspec-NowarCnCUI-CL
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-Condensed.otd: build/hint2/unspec-NowarCnCUI-CL-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-CL-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-CL-Condensed.otd build/nowar/unspec-NowarCnCUI-CL-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CL-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-CL-Condensed.otd build/nowar/unspec-NowarCnCUI-CL-Condensed.otd
 build/hint2/unspec-NowarCnCUI-CL-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-CL-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-CL-Condensed.otd build/hint2/unspec-NowarCnCUI-CL-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-CL-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CL-Condensed.otd build/hint2/unspec-NowarCnCUI-CL-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-CL-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-Condensed.otd: build/hint1/unspec-NowarCnCUI-CL-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3835,9 +3835,9 @@ build/nowar/unspec-NowarCnCUI-OSF-Condensed.ttf: build/nowar/unspec-NowarCnCUI-O
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-Condensed.otd: build/hint2/unspec-NowarCnCUI-OSF-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-OSF-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Condensed.otd build/nowar/unspec-NowarCnCUI-OSF-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-OSF-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Condensed.otd build/nowar/unspec-NowarCnCUI-OSF-Condensed.otd
 build/hint2/unspec-NowarCnCUI-OSF-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-OSF-Condensed.otd build/hint2/unspec-NowarCnCUI-OSF-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-OSF-Condensed.otd build/hint2/unspec-NowarCnCUI-OSF-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-Condensed.otd: build/hint1/unspec-NowarCnCUI-OSF-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3846,9 +3846,9 @@ build/nowar/unspec-NowarCnCUI-CL-Regular.ttf: build/nowar/unspec-NowarCnCUI-CL-R
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-Regular.otd: build/hint2/unspec-NowarCnCUI-CL-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-CL-Regular.instr.gz build/hint2/unspec-NowarCnCUI-CL-Regular.otd build/nowar/unspec-NowarCnCUI-CL-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CL-Regular.instr.gz build/hint2/unspec-NowarCnCUI-CL-Regular.otd build/nowar/unspec-NowarCnCUI-CL-Regular.otd
 build/hint2/unspec-NowarCnCUI-CL-Regular.instr.gz: build/hint2/unspec-NowarCnCUI-CL-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-CL-Regular.otd build/hint2/unspec-NowarCnCUI-CL-Regular.hint.gz build/hint2/unspec-NowarCnCUI-CL-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CL-Regular.otd build/hint2/unspec-NowarCnCUI-CL-Regular.hint.gz build/hint2/unspec-NowarCnCUI-CL-Regular.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-Regular.otd: build/hint1/unspec-NowarCnCUI-CL-Regular.ttf
 	mkdir -p build/hint2/
@@ -3857,9 +3857,9 @@ build/nowar/unspec-NowarCnCUI-OSF-Regular.ttf: build/nowar/unspec-NowarCnCUI-OSF
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-Regular.otd: build/hint2/unspec-NowarCnCUI-OSF-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-OSF-Regular.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Regular.otd build/nowar/unspec-NowarCnCUI-OSF-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-OSF-Regular.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Regular.otd build/nowar/unspec-NowarCnCUI-OSF-Regular.otd
 build/hint2/unspec-NowarCnCUI-OSF-Regular.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-OSF-Regular.otd build/hint2/unspec-NowarCnCUI-OSF-Regular.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-OSF-Regular.otd build/hint2/unspec-NowarCnCUI-OSF-Regular.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Regular.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-Regular.otd: build/hint1/unspec-NowarCnCUI-OSF-Regular.ttf
 	mkdir -p build/hint2/
@@ -3868,9 +3868,9 @@ build/nowar/unspec-NowarCnCUI-CL-Extended.ttf: build/nowar/unspec-NowarCnCUI-CL-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-Extended.otd: build/hint2/unspec-NowarCnCUI-CL-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-CL-Extended.instr.gz build/hint2/unspec-NowarCnCUI-CL-Extended.otd build/nowar/unspec-NowarCnCUI-CL-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CL-Extended.instr.gz build/hint2/unspec-NowarCnCUI-CL-Extended.otd build/nowar/unspec-NowarCnCUI-CL-Extended.otd
 build/hint2/unspec-NowarCnCUI-CL-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-CL-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-CL-Extended.otd build/hint2/unspec-NowarCnCUI-CL-Extended.hint.gz build/hint2/unspec-NowarCnCUI-CL-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-CL-Extended.otd build/hint2/unspec-NowarCnCUI-CL-Extended.hint.gz build/hint2/unspec-NowarCnCUI-CL-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-Extended.otd: build/hint1/unspec-NowarCnCUI-CL-Extended.ttf
 	mkdir -p build/hint2/
@@ -3879,9 +3879,9 @@ build/nowar/unspec-NowarCnCUI-OSF-Extended.ttf: build/nowar/unspec-NowarCnCUI-OS
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-Extended.otd: build/hint2/unspec-NowarCnCUI-OSF-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-OSF-Extended.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Extended.otd build/nowar/unspec-NowarCnCUI-OSF-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-OSF-Extended.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Extended.otd build/nowar/unspec-NowarCnCUI-OSF-Extended.otd
 build/hint2/unspec-NowarCnCUI-OSF-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-OSF-Extended.otd build/hint2/unspec-NowarCnCUI-OSF-Extended.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-OSF-Extended.otd build/hint2/unspec-NowarCnCUI-OSF-Extended.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-Extended.otd: build/hint1/unspec-NowarCnCUI-OSF-Extended.ttf
 	mkdir -p build/hint2/
@@ -3890,9 +3890,9 @@ build/nowar/unspec-NowarCnC-CN-Condensed.ttf: build/nowar/unspec-NowarCnC-CN-Con
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-Condensed.otd: build/hint2/unspec-NowarCnC-CN-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-CN-Condensed.instr.gz build/hint2/unspec-NowarCnC-CN-Condensed.otd build/nowar/unspec-NowarCnC-CN-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-CN-Condensed.instr.gz build/hint2/unspec-NowarCnC-CN-Condensed.otd build/nowar/unspec-NowarCnC-CN-Condensed.otd
 build/hint2/unspec-NowarCnC-CN-Condensed.instr.gz: build/hint2/unspec-NowarCnC-CN-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-CN-Condensed.otd build/hint2/unspec-NowarCnC-CN-Condensed.hint.gz build/hint2/unspec-NowarCnC-CN-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-CN-Condensed.otd build/hint2/unspec-NowarCnC-CN-Condensed.hint.gz build/hint2/unspec-NowarCnC-CN-Condensed.instr.gz
 build/hint2/unspec-NowarCnC-CN-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-Condensed.otd: build/hint1/unspec-NowarCnC-CN-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3901,9 +3901,9 @@ build/nowar/unspec-NowarCnC-CL-Condensed.ttf: build/nowar/unspec-NowarCnC-CL-Con
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-Condensed.otd: build/hint2/unspec-NowarCnC-CL-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-CL-Condensed.instr.gz build/hint2/unspec-NowarCnC-CL-Condensed.otd build/nowar/unspec-NowarCnC-CL-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-CL-Condensed.instr.gz build/hint2/unspec-NowarCnC-CL-Condensed.otd build/nowar/unspec-NowarCnC-CL-Condensed.otd
 build/hint2/unspec-NowarCnC-CL-Condensed.instr.gz: build/hint2/unspec-NowarCnC-CL-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-CL-Condensed.otd build/hint2/unspec-NowarCnC-CL-Condensed.hint.gz build/hint2/unspec-NowarCnC-CL-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-CL-Condensed.otd build/hint2/unspec-NowarCnC-CL-Condensed.hint.gz build/hint2/unspec-NowarCnC-CL-Condensed.instr.gz
 build/hint2/unspec-NowarCnC-CL-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-Condensed.otd: build/hint1/unspec-NowarCnC-CL-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3912,9 +3912,9 @@ build/nowar/unspec-NowarCnC-CN-Regular.ttf: build/nowar/unspec-NowarCnC-CN-Regul
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-Regular.otd: build/hint2/unspec-NowarCnC-CN-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-CN-Regular.instr.gz build/hint2/unspec-NowarCnC-CN-Regular.otd build/nowar/unspec-NowarCnC-CN-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-CN-Regular.instr.gz build/hint2/unspec-NowarCnC-CN-Regular.otd build/nowar/unspec-NowarCnC-CN-Regular.otd
 build/hint2/unspec-NowarCnC-CN-Regular.instr.gz: build/hint2/unspec-NowarCnC-CN-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-CN-Regular.otd build/hint2/unspec-NowarCnC-CN-Regular.hint.gz build/hint2/unspec-NowarCnC-CN-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-CN-Regular.otd build/hint2/unspec-NowarCnC-CN-Regular.hint.gz build/hint2/unspec-NowarCnC-CN-Regular.instr.gz
 build/hint2/unspec-NowarCnC-CN-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-Regular.otd: build/hint1/unspec-NowarCnC-CN-Regular.ttf
 	mkdir -p build/hint2/
@@ -3923,9 +3923,9 @@ build/nowar/unspec-NowarCnC-CL-Regular.ttf: build/nowar/unspec-NowarCnC-CL-Regul
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-Regular.otd: build/hint2/unspec-NowarCnC-CL-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-CL-Regular.instr.gz build/hint2/unspec-NowarCnC-CL-Regular.otd build/nowar/unspec-NowarCnC-CL-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-CL-Regular.instr.gz build/hint2/unspec-NowarCnC-CL-Regular.otd build/nowar/unspec-NowarCnC-CL-Regular.otd
 build/hint2/unspec-NowarCnC-CL-Regular.instr.gz: build/hint2/unspec-NowarCnC-CL-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-CL-Regular.otd build/hint2/unspec-NowarCnC-CL-Regular.hint.gz build/hint2/unspec-NowarCnC-CL-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-CL-Regular.otd build/hint2/unspec-NowarCnC-CL-Regular.hint.gz build/hint2/unspec-NowarCnC-CL-Regular.instr.gz
 build/hint2/unspec-NowarCnC-CL-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-Regular.otd: build/hint1/unspec-NowarCnC-CL-Regular.ttf
 	mkdir -p build/hint2/
@@ -3934,9 +3934,9 @@ build/nowar/unspec-NowarCnC-CN-Extended.ttf: build/nowar/unspec-NowarCnC-CN-Exte
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-Extended.otd: build/hint2/unspec-NowarCnC-CN-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-CN-Extended.instr.gz build/hint2/unspec-NowarCnC-CN-Extended.otd build/nowar/unspec-NowarCnC-CN-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-CN-Extended.instr.gz build/hint2/unspec-NowarCnC-CN-Extended.otd build/nowar/unspec-NowarCnC-CN-Extended.otd
 build/hint2/unspec-NowarCnC-CN-Extended.instr.gz: build/hint2/unspec-NowarCnC-CN-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-CN-Extended.otd build/hint2/unspec-NowarCnC-CN-Extended.hint.gz build/hint2/unspec-NowarCnC-CN-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-CN-Extended.otd build/hint2/unspec-NowarCnC-CN-Extended.hint.gz build/hint2/unspec-NowarCnC-CN-Extended.instr.gz
 build/hint2/unspec-NowarCnC-CN-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-Extended.otd: build/hint1/unspec-NowarCnC-CN-Extended.ttf
 	mkdir -p build/hint2/
@@ -3945,9 +3945,9 @@ build/nowar/unspec-NowarCnC-CL-Extended.ttf: build/nowar/unspec-NowarCnC-CL-Exte
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-Extended.otd: build/hint2/unspec-NowarCnC-CL-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-CL-Extended.instr.gz build/hint2/unspec-NowarCnC-CL-Extended.otd build/nowar/unspec-NowarCnC-CL-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-CL-Extended.instr.gz build/hint2/unspec-NowarCnC-CL-Extended.otd build/nowar/unspec-NowarCnC-CL-Extended.otd
 build/hint2/unspec-NowarCnC-CL-Extended.instr.gz: build/hint2/unspec-NowarCnC-CL-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-CL-Extended.otd build/hint2/unspec-NowarCnC-CL-Extended.hint.gz build/hint2/unspec-NowarCnC-CL-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-CL-Extended.otd build/hint2/unspec-NowarCnC-CL-Extended.hint.gz build/hint2/unspec-NowarCnC-CL-Extended.instr.gz
 build/hint2/unspec-NowarCnC-CL-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-Extended.otd: build/hint1/unspec-NowarCnC-CL-Extended.ttf
 	mkdir -p build/hint2/
@@ -3956,9 +3956,9 @@ build/nowar/unspec-NowarCnC-TW-Condensed.ttf: build/nowar/unspec-NowarCnC-TW-Con
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-Condensed.otd: build/hint2/unspec-NowarCnC-TW-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-TW-Condensed.instr.gz build/hint2/unspec-NowarCnC-TW-Condensed.otd build/nowar/unspec-NowarCnC-TW-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-TW-Condensed.instr.gz build/hint2/unspec-NowarCnC-TW-Condensed.otd build/nowar/unspec-NowarCnC-TW-Condensed.otd
 build/hint2/unspec-NowarCnC-TW-Condensed.instr.gz: build/hint2/unspec-NowarCnC-TW-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-TW-Condensed.otd build/hint2/unspec-NowarCnC-TW-Condensed.hint.gz build/hint2/unspec-NowarCnC-TW-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-TW-Condensed.otd build/hint2/unspec-NowarCnC-TW-Condensed.hint.gz build/hint2/unspec-NowarCnC-TW-Condensed.instr.gz
 build/hint2/unspec-NowarCnC-TW-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-Condensed.otd: build/hint1/unspec-NowarCnC-TW-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3967,9 +3967,9 @@ build/nowar/unspec-NowarCnC-HK-Condensed.ttf: build/nowar/unspec-NowarCnC-HK-Con
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-Condensed.otd: build/hint2/unspec-NowarCnC-HK-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-HK-Condensed.instr.gz build/hint2/unspec-NowarCnC-HK-Condensed.otd build/nowar/unspec-NowarCnC-HK-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-HK-Condensed.instr.gz build/hint2/unspec-NowarCnC-HK-Condensed.otd build/nowar/unspec-NowarCnC-HK-Condensed.otd
 build/hint2/unspec-NowarCnC-HK-Condensed.instr.gz: build/hint2/unspec-NowarCnC-HK-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-HK-Condensed.otd build/hint2/unspec-NowarCnC-HK-Condensed.hint.gz build/hint2/unspec-NowarCnC-HK-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-HK-Condensed.otd build/hint2/unspec-NowarCnC-HK-Condensed.hint.gz build/hint2/unspec-NowarCnC-HK-Condensed.instr.gz
 build/hint2/unspec-NowarCnC-HK-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-Condensed.otd: build/hint1/unspec-NowarCnC-HK-Condensed.ttf
 	mkdir -p build/hint2/
@@ -3978,9 +3978,9 @@ build/nowar/unspec-NowarCnC-TW-Regular.ttf: build/nowar/unspec-NowarCnC-TW-Regul
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-Regular.otd: build/hint2/unspec-NowarCnC-TW-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-TW-Regular.instr.gz build/hint2/unspec-NowarCnC-TW-Regular.otd build/nowar/unspec-NowarCnC-TW-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-TW-Regular.instr.gz build/hint2/unspec-NowarCnC-TW-Regular.otd build/nowar/unspec-NowarCnC-TW-Regular.otd
 build/hint2/unspec-NowarCnC-TW-Regular.instr.gz: build/hint2/unspec-NowarCnC-TW-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-TW-Regular.otd build/hint2/unspec-NowarCnC-TW-Regular.hint.gz build/hint2/unspec-NowarCnC-TW-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-TW-Regular.otd build/hint2/unspec-NowarCnC-TW-Regular.hint.gz build/hint2/unspec-NowarCnC-TW-Regular.instr.gz
 build/hint2/unspec-NowarCnC-TW-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-Regular.otd: build/hint1/unspec-NowarCnC-TW-Regular.ttf
 	mkdir -p build/hint2/
@@ -3989,9 +3989,9 @@ build/nowar/unspec-NowarCnC-HK-Regular.ttf: build/nowar/unspec-NowarCnC-HK-Regul
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-Regular.otd: build/hint2/unspec-NowarCnC-HK-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-HK-Regular.instr.gz build/hint2/unspec-NowarCnC-HK-Regular.otd build/nowar/unspec-NowarCnC-HK-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-HK-Regular.instr.gz build/hint2/unspec-NowarCnC-HK-Regular.otd build/nowar/unspec-NowarCnC-HK-Regular.otd
 build/hint2/unspec-NowarCnC-HK-Regular.instr.gz: build/hint2/unspec-NowarCnC-HK-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-HK-Regular.otd build/hint2/unspec-NowarCnC-HK-Regular.hint.gz build/hint2/unspec-NowarCnC-HK-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-HK-Regular.otd build/hint2/unspec-NowarCnC-HK-Regular.hint.gz build/hint2/unspec-NowarCnC-HK-Regular.instr.gz
 build/hint2/unspec-NowarCnC-HK-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-Regular.otd: build/hint1/unspec-NowarCnC-HK-Regular.ttf
 	mkdir -p build/hint2/
@@ -4000,9 +4000,9 @@ build/nowar/unspec-NowarCnC-TW-Extended.ttf: build/nowar/unspec-NowarCnC-TW-Exte
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-Extended.otd: build/hint2/unspec-NowarCnC-TW-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-TW-Extended.instr.gz build/hint2/unspec-NowarCnC-TW-Extended.otd build/nowar/unspec-NowarCnC-TW-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-TW-Extended.instr.gz build/hint2/unspec-NowarCnC-TW-Extended.otd build/nowar/unspec-NowarCnC-TW-Extended.otd
 build/hint2/unspec-NowarCnC-TW-Extended.instr.gz: build/hint2/unspec-NowarCnC-TW-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-TW-Extended.otd build/hint2/unspec-NowarCnC-TW-Extended.hint.gz build/hint2/unspec-NowarCnC-TW-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-TW-Extended.otd build/hint2/unspec-NowarCnC-TW-Extended.hint.gz build/hint2/unspec-NowarCnC-TW-Extended.instr.gz
 build/hint2/unspec-NowarCnC-TW-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-Extended.otd: build/hint1/unspec-NowarCnC-TW-Extended.ttf
 	mkdir -p build/hint2/
@@ -4011,9 +4011,9 @@ build/nowar/unspec-NowarCnC-HK-Extended.ttf: build/nowar/unspec-NowarCnC-HK-Exte
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-Extended.otd: build/hint2/unspec-NowarCnC-HK-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-HK-Extended.instr.gz build/hint2/unspec-NowarCnC-HK-Extended.otd build/nowar/unspec-NowarCnC-HK-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-HK-Extended.instr.gz build/hint2/unspec-NowarCnC-HK-Extended.otd build/nowar/unspec-NowarCnC-HK-Extended.otd
 build/hint2/unspec-NowarCnC-HK-Extended.instr.gz: build/hint2/unspec-NowarCnC-HK-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-HK-Extended.otd build/hint2/unspec-NowarCnC-HK-Extended.hint.gz build/hint2/unspec-NowarCnC-HK-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-HK-Extended.otd build/hint2/unspec-NowarCnC-HK-Extended.hint.gz build/hint2/unspec-NowarCnC-HK-Extended.instr.gz
 build/hint2/unspec-NowarCnC-HK-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-Extended.otd: build/hint1/unspec-NowarCnC-HK-Extended.ttf
 	mkdir -p build/hint2/
@@ -4022,9 +4022,9 @@ build/nowar/unspec-NowarCnC-KR-Condensed.ttf: build/nowar/unspec-NowarCnC-KR-Con
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-Condensed.otd: build/hint2/unspec-NowarCnC-KR-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-KR-Condensed.instr.gz build/hint2/unspec-NowarCnC-KR-Condensed.otd build/nowar/unspec-NowarCnC-KR-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-KR-Condensed.instr.gz build/hint2/unspec-NowarCnC-KR-Condensed.otd build/nowar/unspec-NowarCnC-KR-Condensed.otd
 build/hint2/unspec-NowarCnC-KR-Condensed.instr.gz: build/hint2/unspec-NowarCnC-KR-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-KR-Condensed.otd build/hint2/unspec-NowarCnC-KR-Condensed.hint.gz build/hint2/unspec-NowarCnC-KR-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-KR-Condensed.otd build/hint2/unspec-NowarCnC-KR-Condensed.hint.gz build/hint2/unspec-NowarCnC-KR-Condensed.instr.gz
 build/hint2/unspec-NowarCnC-KR-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-Condensed.otd: build/hint1/unspec-NowarCnC-KR-Condensed.ttf
 	mkdir -p build/hint2/
@@ -4033,9 +4033,9 @@ build/nowar/unspec-NowarCnC-KR-Regular.ttf: build/nowar/unspec-NowarCnC-KR-Regul
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-Regular.otd: build/hint2/unspec-NowarCnC-KR-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-KR-Regular.instr.gz build/hint2/unspec-NowarCnC-KR-Regular.otd build/nowar/unspec-NowarCnC-KR-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-KR-Regular.instr.gz build/hint2/unspec-NowarCnC-KR-Regular.otd build/nowar/unspec-NowarCnC-KR-Regular.otd
 build/hint2/unspec-NowarCnC-KR-Regular.instr.gz: build/hint2/unspec-NowarCnC-KR-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-KR-Regular.otd build/hint2/unspec-NowarCnC-KR-Regular.hint.gz build/hint2/unspec-NowarCnC-KR-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-KR-Regular.otd build/hint2/unspec-NowarCnC-KR-Regular.hint.gz build/hint2/unspec-NowarCnC-KR-Regular.instr.gz
 build/hint2/unspec-NowarCnC-KR-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-Regular.otd: build/hint1/unspec-NowarCnC-KR-Regular.ttf
 	mkdir -p build/hint2/
@@ -4044,9 +4044,9 @@ build/nowar/unspec-NowarCnC-KR-Extended.ttf: build/nowar/unspec-NowarCnC-KR-Exte
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-Extended.otd: build/hint2/unspec-NowarCnC-KR-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-KR-Extended.instr.gz build/hint2/unspec-NowarCnC-KR-Extended.otd build/nowar/unspec-NowarCnC-KR-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-KR-Extended.instr.gz build/hint2/unspec-NowarCnC-KR-Extended.otd build/nowar/unspec-NowarCnC-KR-Extended.otd
 build/hint2/unspec-NowarCnC-KR-Extended.instr.gz: build/hint2/unspec-NowarCnC-KR-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-KR-Extended.otd build/hint2/unspec-NowarCnC-KR-Extended.hint.gz build/hint2/unspec-NowarCnC-KR-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-KR-Extended.otd build/hint2/unspec-NowarCnC-KR-Extended.hint.gz build/hint2/unspec-NowarCnC-KR-Extended.instr.gz
 build/hint2/unspec-NowarCnC-KR-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-Extended.otd: build/hint1/unspec-NowarCnC-KR-Extended.ttf
 	mkdir -p build/hint2/
@@ -4055,9 +4055,9 @@ build/nowar/unspec-NowarCnCWarcraft-CN-Regular.ttf: build/nowar/unspec-NowarCnCW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CN-Regular.otd: build/hint2/unspec-NowarCnCWarcraft-CN-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCWarcraft-CN-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Regular.otd build/nowar/unspec-NowarCnCWarcraft-CN-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-CN-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Regular.otd build/nowar/unspec-NowarCnCWarcraft-CN-Regular.otd
 build/hint2/unspec-NowarCnCWarcraft-CN-Regular.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CN-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCWarcraft-CN-Regular.otd build/hint2/unspec-NowarCnCWarcraft-CN-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-CN-Regular.otd build/hint2/unspec-NowarCnCWarcraft-CN-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Regular.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CN-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CN-Regular.otd: build/hint1/unspec-NowarCnCWarcraft-CN-Regular.ttf
 	mkdir -p build/hint2/
@@ -4066,9 +4066,9 @@ build/nowar/unspec-NowarCnCWarcraft-TW-Regular.ttf: build/nowar/unspec-NowarCnCW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-TW-Regular.otd: build/hint2/unspec-NowarCnCWarcraft-TW-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCWarcraft-TW-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Regular.otd build/nowar/unspec-NowarCnCWarcraft-TW-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-TW-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Regular.otd build/nowar/unspec-NowarCnCWarcraft-TW-Regular.otd
 build/hint2/unspec-NowarCnCWarcraft-TW-Regular.instr.gz: build/hint2/unspec-NowarCnCWarcraft-TW-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCWarcraft-TW-Regular.otd build/hint2/unspec-NowarCnCWarcraft-TW-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-TW-Regular.otd build/hint2/unspec-NowarCnCWarcraft-TW-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Regular.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-TW-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-TW-Regular.otd: build/hint1/unspec-NowarCnCWarcraft-TW-Regular.ttf
 	mkdir -p build/hint2/
@@ -4077,9 +4077,9 @@ build/nowar/unspec-NowarCnCWarcraft-HK-Regular.ttf: build/nowar/unspec-NowarCnCW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-HK-Regular.otd: build/hint2/unspec-NowarCnCWarcraft-HK-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCWarcraft-HK-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Regular.otd build/nowar/unspec-NowarCnCWarcraft-HK-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-HK-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Regular.otd build/nowar/unspec-NowarCnCWarcraft-HK-Regular.otd
 build/hint2/unspec-NowarCnCWarcraft-HK-Regular.instr.gz: build/hint2/unspec-NowarCnCWarcraft-HK-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCWarcraft-HK-Regular.otd build/hint2/unspec-NowarCnCWarcraft-HK-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-HK-Regular.otd build/hint2/unspec-NowarCnCWarcraft-HK-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Regular.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-HK-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-HK-Regular.otd: build/hint1/unspec-NowarCnCWarcraft-HK-Regular.ttf
 	mkdir -p build/hint2/
@@ -4088,9 +4088,9 @@ build/nowar/unspec-NowarCnCUI-KR-Condensed.ttf: build/nowar/unspec-NowarCnCUI-KR
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-Condensed.otd: build/hint2/unspec-NowarCnCUI-KR-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-KR-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-KR-Condensed.otd build/nowar/unspec-NowarCnCUI-KR-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-KR-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-KR-Condensed.otd build/nowar/unspec-NowarCnCUI-KR-Condensed.otd
 build/hint2/unspec-NowarCnCUI-KR-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-KR-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-KR-Condensed.otd build/hint2/unspec-NowarCnCUI-KR-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-KR-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-KR-Condensed.otd build/hint2/unspec-NowarCnCUI-KR-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-KR-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-Condensed.otd: build/hint1/unspec-NowarCnCUI-KR-Condensed.ttf
 	mkdir -p build/hint2/
@@ -4099,9 +4099,9 @@ build/nowar/unspec-NowarCnCUI-KR-Extended.ttf: build/nowar/unspec-NowarCnCUI-KR-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-Extended.otd: build/hint2/unspec-NowarCnCUI-KR-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-KR-Extended.instr.gz build/hint2/unspec-NowarCnCUI-KR-Extended.otd build/nowar/unspec-NowarCnCUI-KR-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-KR-Extended.instr.gz build/hint2/unspec-NowarCnCUI-KR-Extended.otd build/nowar/unspec-NowarCnCUI-KR-Extended.otd
 build/hint2/unspec-NowarCnCUI-KR-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-KR-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-KR-Extended.otd build/hint2/unspec-NowarCnCUI-KR-Extended.hint.gz build/hint2/unspec-NowarCnCUI-KR-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-KR-Extended.otd build/hint2/unspec-NowarCnCUI-KR-Extended.hint.gz build/hint2/unspec-NowarCnCUI-KR-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-Extended.otd: build/hint1/unspec-NowarCnCUI-KR-Extended.ttf
 	mkdir -p build/hint2/
@@ -4110,9 +4110,9 @@ build/nowar/unspec-NowarCnCWarcraft-CL-Regular.ttf: build/nowar/unspec-NowarCnCW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CL-Regular.otd: build/hint2/unspec-NowarCnCWarcraft-CL-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCWarcraft-CL-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Regular.otd build/nowar/unspec-NowarCnCWarcraft-CL-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-CL-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Regular.otd build/nowar/unspec-NowarCnCWarcraft-CL-Regular.otd
 build/hint2/unspec-NowarCnCWarcraft-CL-Regular.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CL-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCWarcraft-CL-Regular.otd build/hint2/unspec-NowarCnCWarcraft-CL-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-CL-Regular.otd build/hint2/unspec-NowarCnCWarcraft-CL-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Regular.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CL-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CL-Regular.otd: build/hint1/unspec-NowarCnCWarcraft-CL-Regular.ttf
 	mkdir -p build/hint2/
@@ -4121,9 +4121,9 @@ build/nowar/unspec-NowarCnCUI-GB-Condensed.ttf: build/nowar/unspec-NowarCnCUI-GB
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-Condensed.otd: build/hint2/unspec-NowarCnCUI-GB-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-GB-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-GB-Condensed.otd build/nowar/unspec-NowarCnCUI-GB-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-GB-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-GB-Condensed.otd build/nowar/unspec-NowarCnCUI-GB-Condensed.otd
 build/hint2/unspec-NowarCnCUI-GB-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-GB-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-GB-Condensed.otd build/hint2/unspec-NowarCnCUI-GB-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-GB-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-GB-Condensed.otd build/hint2/unspec-NowarCnCUI-GB-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-GB-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-Condensed.otd: build/hint1/unspec-NowarCnCUI-GB-Condensed.ttf
 	mkdir -p build/hint2/
@@ -4132,9 +4132,9 @@ build/nowar/unspec-NowarCnCUI-GB-Extended.ttf: build/nowar/unspec-NowarCnCUI-GB-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-Extended.otd: build/hint2/unspec-NowarCnCUI-GB-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-GB-Extended.instr.gz build/hint2/unspec-NowarCnCUI-GB-Extended.otd build/nowar/unspec-NowarCnCUI-GB-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-GB-Extended.instr.gz build/hint2/unspec-NowarCnCUI-GB-Extended.otd build/nowar/unspec-NowarCnCUI-GB-Extended.otd
 build/hint2/unspec-NowarCnCUI-GB-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-GB-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-GB-Extended.otd build/hint2/unspec-NowarCnCUI-GB-Extended.hint.gz build/hint2/unspec-NowarCnCUI-GB-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-GB-Extended.otd build/hint2/unspec-NowarCnCUI-GB-Extended.hint.gz build/hint2/unspec-NowarCnCUI-GB-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-Extended.otd: build/hint1/unspec-NowarCnCUI-GB-Extended.ttf
 	mkdir -p build/hint2/
@@ -4143,9 +4143,9 @@ build/nowar/unspec-NowarCnC-GB-Extended.ttf: build/nowar/unspec-NowarCnC-GB-Exte
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-Extended.otd: build/hint2/unspec-NowarCnC-GB-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-GB-Extended.instr.gz build/hint2/unspec-NowarCnC-GB-Extended.otd build/nowar/unspec-NowarCnC-GB-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-GB-Extended.instr.gz build/hint2/unspec-NowarCnC-GB-Extended.otd build/nowar/unspec-NowarCnC-GB-Extended.otd
 build/hint2/unspec-NowarCnC-GB-Extended.instr.gz: build/hint2/unspec-NowarCnC-GB-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-GB-Extended.otd build/hint2/unspec-NowarCnC-GB-Extended.hint.gz build/hint2/unspec-NowarCnC-GB-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-GB-Extended.otd build/hint2/unspec-NowarCnC-GB-Extended.hint.gz build/hint2/unspec-NowarCnC-GB-Extended.instr.gz
 build/hint2/unspec-NowarCnC-GB-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-Extended.otd: build/hint1/unspec-NowarCnC-GB-Extended.ttf
 	mkdir -p build/hint2/
@@ -4154,9 +4154,9 @@ build/nowar/unspec-NowarCnCWarcraft-GB-Regular.ttf: build/nowar/unspec-NowarCnCW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-GB-Regular.otd: build/hint2/unspec-NowarCnCWarcraft-GB-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCWarcraft-GB-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Regular.otd build/nowar/unspec-NowarCnCWarcraft-GB-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-GB-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Regular.otd build/nowar/unspec-NowarCnCWarcraft-GB-Regular.otd
 build/hint2/unspec-NowarCnCWarcraft-GB-Regular.instr.gz: build/hint2/unspec-NowarCnCWarcraft-GB-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCWarcraft-GB-Regular.otd build/hint2/unspec-NowarCnCWarcraft-GB-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-GB-Regular.otd build/hint2/unspec-NowarCnCWarcraft-GB-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Regular.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-GB-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-GB-Regular.otd: build/hint1/unspec-NowarCnCWarcraft-GB-Regular.ttf
 	mkdir -p build/hint2/
@@ -4165,9 +4165,9 @@ build/nowar/unspec-NowarCnC-GB-Condensed.ttf: build/nowar/unspec-NowarCnC-GB-Con
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-Condensed.otd: build/hint2/unspec-NowarCnC-GB-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-GB-Condensed.instr.gz build/hint2/unspec-NowarCnC-GB-Condensed.otd build/nowar/unspec-NowarCnC-GB-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-GB-Condensed.instr.gz build/hint2/unspec-NowarCnC-GB-Condensed.otd build/nowar/unspec-NowarCnC-GB-Condensed.otd
 build/hint2/unspec-NowarCnC-GB-Condensed.instr.gz: build/hint2/unspec-NowarCnC-GB-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-GB-Condensed.otd build/hint2/unspec-NowarCnC-GB-Condensed.hint.gz build/hint2/unspec-NowarCnC-GB-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-GB-Condensed.otd build/hint2/unspec-NowarCnC-GB-Condensed.hint.gz build/hint2/unspec-NowarCnC-GB-Condensed.instr.gz
 build/hint2/unspec-NowarCnC-GB-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-Condensed.otd: build/hint1/unspec-NowarCnC-GB-Condensed.ttf
 	mkdir -p build/hint2/
@@ -4176,9 +4176,9 @@ build/nowar/unspec-NowarCnC-GB-Regular.ttf: build/nowar/unspec-NowarCnC-GB-Regul
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-Regular.otd: build/hint2/unspec-NowarCnC-GB-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-GB-Regular.instr.gz build/hint2/unspec-NowarCnC-GB-Regular.otd build/nowar/unspec-NowarCnC-GB-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-GB-Regular.instr.gz build/hint2/unspec-NowarCnC-GB-Regular.otd build/nowar/unspec-NowarCnC-GB-Regular.otd
 build/hint2/unspec-NowarCnC-GB-Regular.instr.gz: build/hint2/unspec-NowarCnC-GB-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-GB-Regular.otd build/hint2/unspec-NowarCnC-GB-Regular.hint.gz build/hint2/unspec-NowarCnC-GB-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-GB-Regular.otd build/hint2/unspec-NowarCnC-GB-Regular.hint.gz build/hint2/unspec-NowarCnC-GB-Regular.instr.gz
 build/hint2/unspec-NowarCnC-GB-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-Regular.otd: build/hint1/unspec-NowarCnC-GB-Regular.ttf
 	mkdir -p build/hint2/
@@ -4187,9 +4187,9 @@ build/nowar/unspec-NowarCnCUI-RP-Condensed.ttf: build/nowar/unspec-NowarCnCUI-RP
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-Condensed.otd: build/hint2/unspec-NowarCnCUI-RP-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-RP-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-RP-Condensed.otd build/nowar/unspec-NowarCnCUI-RP-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-RP-Condensed.instr.gz build/hint2/unspec-NowarCnCUI-RP-Condensed.otd build/nowar/unspec-NowarCnCUI-RP-Condensed.otd
 build/hint2/unspec-NowarCnCUI-RP-Condensed.instr.gz: build/hint2/unspec-NowarCnCUI-RP-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-RP-Condensed.otd build/hint2/unspec-NowarCnCUI-RP-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-RP-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-RP-Condensed.otd build/hint2/unspec-NowarCnCUI-RP-Condensed.hint.gz build/hint2/unspec-NowarCnCUI-RP-Condensed.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-Condensed.otd: build/hint1/unspec-NowarCnCUI-RP-Condensed.ttf
 	mkdir -p build/hint2/
@@ -4198,9 +4198,9 @@ build/nowar/unspec-NowarCnCUI-RP-Extended.ttf: build/nowar/unspec-NowarCnCUI-RP-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-Extended.otd: build/hint2/unspec-NowarCnCUI-RP-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCUI-RP-Extended.instr.gz build/hint2/unspec-NowarCnCUI-RP-Extended.otd build/nowar/unspec-NowarCnCUI-RP-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCUI-RP-Extended.instr.gz build/hint2/unspec-NowarCnCUI-RP-Extended.otd build/nowar/unspec-NowarCnCUI-RP-Extended.otd
 build/hint2/unspec-NowarCnCUI-RP-Extended.instr.gz: build/hint2/unspec-NowarCnCUI-RP-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCUI-RP-Extended.otd build/hint2/unspec-NowarCnCUI-RP-Extended.hint.gz build/hint2/unspec-NowarCnCUI-RP-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCUI-RP-Extended.otd build/hint2/unspec-NowarCnCUI-RP-Extended.hint.gz build/hint2/unspec-NowarCnCUI-RP-Extended.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-Extended.otd: build/hint1/unspec-NowarCnCUI-RP-Extended.ttf
 	mkdir -p build/hint2/
@@ -4209,9 +4209,9 @@ build/nowar/unspec-NowarCnC-RP-Extended.ttf: build/nowar/unspec-NowarCnC-RP-Exte
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-Extended.otd: build/hint2/unspec-NowarCnC-RP-Extended.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-RP-Extended.instr.gz build/hint2/unspec-NowarCnC-RP-Extended.otd build/nowar/unspec-NowarCnC-RP-Extended.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-RP-Extended.instr.gz build/hint2/unspec-NowarCnC-RP-Extended.otd build/nowar/unspec-NowarCnC-RP-Extended.otd
 build/hint2/unspec-NowarCnC-RP-Extended.instr.gz: build/hint2/unspec-NowarCnC-RP-Extended.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-RP-Extended.otd build/hint2/unspec-NowarCnC-RP-Extended.hint.gz build/hint2/unspec-NowarCnC-RP-Extended.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-RP-Extended.otd build/hint2/unspec-NowarCnC-RP-Extended.hint.gz build/hint2/unspec-NowarCnC-RP-Extended.instr.gz
 build/hint2/unspec-NowarCnC-RP-Extended.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-Extended.otd: build/hint1/unspec-NowarCnC-RP-Extended.ttf
 	mkdir -p build/hint2/
@@ -4220,9 +4220,9 @@ build/nowar/unspec-NowarCnCWarcraft-RP-Regular.ttf: build/nowar/unspec-NowarCnCW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-RP-Regular.otd: build/hint2/unspec-NowarCnCWarcraft-RP-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnCWarcraft-RP-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Regular.otd build/nowar/unspec-NowarCnCWarcraft-RP-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-RP-Regular.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Regular.otd build/nowar/unspec-NowarCnCWarcraft-RP-Regular.otd
 build/hint2/unspec-NowarCnCWarcraft-RP-Regular.instr.gz: build/hint2/unspec-NowarCnCWarcraft-RP-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnCWarcraft-RP-Regular.otd build/hint2/unspec-NowarCnCWarcraft-RP-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnCWarcraft-RP-Regular.otd build/hint2/unspec-NowarCnCWarcraft-RP-Regular.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Regular.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-RP-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-RP-Regular.otd: build/hint1/unspec-NowarCnCWarcraft-RP-Regular.ttf
 	mkdir -p build/hint2/
@@ -4231,9 +4231,9 @@ build/nowar/unspec-NowarCnC-RP-Condensed.ttf: build/nowar/unspec-NowarCnC-RP-Con
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-Condensed.otd: build/hint2/unspec-NowarCnC-RP-Condensed.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-RP-Condensed.instr.gz build/hint2/unspec-NowarCnC-RP-Condensed.otd build/nowar/unspec-NowarCnC-RP-Condensed.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-RP-Condensed.instr.gz build/hint2/unspec-NowarCnC-RP-Condensed.otd build/nowar/unspec-NowarCnC-RP-Condensed.otd
 build/hint2/unspec-NowarCnC-RP-Condensed.instr.gz: build/hint2/unspec-NowarCnC-RP-Condensed.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-RP-Condensed.otd build/hint2/unspec-NowarCnC-RP-Condensed.hint.gz build/hint2/unspec-NowarCnC-RP-Condensed.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-RP-Condensed.otd build/hint2/unspec-NowarCnC-RP-Condensed.hint.gz build/hint2/unspec-NowarCnC-RP-Condensed.instr.gz
 build/hint2/unspec-NowarCnC-RP-Condensed.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-Condensed.otd: build/hint1/unspec-NowarCnC-RP-Condensed.ttf
 	mkdir -p build/hint2/
@@ -4242,9 +4242,9 @@ build/nowar/unspec-NowarCnC-RP-Regular.ttf: build/nowar/unspec-NowarCnC-RP-Regul
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-Regular.otd: build/hint2/unspec-NowarCnC-RP-Regular.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 400.json build/hint2/unspec-NowarCnC-RP-Regular.instr.gz build/hint2/unspec-NowarCnC-RP-Regular.otd build/nowar/unspec-NowarCnC-RP-Regular.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/400.json build/hint2/unspec-NowarCnC-RP-Regular.instr.gz build/hint2/unspec-NowarCnC-RP-Regular.otd build/nowar/unspec-NowarCnC-RP-Regular.otd
 build/hint2/unspec-NowarCnC-RP-Regular.instr.gz: build/hint2/unspec-NowarCnC-RP-Regular.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 400.json build/hint2/unspec-NowarCnC-RP-Regular.otd build/hint2/unspec-NowarCnC-RP-Regular.hint.gz build/hint2/unspec-NowarCnC-RP-Regular.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/400.json build/hint2/unspec-NowarCnC-RP-Regular.otd build/hint2/unspec-NowarCnC-RP-Regular.hint.gz build/hint2/unspec-NowarCnC-RP-Regular.instr.gz
 build/hint2/unspec-NowarCnC-RP-Regular.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-Regular.otd: build/hint1/unspec-NowarCnC-RP-Regular.ttf
 	mkdir -p build/hint2/
@@ -4255,9 +4255,9 @@ build/nowar/unspec-NowarCnCUI-CN-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-CN-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-CN-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-CN-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4266,9 +4266,9 @@ build/nowar/unspec-NowarCnCUI-TW-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-TW-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-TW-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-TW-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4277,9 +4277,9 @@ build/nowar/unspec-NowarCnCUI-HK-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-HK-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-HK-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-HK-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4288,9 +4288,9 @@ build/nowar/unspec-NowarCnCUI-JP-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-JP-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-JP-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-JP-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4299,9 +4299,9 @@ build/nowar/unspec-NowarCnCUI-CN-Medium.ttf: build/nowar/unspec-NowarCnCUI-CN-Me
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-Medium.otd: build/hint2/unspec-NowarCnCUI-CN-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-CN-Medium.instr.gz build/hint2/unspec-NowarCnCUI-CN-Medium.otd build/nowar/unspec-NowarCnCUI-CN-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CN-Medium.instr.gz build/hint2/unspec-NowarCnCUI-CN-Medium.otd build/nowar/unspec-NowarCnCUI-CN-Medium.otd
 build/hint2/unspec-NowarCnCUI-CN-Medium.instr.gz: build/hint2/unspec-NowarCnCUI-CN-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-CN-Medium.otd build/hint2/unspec-NowarCnCUI-CN-Medium.hint.gz build/hint2/unspec-NowarCnCUI-CN-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CN-Medium.otd build/hint2/unspec-NowarCnCUI-CN-Medium.hint.gz build/hint2/unspec-NowarCnCUI-CN-Medium.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-Medium.otd: build/hint1/unspec-NowarCnCUI-CN-Medium.ttf
 	mkdir -p build/hint2/
@@ -4310,9 +4310,9 @@ build/nowar/unspec-NowarCnCUI-TW-Medium.ttf: build/nowar/unspec-NowarCnCUI-TW-Me
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-Medium.otd: build/hint2/unspec-NowarCnCUI-TW-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-TW-Medium.instr.gz build/hint2/unspec-NowarCnCUI-TW-Medium.otd build/nowar/unspec-NowarCnCUI-TW-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-TW-Medium.instr.gz build/hint2/unspec-NowarCnCUI-TW-Medium.otd build/nowar/unspec-NowarCnCUI-TW-Medium.otd
 build/hint2/unspec-NowarCnCUI-TW-Medium.instr.gz: build/hint2/unspec-NowarCnCUI-TW-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-TW-Medium.otd build/hint2/unspec-NowarCnCUI-TW-Medium.hint.gz build/hint2/unspec-NowarCnCUI-TW-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-TW-Medium.otd build/hint2/unspec-NowarCnCUI-TW-Medium.hint.gz build/hint2/unspec-NowarCnCUI-TW-Medium.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-Medium.otd: build/hint1/unspec-NowarCnCUI-TW-Medium.ttf
 	mkdir -p build/hint2/
@@ -4321,9 +4321,9 @@ build/nowar/unspec-NowarCnCUI-HK-Medium.ttf: build/nowar/unspec-NowarCnCUI-HK-Me
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-Medium.otd: build/hint2/unspec-NowarCnCUI-HK-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-HK-Medium.instr.gz build/hint2/unspec-NowarCnCUI-HK-Medium.otd build/nowar/unspec-NowarCnCUI-HK-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-HK-Medium.instr.gz build/hint2/unspec-NowarCnCUI-HK-Medium.otd build/nowar/unspec-NowarCnCUI-HK-Medium.otd
 build/hint2/unspec-NowarCnCUI-HK-Medium.instr.gz: build/hint2/unspec-NowarCnCUI-HK-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-HK-Medium.otd build/hint2/unspec-NowarCnCUI-HK-Medium.hint.gz build/hint2/unspec-NowarCnCUI-HK-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-HK-Medium.otd build/hint2/unspec-NowarCnCUI-HK-Medium.hint.gz build/hint2/unspec-NowarCnCUI-HK-Medium.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-Medium.otd: build/hint1/unspec-NowarCnCUI-HK-Medium.ttf
 	mkdir -p build/hint2/
@@ -4332,9 +4332,9 @@ build/nowar/unspec-NowarCnCUI-JP-Medium.ttf: build/nowar/unspec-NowarCnCUI-JP-Me
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-Medium.otd: build/hint2/unspec-NowarCnCUI-JP-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-JP-Medium.instr.gz build/hint2/unspec-NowarCnCUI-JP-Medium.otd build/nowar/unspec-NowarCnCUI-JP-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-JP-Medium.instr.gz build/hint2/unspec-NowarCnCUI-JP-Medium.otd build/nowar/unspec-NowarCnCUI-JP-Medium.otd
 build/hint2/unspec-NowarCnCUI-JP-Medium.instr.gz: build/hint2/unspec-NowarCnCUI-JP-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-JP-Medium.otd build/hint2/unspec-NowarCnCUI-JP-Medium.hint.gz build/hint2/unspec-NowarCnCUI-JP-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-JP-Medium.otd build/hint2/unspec-NowarCnCUI-JP-Medium.hint.gz build/hint2/unspec-NowarCnCUI-JP-Medium.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-Medium.otd: build/hint1/unspec-NowarCnCUI-JP-Medium.ttf
 	mkdir -p build/hint2/
@@ -4343,9 +4343,9 @@ build/nowar/unspec-NowarCnCUI-CN-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-CN-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4354,9 +4354,9 @@ build/nowar/unspec-NowarCnCUI-TW-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-TW-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4365,9 +4365,9 @@ build/nowar/unspec-NowarCnCUI-HK-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-HK-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4376,9 +4376,9 @@ build/nowar/unspec-NowarCnCUI-JP-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-JP-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4387,9 +4387,9 @@ build/nowar/unspec-NowarCnCUI-CL-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-CL-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-CL-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-CL-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4398,9 +4398,9 @@ build/nowar/unspec-NowarCnCUI-OSF-CondensedMedium.ttf: build/nowar/unspec-NowarC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-OSF-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4409,9 +4409,9 @@ build/nowar/unspec-NowarCnCUI-CL-Medium.ttf: build/nowar/unspec-NowarCnCUI-CL-Me
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-Medium.otd: build/hint2/unspec-NowarCnCUI-CL-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-CL-Medium.instr.gz build/hint2/unspec-NowarCnCUI-CL-Medium.otd build/nowar/unspec-NowarCnCUI-CL-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CL-Medium.instr.gz build/hint2/unspec-NowarCnCUI-CL-Medium.otd build/nowar/unspec-NowarCnCUI-CL-Medium.otd
 build/hint2/unspec-NowarCnCUI-CL-Medium.instr.gz: build/hint2/unspec-NowarCnCUI-CL-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-CL-Medium.otd build/hint2/unspec-NowarCnCUI-CL-Medium.hint.gz build/hint2/unspec-NowarCnCUI-CL-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CL-Medium.otd build/hint2/unspec-NowarCnCUI-CL-Medium.hint.gz build/hint2/unspec-NowarCnCUI-CL-Medium.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-Medium.otd: build/hint1/unspec-NowarCnCUI-CL-Medium.ttf
 	mkdir -p build/hint2/
@@ -4420,9 +4420,9 @@ build/nowar/unspec-NowarCnCUI-OSF-Medium.ttf: build/nowar/unspec-NowarCnCUI-OSF-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-Medium.otd: build/hint2/unspec-NowarCnCUI-OSF-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-OSF-Medium.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Medium.otd build/nowar/unspec-NowarCnCUI-OSF-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-OSF-Medium.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Medium.otd build/nowar/unspec-NowarCnCUI-OSF-Medium.otd
 build/hint2/unspec-NowarCnCUI-OSF-Medium.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-OSF-Medium.otd build/hint2/unspec-NowarCnCUI-OSF-Medium.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-OSF-Medium.otd build/hint2/unspec-NowarCnCUI-OSF-Medium.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Medium.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-Medium.otd: build/hint1/unspec-NowarCnCUI-OSF-Medium.ttf
 	mkdir -p build/hint2/
@@ -4431,9 +4431,9 @@ build/nowar/unspec-NowarCnCUI-CL-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-CL-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4442,9 +4442,9 @@ build/nowar/unspec-NowarCnCUI-OSF-ExtendedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-OSF-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4453,9 +4453,9 @@ build/nowar/unspec-NowarCnC-CN-CondensedMedium.ttf: build/nowar/unspec-NowarCnC-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-CondensedMedium.otd: build/hint2/unspec-NowarCnC-CN-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-CN-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedMedium.otd build/nowar/unspec-NowarCnC-CN-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-CN-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedMedium.otd build/nowar/unspec-NowarCnC-CN-CondensedMedium.otd
 build/hint2/unspec-NowarCnC-CN-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnC-CN-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-CN-CondensedMedium.otd build/hint2/unspec-NowarCnC-CN-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-CN-CondensedMedium.otd build/hint2/unspec-NowarCnC-CN-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnC-CN-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-CondensedMedium.otd: build/hint1/unspec-NowarCnC-CN-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4464,9 +4464,9 @@ build/nowar/unspec-NowarCnC-CL-CondensedMedium.ttf: build/nowar/unspec-NowarCnC-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-CondensedMedium.otd: build/hint2/unspec-NowarCnC-CL-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-CL-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedMedium.otd build/nowar/unspec-NowarCnC-CL-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-CL-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedMedium.otd build/nowar/unspec-NowarCnC-CL-CondensedMedium.otd
 build/hint2/unspec-NowarCnC-CL-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnC-CL-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-CL-CondensedMedium.otd build/hint2/unspec-NowarCnC-CL-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-CL-CondensedMedium.otd build/hint2/unspec-NowarCnC-CL-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnC-CL-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-CondensedMedium.otd: build/hint1/unspec-NowarCnC-CL-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4475,9 +4475,9 @@ build/nowar/unspec-NowarCnC-CN-Medium.ttf: build/nowar/unspec-NowarCnC-CN-Medium
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-Medium.otd: build/hint2/unspec-NowarCnC-CN-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-CN-Medium.instr.gz build/hint2/unspec-NowarCnC-CN-Medium.otd build/nowar/unspec-NowarCnC-CN-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-CN-Medium.instr.gz build/hint2/unspec-NowarCnC-CN-Medium.otd build/nowar/unspec-NowarCnC-CN-Medium.otd
 build/hint2/unspec-NowarCnC-CN-Medium.instr.gz: build/hint2/unspec-NowarCnC-CN-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-CN-Medium.otd build/hint2/unspec-NowarCnC-CN-Medium.hint.gz build/hint2/unspec-NowarCnC-CN-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-CN-Medium.otd build/hint2/unspec-NowarCnC-CN-Medium.hint.gz build/hint2/unspec-NowarCnC-CN-Medium.instr.gz
 build/hint2/unspec-NowarCnC-CN-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-Medium.otd: build/hint1/unspec-NowarCnC-CN-Medium.ttf
 	mkdir -p build/hint2/
@@ -4486,9 +4486,9 @@ build/nowar/unspec-NowarCnC-CL-Medium.ttf: build/nowar/unspec-NowarCnC-CL-Medium
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-Medium.otd: build/hint2/unspec-NowarCnC-CL-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-CL-Medium.instr.gz build/hint2/unspec-NowarCnC-CL-Medium.otd build/nowar/unspec-NowarCnC-CL-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-CL-Medium.instr.gz build/hint2/unspec-NowarCnC-CL-Medium.otd build/nowar/unspec-NowarCnC-CL-Medium.otd
 build/hint2/unspec-NowarCnC-CL-Medium.instr.gz: build/hint2/unspec-NowarCnC-CL-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-CL-Medium.otd build/hint2/unspec-NowarCnC-CL-Medium.hint.gz build/hint2/unspec-NowarCnC-CL-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-CL-Medium.otd build/hint2/unspec-NowarCnC-CL-Medium.hint.gz build/hint2/unspec-NowarCnC-CL-Medium.instr.gz
 build/hint2/unspec-NowarCnC-CL-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-Medium.otd: build/hint1/unspec-NowarCnC-CL-Medium.ttf
 	mkdir -p build/hint2/
@@ -4497,9 +4497,9 @@ build/nowar/unspec-NowarCnC-CN-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC-C
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-ExtendedMedium.otd: build/hint2/unspec-NowarCnC-CN-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-CN-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedMedium.otd build/nowar/unspec-NowarCnC-CN-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-CN-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedMedium.otd build/nowar/unspec-NowarCnC-CN-ExtendedMedium.otd
 build/hint2/unspec-NowarCnC-CN-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnC-CN-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-CN-ExtendedMedium.otd build/hint2/unspec-NowarCnC-CN-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-CN-ExtendedMedium.otd build/hint2/unspec-NowarCnC-CN-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnC-CN-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-ExtendedMedium.otd: build/hint1/unspec-NowarCnC-CN-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4508,9 +4508,9 @@ build/nowar/unspec-NowarCnC-CL-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC-C
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-ExtendedMedium.otd: build/hint2/unspec-NowarCnC-CL-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-CL-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedMedium.otd build/nowar/unspec-NowarCnC-CL-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-CL-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedMedium.otd build/nowar/unspec-NowarCnC-CL-ExtendedMedium.otd
 build/hint2/unspec-NowarCnC-CL-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnC-CL-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-CL-ExtendedMedium.otd build/hint2/unspec-NowarCnC-CL-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-CL-ExtendedMedium.otd build/hint2/unspec-NowarCnC-CL-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnC-CL-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-ExtendedMedium.otd: build/hint1/unspec-NowarCnC-CL-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4519,9 +4519,9 @@ build/nowar/unspec-NowarCnC-TW-CondensedMedium.ttf: build/nowar/unspec-NowarCnC-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-CondensedMedium.otd: build/hint2/unspec-NowarCnC-TW-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-TW-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedMedium.otd build/nowar/unspec-NowarCnC-TW-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-TW-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedMedium.otd build/nowar/unspec-NowarCnC-TW-CondensedMedium.otd
 build/hint2/unspec-NowarCnC-TW-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnC-TW-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-TW-CondensedMedium.otd build/hint2/unspec-NowarCnC-TW-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-TW-CondensedMedium.otd build/hint2/unspec-NowarCnC-TW-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnC-TW-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-CondensedMedium.otd: build/hint1/unspec-NowarCnC-TW-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4530,9 +4530,9 @@ build/nowar/unspec-NowarCnC-HK-CondensedMedium.ttf: build/nowar/unspec-NowarCnC-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-CondensedMedium.otd: build/hint2/unspec-NowarCnC-HK-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-HK-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedMedium.otd build/nowar/unspec-NowarCnC-HK-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-HK-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedMedium.otd build/nowar/unspec-NowarCnC-HK-CondensedMedium.otd
 build/hint2/unspec-NowarCnC-HK-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnC-HK-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-HK-CondensedMedium.otd build/hint2/unspec-NowarCnC-HK-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-HK-CondensedMedium.otd build/hint2/unspec-NowarCnC-HK-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnC-HK-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-CondensedMedium.otd: build/hint1/unspec-NowarCnC-HK-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4541,9 +4541,9 @@ build/nowar/unspec-NowarCnC-TW-Medium.ttf: build/nowar/unspec-NowarCnC-TW-Medium
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-Medium.otd: build/hint2/unspec-NowarCnC-TW-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-TW-Medium.instr.gz build/hint2/unspec-NowarCnC-TW-Medium.otd build/nowar/unspec-NowarCnC-TW-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-TW-Medium.instr.gz build/hint2/unspec-NowarCnC-TW-Medium.otd build/nowar/unspec-NowarCnC-TW-Medium.otd
 build/hint2/unspec-NowarCnC-TW-Medium.instr.gz: build/hint2/unspec-NowarCnC-TW-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-TW-Medium.otd build/hint2/unspec-NowarCnC-TW-Medium.hint.gz build/hint2/unspec-NowarCnC-TW-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-TW-Medium.otd build/hint2/unspec-NowarCnC-TW-Medium.hint.gz build/hint2/unspec-NowarCnC-TW-Medium.instr.gz
 build/hint2/unspec-NowarCnC-TW-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-Medium.otd: build/hint1/unspec-NowarCnC-TW-Medium.ttf
 	mkdir -p build/hint2/
@@ -4552,9 +4552,9 @@ build/nowar/unspec-NowarCnC-HK-Medium.ttf: build/nowar/unspec-NowarCnC-HK-Medium
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-Medium.otd: build/hint2/unspec-NowarCnC-HK-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-HK-Medium.instr.gz build/hint2/unspec-NowarCnC-HK-Medium.otd build/nowar/unspec-NowarCnC-HK-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-HK-Medium.instr.gz build/hint2/unspec-NowarCnC-HK-Medium.otd build/nowar/unspec-NowarCnC-HK-Medium.otd
 build/hint2/unspec-NowarCnC-HK-Medium.instr.gz: build/hint2/unspec-NowarCnC-HK-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-HK-Medium.otd build/hint2/unspec-NowarCnC-HK-Medium.hint.gz build/hint2/unspec-NowarCnC-HK-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-HK-Medium.otd build/hint2/unspec-NowarCnC-HK-Medium.hint.gz build/hint2/unspec-NowarCnC-HK-Medium.instr.gz
 build/hint2/unspec-NowarCnC-HK-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-Medium.otd: build/hint1/unspec-NowarCnC-HK-Medium.ttf
 	mkdir -p build/hint2/
@@ -4563,9 +4563,9 @@ build/nowar/unspec-NowarCnC-TW-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC-T
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-ExtendedMedium.otd: build/hint2/unspec-NowarCnC-TW-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-TW-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedMedium.otd build/nowar/unspec-NowarCnC-TW-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-TW-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedMedium.otd build/nowar/unspec-NowarCnC-TW-ExtendedMedium.otd
 build/hint2/unspec-NowarCnC-TW-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnC-TW-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-TW-ExtendedMedium.otd build/hint2/unspec-NowarCnC-TW-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-TW-ExtendedMedium.otd build/hint2/unspec-NowarCnC-TW-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnC-TW-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-ExtendedMedium.otd: build/hint1/unspec-NowarCnC-TW-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4574,9 +4574,9 @@ build/nowar/unspec-NowarCnC-HK-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC-H
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-ExtendedMedium.otd: build/hint2/unspec-NowarCnC-HK-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-HK-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedMedium.otd build/nowar/unspec-NowarCnC-HK-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-HK-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedMedium.otd build/nowar/unspec-NowarCnC-HK-ExtendedMedium.otd
 build/hint2/unspec-NowarCnC-HK-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnC-HK-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-HK-ExtendedMedium.otd build/hint2/unspec-NowarCnC-HK-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-HK-ExtendedMedium.otd build/hint2/unspec-NowarCnC-HK-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnC-HK-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-ExtendedMedium.otd: build/hint1/unspec-NowarCnC-HK-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4585,9 +4585,9 @@ build/nowar/unspec-NowarCnC-KR-CondensedMedium.ttf: build/nowar/unspec-NowarCnC-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-CondensedMedium.otd: build/hint2/unspec-NowarCnC-KR-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-KR-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedMedium.otd build/nowar/unspec-NowarCnC-KR-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-KR-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedMedium.otd build/nowar/unspec-NowarCnC-KR-CondensedMedium.otd
 build/hint2/unspec-NowarCnC-KR-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnC-KR-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-KR-CondensedMedium.otd build/hint2/unspec-NowarCnC-KR-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-KR-CondensedMedium.otd build/hint2/unspec-NowarCnC-KR-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnC-KR-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-CondensedMedium.otd: build/hint1/unspec-NowarCnC-KR-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4596,9 +4596,9 @@ build/nowar/unspec-NowarCnC-KR-Medium.ttf: build/nowar/unspec-NowarCnC-KR-Medium
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-Medium.otd: build/hint2/unspec-NowarCnC-KR-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-KR-Medium.instr.gz build/hint2/unspec-NowarCnC-KR-Medium.otd build/nowar/unspec-NowarCnC-KR-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-KR-Medium.instr.gz build/hint2/unspec-NowarCnC-KR-Medium.otd build/nowar/unspec-NowarCnC-KR-Medium.otd
 build/hint2/unspec-NowarCnC-KR-Medium.instr.gz: build/hint2/unspec-NowarCnC-KR-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-KR-Medium.otd build/hint2/unspec-NowarCnC-KR-Medium.hint.gz build/hint2/unspec-NowarCnC-KR-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-KR-Medium.otd build/hint2/unspec-NowarCnC-KR-Medium.hint.gz build/hint2/unspec-NowarCnC-KR-Medium.instr.gz
 build/hint2/unspec-NowarCnC-KR-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-Medium.otd: build/hint1/unspec-NowarCnC-KR-Medium.ttf
 	mkdir -p build/hint2/
@@ -4607,9 +4607,9 @@ build/nowar/unspec-NowarCnC-KR-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC-K
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-ExtendedMedium.otd: build/hint2/unspec-NowarCnC-KR-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-KR-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedMedium.otd build/nowar/unspec-NowarCnC-KR-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-KR-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedMedium.otd build/nowar/unspec-NowarCnC-KR-ExtendedMedium.otd
 build/hint2/unspec-NowarCnC-KR-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnC-KR-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-KR-ExtendedMedium.otd build/hint2/unspec-NowarCnC-KR-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-KR-ExtendedMedium.otd build/hint2/unspec-NowarCnC-KR-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnC-KR-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-ExtendedMedium.otd: build/hint1/unspec-NowarCnC-KR-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4618,9 +4618,9 @@ build/nowar/unspec-NowarCnCWarcraft-CN-Medium.ttf: build/nowar/unspec-NowarCnCWa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CN-Medium.otd: build/hint2/unspec-NowarCnCWarcraft-CN-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCWarcraft-CN-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Medium.otd build/nowar/unspec-NowarCnCWarcraft-CN-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-CN-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Medium.otd build/nowar/unspec-NowarCnCWarcraft-CN-Medium.otd
 build/hint2/unspec-NowarCnCWarcraft-CN-Medium.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CN-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCWarcraft-CN-Medium.otd build/hint2/unspec-NowarCnCWarcraft-CN-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-CN-Medium.otd build/hint2/unspec-NowarCnCWarcraft-CN-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Medium.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CN-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CN-Medium.otd: build/hint1/unspec-NowarCnCWarcraft-CN-Medium.ttf
 	mkdir -p build/hint2/
@@ -4629,9 +4629,9 @@ build/nowar/unspec-NowarCnCWarcraft-TW-Medium.ttf: build/nowar/unspec-NowarCnCWa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-TW-Medium.otd: build/hint2/unspec-NowarCnCWarcraft-TW-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCWarcraft-TW-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Medium.otd build/nowar/unspec-NowarCnCWarcraft-TW-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-TW-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Medium.otd build/nowar/unspec-NowarCnCWarcraft-TW-Medium.otd
 build/hint2/unspec-NowarCnCWarcraft-TW-Medium.instr.gz: build/hint2/unspec-NowarCnCWarcraft-TW-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCWarcraft-TW-Medium.otd build/hint2/unspec-NowarCnCWarcraft-TW-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-TW-Medium.otd build/hint2/unspec-NowarCnCWarcraft-TW-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Medium.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-TW-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-TW-Medium.otd: build/hint1/unspec-NowarCnCWarcraft-TW-Medium.ttf
 	mkdir -p build/hint2/
@@ -4640,9 +4640,9 @@ build/nowar/unspec-NowarCnCWarcraft-HK-Medium.ttf: build/nowar/unspec-NowarCnCWa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-HK-Medium.otd: build/hint2/unspec-NowarCnCWarcraft-HK-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCWarcraft-HK-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Medium.otd build/nowar/unspec-NowarCnCWarcraft-HK-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-HK-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Medium.otd build/nowar/unspec-NowarCnCWarcraft-HK-Medium.otd
 build/hint2/unspec-NowarCnCWarcraft-HK-Medium.instr.gz: build/hint2/unspec-NowarCnCWarcraft-HK-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCWarcraft-HK-Medium.otd build/hint2/unspec-NowarCnCWarcraft-HK-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-HK-Medium.otd build/hint2/unspec-NowarCnCWarcraft-HK-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Medium.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-HK-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-HK-Medium.otd: build/hint1/unspec-NowarCnCWarcraft-HK-Medium.ttf
 	mkdir -p build/hint2/
@@ -4651,9 +4651,9 @@ build/nowar/unspec-NowarCnCUI-KR-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-KR-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-KR-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-KR-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4662,9 +4662,9 @@ build/nowar/unspec-NowarCnCUI-KR-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-KR-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4673,9 +4673,9 @@ build/nowar/unspec-NowarCnCWarcraft-CL-Medium.ttf: build/nowar/unspec-NowarCnCWa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CL-Medium.otd: build/hint2/unspec-NowarCnCWarcraft-CL-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCWarcraft-CL-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Medium.otd build/nowar/unspec-NowarCnCWarcraft-CL-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-CL-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Medium.otd build/nowar/unspec-NowarCnCWarcraft-CL-Medium.otd
 build/hint2/unspec-NowarCnCWarcraft-CL-Medium.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CL-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCWarcraft-CL-Medium.otd build/hint2/unspec-NowarCnCWarcraft-CL-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-CL-Medium.otd build/hint2/unspec-NowarCnCWarcraft-CL-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Medium.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CL-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CL-Medium.otd: build/hint1/unspec-NowarCnCWarcraft-CL-Medium.ttf
 	mkdir -p build/hint2/
@@ -4684,9 +4684,9 @@ build/nowar/unspec-NowarCnCUI-GB-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-GB-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-GB-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-GB-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4695,9 +4695,9 @@ build/nowar/unspec-NowarCnCUI-GB-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-GB-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4706,9 +4706,9 @@ build/nowar/unspec-NowarCnC-GB-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC-G
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-ExtendedMedium.otd: build/hint2/unspec-NowarCnC-GB-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-GB-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedMedium.otd build/nowar/unspec-NowarCnC-GB-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-GB-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedMedium.otd build/nowar/unspec-NowarCnC-GB-ExtendedMedium.otd
 build/hint2/unspec-NowarCnC-GB-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnC-GB-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-GB-ExtendedMedium.otd build/hint2/unspec-NowarCnC-GB-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-GB-ExtendedMedium.otd build/hint2/unspec-NowarCnC-GB-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnC-GB-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-ExtendedMedium.otd: build/hint1/unspec-NowarCnC-GB-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4717,9 +4717,9 @@ build/nowar/unspec-NowarCnCWarcraft-GB-Medium.ttf: build/nowar/unspec-NowarCnCWa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-GB-Medium.otd: build/hint2/unspec-NowarCnCWarcraft-GB-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCWarcraft-GB-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Medium.otd build/nowar/unspec-NowarCnCWarcraft-GB-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-GB-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Medium.otd build/nowar/unspec-NowarCnCWarcraft-GB-Medium.otd
 build/hint2/unspec-NowarCnCWarcraft-GB-Medium.instr.gz: build/hint2/unspec-NowarCnCWarcraft-GB-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCWarcraft-GB-Medium.otd build/hint2/unspec-NowarCnCWarcraft-GB-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-GB-Medium.otd build/hint2/unspec-NowarCnCWarcraft-GB-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Medium.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-GB-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-GB-Medium.otd: build/hint1/unspec-NowarCnCWarcraft-GB-Medium.ttf
 	mkdir -p build/hint2/
@@ -4728,9 +4728,9 @@ build/nowar/unspec-NowarCnC-GB-CondensedMedium.ttf: build/nowar/unspec-NowarCnC-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-CondensedMedium.otd: build/hint2/unspec-NowarCnC-GB-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-GB-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedMedium.otd build/nowar/unspec-NowarCnC-GB-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-GB-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedMedium.otd build/nowar/unspec-NowarCnC-GB-CondensedMedium.otd
 build/hint2/unspec-NowarCnC-GB-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnC-GB-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-GB-CondensedMedium.otd build/hint2/unspec-NowarCnC-GB-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-GB-CondensedMedium.otd build/hint2/unspec-NowarCnC-GB-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnC-GB-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-CondensedMedium.otd: build/hint1/unspec-NowarCnC-GB-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4739,9 +4739,9 @@ build/nowar/unspec-NowarCnC-GB-Medium.ttf: build/nowar/unspec-NowarCnC-GB-Medium
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-Medium.otd: build/hint2/unspec-NowarCnC-GB-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-GB-Medium.instr.gz build/hint2/unspec-NowarCnC-GB-Medium.otd build/nowar/unspec-NowarCnC-GB-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-GB-Medium.instr.gz build/hint2/unspec-NowarCnC-GB-Medium.otd build/nowar/unspec-NowarCnC-GB-Medium.otd
 build/hint2/unspec-NowarCnC-GB-Medium.instr.gz: build/hint2/unspec-NowarCnC-GB-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-GB-Medium.otd build/hint2/unspec-NowarCnC-GB-Medium.hint.gz build/hint2/unspec-NowarCnC-GB-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-GB-Medium.otd build/hint2/unspec-NowarCnC-GB-Medium.hint.gz build/hint2/unspec-NowarCnC-GB-Medium.instr.gz
 build/hint2/unspec-NowarCnC-GB-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-Medium.otd: build/hint1/unspec-NowarCnC-GB-Medium.ttf
 	mkdir -p build/hint2/
@@ -4750,9 +4750,9 @@ build/nowar/unspec-NowarCnCUI-RP-CondensedMedium.ttf: build/nowar/unspec-NowarCn
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-CondensedMedium.otd: build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-RP-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.otd build/nowar/unspec-NowarCnCUI-RP-CondensedMedium.otd
 build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.otd build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-CondensedMedium.otd: build/hint1/unspec-NowarCnCUI-RP-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4761,9 +4761,9 @@ build/nowar/unspec-NowarCnCUI-RP-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-ExtendedMedium.otd: build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedMedium.otd
 build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-ExtendedMedium.otd: build/hint1/unspec-NowarCnCUI-RP-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4772,9 +4772,9 @@ build/nowar/unspec-NowarCnC-RP-ExtendedMedium.ttf: build/nowar/unspec-NowarCnC-R
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-ExtendedMedium.otd: build/hint2/unspec-NowarCnC-RP-ExtendedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-RP-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedMedium.otd build/nowar/unspec-NowarCnC-RP-ExtendedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-RP-ExtendedMedium.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedMedium.otd build/nowar/unspec-NowarCnC-RP-ExtendedMedium.otd
 build/hint2/unspec-NowarCnC-RP-ExtendedMedium.instr.gz: build/hint2/unspec-NowarCnC-RP-ExtendedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-RP-ExtendedMedium.otd build/hint2/unspec-NowarCnC-RP-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-RP-ExtendedMedium.otd build/hint2/unspec-NowarCnC-RP-ExtendedMedium.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedMedium.instr.gz
 build/hint2/unspec-NowarCnC-RP-ExtendedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-ExtendedMedium.otd: build/hint1/unspec-NowarCnC-RP-ExtendedMedium.ttf
 	mkdir -p build/hint2/
@@ -4783,9 +4783,9 @@ build/nowar/unspec-NowarCnCWarcraft-RP-Medium.ttf: build/nowar/unspec-NowarCnCWa
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-RP-Medium.otd: build/hint2/unspec-NowarCnCWarcraft-RP-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnCWarcraft-RP-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Medium.otd build/nowar/unspec-NowarCnCWarcraft-RP-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-RP-Medium.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Medium.otd build/nowar/unspec-NowarCnCWarcraft-RP-Medium.otd
 build/hint2/unspec-NowarCnCWarcraft-RP-Medium.instr.gz: build/hint2/unspec-NowarCnCWarcraft-RP-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnCWarcraft-RP-Medium.otd build/hint2/unspec-NowarCnCWarcraft-RP-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnCWarcraft-RP-Medium.otd build/hint2/unspec-NowarCnCWarcraft-RP-Medium.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Medium.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-RP-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-RP-Medium.otd: build/hint1/unspec-NowarCnCWarcraft-RP-Medium.ttf
 	mkdir -p build/hint2/
@@ -4794,9 +4794,9 @@ build/nowar/unspec-NowarCnC-RP-CondensedMedium.ttf: build/nowar/unspec-NowarCnC-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-CondensedMedium.otd: build/hint2/unspec-NowarCnC-RP-CondensedMedium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-RP-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedMedium.otd build/nowar/unspec-NowarCnC-RP-CondensedMedium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-RP-CondensedMedium.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedMedium.otd build/nowar/unspec-NowarCnC-RP-CondensedMedium.otd
 build/hint2/unspec-NowarCnC-RP-CondensedMedium.instr.gz: build/hint2/unspec-NowarCnC-RP-CondensedMedium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-RP-CondensedMedium.otd build/hint2/unspec-NowarCnC-RP-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedMedium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-RP-CondensedMedium.otd build/hint2/unspec-NowarCnC-RP-CondensedMedium.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedMedium.instr.gz
 build/hint2/unspec-NowarCnC-RP-CondensedMedium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-CondensedMedium.otd: build/hint1/unspec-NowarCnC-RP-CondensedMedium.ttf
 	mkdir -p build/hint2/
@@ -4805,9 +4805,9 @@ build/nowar/unspec-NowarCnC-RP-Medium.ttf: build/nowar/unspec-NowarCnC-RP-Medium
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-Medium.otd: build/hint2/unspec-NowarCnC-RP-Medium.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 500.json build/hint2/unspec-NowarCnC-RP-Medium.instr.gz build/hint2/unspec-NowarCnC-RP-Medium.otd build/nowar/unspec-NowarCnC-RP-Medium.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/500.json build/hint2/unspec-NowarCnC-RP-Medium.instr.gz build/hint2/unspec-NowarCnC-RP-Medium.otd build/nowar/unspec-NowarCnC-RP-Medium.otd
 build/hint2/unspec-NowarCnC-RP-Medium.instr.gz: build/hint2/unspec-NowarCnC-RP-Medium.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 500.json build/hint2/unspec-NowarCnC-RP-Medium.otd build/hint2/unspec-NowarCnC-RP-Medium.hint.gz build/hint2/unspec-NowarCnC-RP-Medium.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/500.json build/hint2/unspec-NowarCnC-RP-Medium.otd build/hint2/unspec-NowarCnC-RP-Medium.hint.gz build/hint2/unspec-NowarCnC-RP-Medium.instr.gz
 build/hint2/unspec-NowarCnC-RP-Medium.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-Medium.otd: build/hint1/unspec-NowarCnC-RP-Medium.ttf
 	mkdir -p build/hint2/
@@ -4818,9 +4818,9 @@ build/nowar/unspec-NowarCnCUI-CN-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-CN-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-CN-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedBold.otd build/nowar/unspec-NowarCnCUI-CN-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CN-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-CN-CondensedBold.otd build/nowar/unspec-NowarCnCUI-CN-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-CN-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-CN-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-CN-CondensedBold.otd build/hint2/unspec-NowarCnCUI-CN-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CN-CondensedBold.otd build/hint2/unspec-NowarCnCUI-CN-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-CN-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-CN-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -4829,9 +4829,9 @@ build/nowar/unspec-NowarCnCUI-TW-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-TW-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-TW-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedBold.otd build/nowar/unspec-NowarCnCUI-TW-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-TW-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-TW-CondensedBold.otd build/nowar/unspec-NowarCnCUI-TW-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-TW-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-TW-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-TW-CondensedBold.otd build/hint2/unspec-NowarCnCUI-TW-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-TW-CondensedBold.otd build/hint2/unspec-NowarCnCUI-TW-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-TW-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-TW-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -4840,9 +4840,9 @@ build/nowar/unspec-NowarCnCUI-HK-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-HK-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-HK-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedBold.otd build/nowar/unspec-NowarCnCUI-HK-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-HK-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-HK-CondensedBold.otd build/nowar/unspec-NowarCnCUI-HK-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-HK-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-HK-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-HK-CondensedBold.otd build/hint2/unspec-NowarCnCUI-HK-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-HK-CondensedBold.otd build/hint2/unspec-NowarCnCUI-HK-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-HK-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-HK-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -4851,9 +4851,9 @@ build/nowar/unspec-NowarCnCUI-JP-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-JP-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-JP-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedBold.otd build/nowar/unspec-NowarCnCUI-JP-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-JP-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-JP-CondensedBold.otd build/nowar/unspec-NowarCnCUI-JP-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-JP-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-JP-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-JP-CondensedBold.otd build/hint2/unspec-NowarCnCUI-JP-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-JP-CondensedBold.otd build/hint2/unspec-NowarCnCUI-JP-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-JP-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-JP-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -4862,9 +4862,9 @@ build/nowar/unspec-NowarCnCUI-CN-Bold.ttf: build/nowar/unspec-NowarCnCUI-CN-Bold
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-Bold.otd: build/hint2/unspec-NowarCnCUI-CN-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-CN-Bold.instr.gz build/hint2/unspec-NowarCnCUI-CN-Bold.otd build/nowar/unspec-NowarCnCUI-CN-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CN-Bold.instr.gz build/hint2/unspec-NowarCnCUI-CN-Bold.otd build/nowar/unspec-NowarCnCUI-CN-Bold.otd
 build/hint2/unspec-NowarCnCUI-CN-Bold.instr.gz: build/hint2/unspec-NowarCnCUI-CN-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-CN-Bold.otd build/hint2/unspec-NowarCnCUI-CN-Bold.hint.gz build/hint2/unspec-NowarCnCUI-CN-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CN-Bold.otd build/hint2/unspec-NowarCnCUI-CN-Bold.hint.gz build/hint2/unspec-NowarCnCUI-CN-Bold.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-Bold.otd: build/hint1/unspec-NowarCnCUI-CN-Bold.ttf
 	mkdir -p build/hint2/
@@ -4873,9 +4873,9 @@ build/nowar/unspec-NowarCnCUI-TW-Bold.ttf: build/nowar/unspec-NowarCnCUI-TW-Bold
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-Bold.otd: build/hint2/unspec-NowarCnCUI-TW-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-TW-Bold.instr.gz build/hint2/unspec-NowarCnCUI-TW-Bold.otd build/nowar/unspec-NowarCnCUI-TW-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-TW-Bold.instr.gz build/hint2/unspec-NowarCnCUI-TW-Bold.otd build/nowar/unspec-NowarCnCUI-TW-Bold.otd
 build/hint2/unspec-NowarCnCUI-TW-Bold.instr.gz: build/hint2/unspec-NowarCnCUI-TW-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-TW-Bold.otd build/hint2/unspec-NowarCnCUI-TW-Bold.hint.gz build/hint2/unspec-NowarCnCUI-TW-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-TW-Bold.otd build/hint2/unspec-NowarCnCUI-TW-Bold.hint.gz build/hint2/unspec-NowarCnCUI-TW-Bold.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-Bold.otd: build/hint1/unspec-NowarCnCUI-TW-Bold.ttf
 	mkdir -p build/hint2/
@@ -4884,9 +4884,9 @@ build/nowar/unspec-NowarCnCUI-HK-Bold.ttf: build/nowar/unspec-NowarCnCUI-HK-Bold
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-Bold.otd: build/hint2/unspec-NowarCnCUI-HK-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-HK-Bold.instr.gz build/hint2/unspec-NowarCnCUI-HK-Bold.otd build/nowar/unspec-NowarCnCUI-HK-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-HK-Bold.instr.gz build/hint2/unspec-NowarCnCUI-HK-Bold.otd build/nowar/unspec-NowarCnCUI-HK-Bold.otd
 build/hint2/unspec-NowarCnCUI-HK-Bold.instr.gz: build/hint2/unspec-NowarCnCUI-HK-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-HK-Bold.otd build/hint2/unspec-NowarCnCUI-HK-Bold.hint.gz build/hint2/unspec-NowarCnCUI-HK-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-HK-Bold.otd build/hint2/unspec-NowarCnCUI-HK-Bold.hint.gz build/hint2/unspec-NowarCnCUI-HK-Bold.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-Bold.otd: build/hint1/unspec-NowarCnCUI-HK-Bold.ttf
 	mkdir -p build/hint2/
@@ -4895,9 +4895,9 @@ build/nowar/unspec-NowarCnCUI-JP-Bold.ttf: build/nowar/unspec-NowarCnCUI-JP-Bold
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-Bold.otd: build/hint2/unspec-NowarCnCUI-JP-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-JP-Bold.instr.gz build/hint2/unspec-NowarCnCUI-JP-Bold.otd build/nowar/unspec-NowarCnCUI-JP-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-JP-Bold.instr.gz build/hint2/unspec-NowarCnCUI-JP-Bold.otd build/nowar/unspec-NowarCnCUI-JP-Bold.otd
 build/hint2/unspec-NowarCnCUI-JP-Bold.instr.gz: build/hint2/unspec-NowarCnCUI-JP-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-JP-Bold.otd build/hint2/unspec-NowarCnCUI-JP-Bold.hint.gz build/hint2/unspec-NowarCnCUI-JP-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-JP-Bold.otd build/hint2/unspec-NowarCnCUI-JP-Bold.hint.gz build/hint2/unspec-NowarCnCUI-JP-Bold.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-Bold.otd: build/hint1/unspec-NowarCnCUI-JP-Bold.ttf
 	mkdir -p build/hint2/
@@ -4906,9 +4906,9 @@ build/nowar/unspec-NowarCnCUI-CN-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CN-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-CN-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CN-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-CN-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -4917,9 +4917,9 @@ build/nowar/unspec-NowarCnCUI-TW-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-TW-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-TW-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-TW-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-TW-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -4928,9 +4928,9 @@ build/nowar/unspec-NowarCnCUI-HK-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-HK-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-HK-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-HK-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-HK-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -4939,9 +4939,9 @@ build/nowar/unspec-NowarCnCUI-JP-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-JP-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-JP-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-JP-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-JP-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -4950,9 +4950,9 @@ build/nowar/unspec-NowarCnCUI-CL-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-CL-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-CL-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedBold.otd build/nowar/unspec-NowarCnCUI-CL-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CL-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-CL-CondensedBold.otd build/nowar/unspec-NowarCnCUI-CL-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-CL-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-CL-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-CL-CondensedBold.otd build/hint2/unspec-NowarCnCUI-CL-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CL-CondensedBold.otd build/hint2/unspec-NowarCnCUI-CL-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-CL-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-CL-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -4961,9 +4961,9 @@ build/nowar/unspec-NowarCnCUI-OSF-CondensedBold.ttf: build/nowar/unspec-NowarCnC
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.otd build/nowar/unspec-NowarCnCUI-OSF-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.otd build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-OSF-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -4972,9 +4972,9 @@ build/nowar/unspec-NowarCnCUI-CL-Bold.ttf: build/nowar/unspec-NowarCnCUI-CL-Bold
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-Bold.otd: build/hint2/unspec-NowarCnCUI-CL-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-CL-Bold.instr.gz build/hint2/unspec-NowarCnCUI-CL-Bold.otd build/nowar/unspec-NowarCnCUI-CL-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CL-Bold.instr.gz build/hint2/unspec-NowarCnCUI-CL-Bold.otd build/nowar/unspec-NowarCnCUI-CL-Bold.otd
 build/hint2/unspec-NowarCnCUI-CL-Bold.instr.gz: build/hint2/unspec-NowarCnCUI-CL-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-CL-Bold.otd build/hint2/unspec-NowarCnCUI-CL-Bold.hint.gz build/hint2/unspec-NowarCnCUI-CL-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CL-Bold.otd build/hint2/unspec-NowarCnCUI-CL-Bold.hint.gz build/hint2/unspec-NowarCnCUI-CL-Bold.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-Bold.otd: build/hint1/unspec-NowarCnCUI-CL-Bold.ttf
 	mkdir -p build/hint2/
@@ -4983,9 +4983,9 @@ build/nowar/unspec-NowarCnCUI-OSF-Bold.ttf: build/nowar/unspec-NowarCnCUI-OSF-Bo
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-Bold.otd: build/hint2/unspec-NowarCnCUI-OSF-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-OSF-Bold.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Bold.otd build/nowar/unspec-NowarCnCUI-OSF-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-OSF-Bold.instr.gz build/hint2/unspec-NowarCnCUI-OSF-Bold.otd build/nowar/unspec-NowarCnCUI-OSF-Bold.otd
 build/hint2/unspec-NowarCnCUI-OSF-Bold.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-OSF-Bold.otd build/hint2/unspec-NowarCnCUI-OSF-Bold.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-OSF-Bold.otd build/hint2/unspec-NowarCnCUI-OSF-Bold.hint.gz build/hint2/unspec-NowarCnCUI-OSF-Bold.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-Bold.otd: build/hint1/unspec-NowarCnCUI-OSF-Bold.ttf
 	mkdir -p build/hint2/
@@ -4994,9 +4994,9 @@ build/nowar/unspec-NowarCnCUI-CL-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-CL-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-CL-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-CL-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-CL-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5005,9 +5005,9 @@ build/nowar/unspec-NowarCnCUI-OSF-ExtendedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-OSF-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-OSF-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-OSF-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-OSF-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5016,9 +5016,9 @@ build/nowar/unspec-NowarCnC-CN-CondensedBold.ttf: build/nowar/unspec-NowarCnC-CN
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-CondensedBold.otd: build/hint2/unspec-NowarCnC-CN-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-CN-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedBold.otd build/nowar/unspec-NowarCnC-CN-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-CN-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-CN-CondensedBold.otd build/nowar/unspec-NowarCnC-CN-CondensedBold.otd
 build/hint2/unspec-NowarCnC-CN-CondensedBold.instr.gz: build/hint2/unspec-NowarCnC-CN-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-CN-CondensedBold.otd build/hint2/unspec-NowarCnC-CN-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-CN-CondensedBold.otd build/hint2/unspec-NowarCnC-CN-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-CN-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnC-CN-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-CondensedBold.otd: build/hint1/unspec-NowarCnC-CN-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5027,9 +5027,9 @@ build/nowar/unspec-NowarCnC-CL-CondensedBold.ttf: build/nowar/unspec-NowarCnC-CL
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-CondensedBold.otd: build/hint2/unspec-NowarCnC-CL-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-CL-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedBold.otd build/nowar/unspec-NowarCnC-CL-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-CL-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-CL-CondensedBold.otd build/nowar/unspec-NowarCnC-CL-CondensedBold.otd
 build/hint2/unspec-NowarCnC-CL-CondensedBold.instr.gz: build/hint2/unspec-NowarCnC-CL-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-CL-CondensedBold.otd build/hint2/unspec-NowarCnC-CL-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-CL-CondensedBold.otd build/hint2/unspec-NowarCnC-CL-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-CL-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnC-CL-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-CondensedBold.otd: build/hint1/unspec-NowarCnC-CL-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5038,9 +5038,9 @@ build/nowar/unspec-NowarCnC-CN-Bold.ttf: build/nowar/unspec-NowarCnC-CN-Bold.otd
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-Bold.otd: build/hint2/unspec-NowarCnC-CN-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-CN-Bold.instr.gz build/hint2/unspec-NowarCnC-CN-Bold.otd build/nowar/unspec-NowarCnC-CN-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-CN-Bold.instr.gz build/hint2/unspec-NowarCnC-CN-Bold.otd build/nowar/unspec-NowarCnC-CN-Bold.otd
 build/hint2/unspec-NowarCnC-CN-Bold.instr.gz: build/hint2/unspec-NowarCnC-CN-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-CN-Bold.otd build/hint2/unspec-NowarCnC-CN-Bold.hint.gz build/hint2/unspec-NowarCnC-CN-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-CN-Bold.otd build/hint2/unspec-NowarCnC-CN-Bold.hint.gz build/hint2/unspec-NowarCnC-CN-Bold.instr.gz
 build/hint2/unspec-NowarCnC-CN-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-Bold.otd: build/hint1/unspec-NowarCnC-CN-Bold.ttf
 	mkdir -p build/hint2/
@@ -5049,9 +5049,9 @@ build/nowar/unspec-NowarCnC-CL-Bold.ttf: build/nowar/unspec-NowarCnC-CL-Bold.otd
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-Bold.otd: build/hint2/unspec-NowarCnC-CL-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-CL-Bold.instr.gz build/hint2/unspec-NowarCnC-CL-Bold.otd build/nowar/unspec-NowarCnC-CL-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-CL-Bold.instr.gz build/hint2/unspec-NowarCnC-CL-Bold.otd build/nowar/unspec-NowarCnC-CL-Bold.otd
 build/hint2/unspec-NowarCnC-CL-Bold.instr.gz: build/hint2/unspec-NowarCnC-CL-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-CL-Bold.otd build/hint2/unspec-NowarCnC-CL-Bold.hint.gz build/hint2/unspec-NowarCnC-CL-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-CL-Bold.otd build/hint2/unspec-NowarCnC-CL-Bold.hint.gz build/hint2/unspec-NowarCnC-CL-Bold.instr.gz
 build/hint2/unspec-NowarCnC-CL-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-Bold.otd: build/hint1/unspec-NowarCnC-CL-Bold.ttf
 	mkdir -p build/hint2/
@@ -5060,9 +5060,9 @@ build/nowar/unspec-NowarCnC-CN-ExtendedBold.ttf: build/nowar/unspec-NowarCnC-CN-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CN-ExtendedBold.otd: build/hint2/unspec-NowarCnC-CN-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-CN-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedBold.otd build/nowar/unspec-NowarCnC-CN-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-CN-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-CN-ExtendedBold.otd build/nowar/unspec-NowarCnC-CN-ExtendedBold.otd
 build/hint2/unspec-NowarCnC-CN-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnC-CN-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-CN-ExtendedBold.otd build/hint2/unspec-NowarCnC-CN-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-CN-ExtendedBold.otd build/hint2/unspec-NowarCnC-CN-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-CN-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnC-CN-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CN-ExtendedBold.otd: build/hint1/unspec-NowarCnC-CN-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5071,9 +5071,9 @@ build/nowar/unspec-NowarCnC-CL-ExtendedBold.ttf: build/nowar/unspec-NowarCnC-CL-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-CL-ExtendedBold.otd: build/hint2/unspec-NowarCnC-CL-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-CL-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedBold.otd build/nowar/unspec-NowarCnC-CL-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-CL-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-CL-ExtendedBold.otd build/nowar/unspec-NowarCnC-CL-ExtendedBold.otd
 build/hint2/unspec-NowarCnC-CL-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnC-CL-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-CL-ExtendedBold.otd build/hint2/unspec-NowarCnC-CL-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-CL-ExtendedBold.otd build/hint2/unspec-NowarCnC-CL-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-CL-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnC-CL-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-CL-ExtendedBold.otd: build/hint1/unspec-NowarCnC-CL-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5082,9 +5082,9 @@ build/nowar/unspec-NowarCnC-TW-CondensedBold.ttf: build/nowar/unspec-NowarCnC-TW
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-CondensedBold.otd: build/hint2/unspec-NowarCnC-TW-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-TW-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedBold.otd build/nowar/unspec-NowarCnC-TW-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-TW-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-TW-CondensedBold.otd build/nowar/unspec-NowarCnC-TW-CondensedBold.otd
 build/hint2/unspec-NowarCnC-TW-CondensedBold.instr.gz: build/hint2/unspec-NowarCnC-TW-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-TW-CondensedBold.otd build/hint2/unspec-NowarCnC-TW-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-TW-CondensedBold.otd build/hint2/unspec-NowarCnC-TW-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-TW-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnC-TW-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-CondensedBold.otd: build/hint1/unspec-NowarCnC-TW-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5093,9 +5093,9 @@ build/nowar/unspec-NowarCnC-HK-CondensedBold.ttf: build/nowar/unspec-NowarCnC-HK
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-CondensedBold.otd: build/hint2/unspec-NowarCnC-HK-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-HK-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedBold.otd build/nowar/unspec-NowarCnC-HK-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-HK-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-HK-CondensedBold.otd build/nowar/unspec-NowarCnC-HK-CondensedBold.otd
 build/hint2/unspec-NowarCnC-HK-CondensedBold.instr.gz: build/hint2/unspec-NowarCnC-HK-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-HK-CondensedBold.otd build/hint2/unspec-NowarCnC-HK-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-HK-CondensedBold.otd build/hint2/unspec-NowarCnC-HK-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-HK-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnC-HK-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-CondensedBold.otd: build/hint1/unspec-NowarCnC-HK-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5104,9 +5104,9 @@ build/nowar/unspec-NowarCnC-TW-Bold.ttf: build/nowar/unspec-NowarCnC-TW-Bold.otd
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-Bold.otd: build/hint2/unspec-NowarCnC-TW-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-TW-Bold.instr.gz build/hint2/unspec-NowarCnC-TW-Bold.otd build/nowar/unspec-NowarCnC-TW-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-TW-Bold.instr.gz build/hint2/unspec-NowarCnC-TW-Bold.otd build/nowar/unspec-NowarCnC-TW-Bold.otd
 build/hint2/unspec-NowarCnC-TW-Bold.instr.gz: build/hint2/unspec-NowarCnC-TW-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-TW-Bold.otd build/hint2/unspec-NowarCnC-TW-Bold.hint.gz build/hint2/unspec-NowarCnC-TW-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-TW-Bold.otd build/hint2/unspec-NowarCnC-TW-Bold.hint.gz build/hint2/unspec-NowarCnC-TW-Bold.instr.gz
 build/hint2/unspec-NowarCnC-TW-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-Bold.otd: build/hint1/unspec-NowarCnC-TW-Bold.ttf
 	mkdir -p build/hint2/
@@ -5115,9 +5115,9 @@ build/nowar/unspec-NowarCnC-HK-Bold.ttf: build/nowar/unspec-NowarCnC-HK-Bold.otd
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-Bold.otd: build/hint2/unspec-NowarCnC-HK-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-HK-Bold.instr.gz build/hint2/unspec-NowarCnC-HK-Bold.otd build/nowar/unspec-NowarCnC-HK-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-HK-Bold.instr.gz build/hint2/unspec-NowarCnC-HK-Bold.otd build/nowar/unspec-NowarCnC-HK-Bold.otd
 build/hint2/unspec-NowarCnC-HK-Bold.instr.gz: build/hint2/unspec-NowarCnC-HK-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-HK-Bold.otd build/hint2/unspec-NowarCnC-HK-Bold.hint.gz build/hint2/unspec-NowarCnC-HK-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-HK-Bold.otd build/hint2/unspec-NowarCnC-HK-Bold.hint.gz build/hint2/unspec-NowarCnC-HK-Bold.instr.gz
 build/hint2/unspec-NowarCnC-HK-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-Bold.otd: build/hint1/unspec-NowarCnC-HK-Bold.ttf
 	mkdir -p build/hint2/
@@ -5126,9 +5126,9 @@ build/nowar/unspec-NowarCnC-TW-ExtendedBold.ttf: build/nowar/unspec-NowarCnC-TW-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-TW-ExtendedBold.otd: build/hint2/unspec-NowarCnC-TW-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-TW-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedBold.otd build/nowar/unspec-NowarCnC-TW-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-TW-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-TW-ExtendedBold.otd build/nowar/unspec-NowarCnC-TW-ExtendedBold.otd
 build/hint2/unspec-NowarCnC-TW-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnC-TW-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-TW-ExtendedBold.otd build/hint2/unspec-NowarCnC-TW-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-TW-ExtendedBold.otd build/hint2/unspec-NowarCnC-TW-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-TW-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnC-TW-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-TW-ExtendedBold.otd: build/hint1/unspec-NowarCnC-TW-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5137,9 +5137,9 @@ build/nowar/unspec-NowarCnC-HK-ExtendedBold.ttf: build/nowar/unspec-NowarCnC-HK-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-HK-ExtendedBold.otd: build/hint2/unspec-NowarCnC-HK-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-HK-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedBold.otd build/nowar/unspec-NowarCnC-HK-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-HK-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-HK-ExtendedBold.otd build/nowar/unspec-NowarCnC-HK-ExtendedBold.otd
 build/hint2/unspec-NowarCnC-HK-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnC-HK-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-HK-ExtendedBold.otd build/hint2/unspec-NowarCnC-HK-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-HK-ExtendedBold.otd build/hint2/unspec-NowarCnC-HK-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-HK-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnC-HK-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-HK-ExtendedBold.otd: build/hint1/unspec-NowarCnC-HK-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5148,9 +5148,9 @@ build/nowar/unspec-NowarCnC-KR-CondensedBold.ttf: build/nowar/unspec-NowarCnC-KR
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-CondensedBold.otd: build/hint2/unspec-NowarCnC-KR-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-KR-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedBold.otd build/nowar/unspec-NowarCnC-KR-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-KR-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-KR-CondensedBold.otd build/nowar/unspec-NowarCnC-KR-CondensedBold.otd
 build/hint2/unspec-NowarCnC-KR-CondensedBold.instr.gz: build/hint2/unspec-NowarCnC-KR-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-KR-CondensedBold.otd build/hint2/unspec-NowarCnC-KR-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-KR-CondensedBold.otd build/hint2/unspec-NowarCnC-KR-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-KR-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnC-KR-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-CondensedBold.otd: build/hint1/unspec-NowarCnC-KR-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5159,9 +5159,9 @@ build/nowar/unspec-NowarCnC-KR-Bold.ttf: build/nowar/unspec-NowarCnC-KR-Bold.otd
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-Bold.otd: build/hint2/unspec-NowarCnC-KR-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-KR-Bold.instr.gz build/hint2/unspec-NowarCnC-KR-Bold.otd build/nowar/unspec-NowarCnC-KR-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-KR-Bold.instr.gz build/hint2/unspec-NowarCnC-KR-Bold.otd build/nowar/unspec-NowarCnC-KR-Bold.otd
 build/hint2/unspec-NowarCnC-KR-Bold.instr.gz: build/hint2/unspec-NowarCnC-KR-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-KR-Bold.otd build/hint2/unspec-NowarCnC-KR-Bold.hint.gz build/hint2/unspec-NowarCnC-KR-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-KR-Bold.otd build/hint2/unspec-NowarCnC-KR-Bold.hint.gz build/hint2/unspec-NowarCnC-KR-Bold.instr.gz
 build/hint2/unspec-NowarCnC-KR-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-Bold.otd: build/hint1/unspec-NowarCnC-KR-Bold.ttf
 	mkdir -p build/hint2/
@@ -5170,9 +5170,9 @@ build/nowar/unspec-NowarCnC-KR-ExtendedBold.ttf: build/nowar/unspec-NowarCnC-KR-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-KR-ExtendedBold.otd: build/hint2/unspec-NowarCnC-KR-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-KR-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedBold.otd build/nowar/unspec-NowarCnC-KR-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-KR-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-KR-ExtendedBold.otd build/nowar/unspec-NowarCnC-KR-ExtendedBold.otd
 build/hint2/unspec-NowarCnC-KR-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnC-KR-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-KR-ExtendedBold.otd build/hint2/unspec-NowarCnC-KR-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-KR-ExtendedBold.otd build/hint2/unspec-NowarCnC-KR-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-KR-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnC-KR-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-KR-ExtendedBold.otd: build/hint1/unspec-NowarCnC-KR-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5181,9 +5181,9 @@ build/nowar/unspec-NowarCnCWarcraft-CN-Bold.ttf: build/nowar/unspec-NowarCnCWarc
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CN-Bold.otd: build/hint2/unspec-NowarCnCWarcraft-CN-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCWarcraft-CN-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Bold.otd build/nowar/unspec-NowarCnCWarcraft-CN-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-CN-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-CN-Bold.otd build/nowar/unspec-NowarCnCWarcraft-CN-Bold.otd
 build/hint2/unspec-NowarCnCWarcraft-CN-Bold.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CN-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCWarcraft-CN-Bold.otd build/hint2/unspec-NowarCnCWarcraft-CN-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-CN-Bold.otd build/hint2/unspec-NowarCnCWarcraft-CN-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-CN-Bold.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CN-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CN-Bold.otd: build/hint1/unspec-NowarCnCWarcraft-CN-Bold.ttf
 	mkdir -p build/hint2/
@@ -5192,9 +5192,9 @@ build/nowar/unspec-NowarCnCWarcraft-TW-Bold.ttf: build/nowar/unspec-NowarCnCWarc
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-TW-Bold.otd: build/hint2/unspec-NowarCnCWarcraft-TW-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCWarcraft-TW-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Bold.otd build/nowar/unspec-NowarCnCWarcraft-TW-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-TW-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-TW-Bold.otd build/nowar/unspec-NowarCnCWarcraft-TW-Bold.otd
 build/hint2/unspec-NowarCnCWarcraft-TW-Bold.instr.gz: build/hint2/unspec-NowarCnCWarcraft-TW-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCWarcraft-TW-Bold.otd build/hint2/unspec-NowarCnCWarcraft-TW-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-TW-Bold.otd build/hint2/unspec-NowarCnCWarcraft-TW-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-TW-Bold.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-TW-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-TW-Bold.otd: build/hint1/unspec-NowarCnCWarcraft-TW-Bold.ttf
 	mkdir -p build/hint2/
@@ -5203,9 +5203,9 @@ build/nowar/unspec-NowarCnCWarcraft-HK-Bold.ttf: build/nowar/unspec-NowarCnCWarc
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-HK-Bold.otd: build/hint2/unspec-NowarCnCWarcraft-HK-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCWarcraft-HK-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Bold.otd build/nowar/unspec-NowarCnCWarcraft-HK-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-HK-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-HK-Bold.otd build/nowar/unspec-NowarCnCWarcraft-HK-Bold.otd
 build/hint2/unspec-NowarCnCWarcraft-HK-Bold.instr.gz: build/hint2/unspec-NowarCnCWarcraft-HK-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCWarcraft-HK-Bold.otd build/hint2/unspec-NowarCnCWarcraft-HK-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-HK-Bold.otd build/hint2/unspec-NowarCnCWarcraft-HK-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-HK-Bold.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-HK-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-HK-Bold.otd: build/hint1/unspec-NowarCnCWarcraft-HK-Bold.ttf
 	mkdir -p build/hint2/
@@ -5214,9 +5214,9 @@ build/nowar/unspec-NowarCnCUI-KR-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-KR-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-KR-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedBold.otd build/nowar/unspec-NowarCnCUI-KR-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-KR-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-KR-CondensedBold.otd build/nowar/unspec-NowarCnCUI-KR-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-KR-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-KR-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-KR-CondensedBold.otd build/hint2/unspec-NowarCnCUI-KR-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-KR-CondensedBold.otd build/hint2/unspec-NowarCnCUI-KR-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-KR-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-KR-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5225,9 +5225,9 @@ build/nowar/unspec-NowarCnCUI-KR-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-KR-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-KR-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-KR-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-KR-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5236,9 +5236,9 @@ build/nowar/unspec-NowarCnCWarcraft-CL-Bold.ttf: build/nowar/unspec-NowarCnCWarc
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-CL-Bold.otd: build/hint2/unspec-NowarCnCWarcraft-CL-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCWarcraft-CL-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Bold.otd build/nowar/unspec-NowarCnCWarcraft-CL-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-CL-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-CL-Bold.otd build/nowar/unspec-NowarCnCWarcraft-CL-Bold.otd
 build/hint2/unspec-NowarCnCWarcraft-CL-Bold.instr.gz: build/hint2/unspec-NowarCnCWarcraft-CL-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCWarcraft-CL-Bold.otd build/hint2/unspec-NowarCnCWarcraft-CL-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-CL-Bold.otd build/hint2/unspec-NowarCnCWarcraft-CL-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-CL-Bold.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-CL-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-CL-Bold.otd: build/hint1/unspec-NowarCnCWarcraft-CL-Bold.ttf
 	mkdir -p build/hint2/
@@ -5247,9 +5247,9 @@ build/nowar/unspec-NowarCnCUI-GB-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-GB-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-GB-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedBold.otd build/nowar/unspec-NowarCnCUI-GB-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-GB-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-GB-CondensedBold.otd build/nowar/unspec-NowarCnCUI-GB-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-GB-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-GB-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-GB-CondensedBold.otd build/hint2/unspec-NowarCnCUI-GB-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-GB-CondensedBold.otd build/hint2/unspec-NowarCnCUI-GB-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-GB-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-GB-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5258,9 +5258,9 @@ build/nowar/unspec-NowarCnCUI-GB-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-GB-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-GB-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-GB-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-GB-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5269,9 +5269,9 @@ build/nowar/unspec-NowarCnC-GB-ExtendedBold.ttf: build/nowar/unspec-NowarCnC-GB-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-ExtendedBold.otd: build/hint2/unspec-NowarCnC-GB-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-GB-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedBold.otd build/nowar/unspec-NowarCnC-GB-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-GB-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-GB-ExtendedBold.otd build/nowar/unspec-NowarCnC-GB-ExtendedBold.otd
 build/hint2/unspec-NowarCnC-GB-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnC-GB-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-GB-ExtendedBold.otd build/hint2/unspec-NowarCnC-GB-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-GB-ExtendedBold.otd build/hint2/unspec-NowarCnC-GB-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-GB-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnC-GB-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-ExtendedBold.otd: build/hint1/unspec-NowarCnC-GB-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5280,9 +5280,9 @@ build/nowar/unspec-NowarCnCWarcraft-GB-Bold.ttf: build/nowar/unspec-NowarCnCWarc
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-GB-Bold.otd: build/hint2/unspec-NowarCnCWarcraft-GB-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCWarcraft-GB-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Bold.otd build/nowar/unspec-NowarCnCWarcraft-GB-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-GB-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-GB-Bold.otd build/nowar/unspec-NowarCnCWarcraft-GB-Bold.otd
 build/hint2/unspec-NowarCnCWarcraft-GB-Bold.instr.gz: build/hint2/unspec-NowarCnCWarcraft-GB-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCWarcraft-GB-Bold.otd build/hint2/unspec-NowarCnCWarcraft-GB-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-GB-Bold.otd build/hint2/unspec-NowarCnCWarcraft-GB-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-GB-Bold.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-GB-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-GB-Bold.otd: build/hint1/unspec-NowarCnCWarcraft-GB-Bold.ttf
 	mkdir -p build/hint2/
@@ -5291,9 +5291,9 @@ build/nowar/unspec-NowarCnC-GB-CondensedBold.ttf: build/nowar/unspec-NowarCnC-GB
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-CondensedBold.otd: build/hint2/unspec-NowarCnC-GB-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-GB-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedBold.otd build/nowar/unspec-NowarCnC-GB-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-GB-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-GB-CondensedBold.otd build/nowar/unspec-NowarCnC-GB-CondensedBold.otd
 build/hint2/unspec-NowarCnC-GB-CondensedBold.instr.gz: build/hint2/unspec-NowarCnC-GB-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-GB-CondensedBold.otd build/hint2/unspec-NowarCnC-GB-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-GB-CondensedBold.otd build/hint2/unspec-NowarCnC-GB-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-GB-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnC-GB-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-CondensedBold.otd: build/hint1/unspec-NowarCnC-GB-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5302,9 +5302,9 @@ build/nowar/unspec-NowarCnC-GB-Bold.ttf: build/nowar/unspec-NowarCnC-GB-Bold.otd
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-GB-Bold.otd: build/hint2/unspec-NowarCnC-GB-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-GB-Bold.instr.gz build/hint2/unspec-NowarCnC-GB-Bold.otd build/nowar/unspec-NowarCnC-GB-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-GB-Bold.instr.gz build/hint2/unspec-NowarCnC-GB-Bold.otd build/nowar/unspec-NowarCnC-GB-Bold.otd
 build/hint2/unspec-NowarCnC-GB-Bold.instr.gz: build/hint2/unspec-NowarCnC-GB-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-GB-Bold.otd build/hint2/unspec-NowarCnC-GB-Bold.hint.gz build/hint2/unspec-NowarCnC-GB-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-GB-Bold.otd build/hint2/unspec-NowarCnC-GB-Bold.hint.gz build/hint2/unspec-NowarCnC-GB-Bold.instr.gz
 build/hint2/unspec-NowarCnC-GB-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-GB-Bold.otd: build/hint1/unspec-NowarCnC-GB-Bold.ttf
 	mkdir -p build/hint2/
@@ -5313,9 +5313,9 @@ build/nowar/unspec-NowarCnCUI-RP-CondensedBold.ttf: build/nowar/unspec-NowarCnCU
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-CondensedBold.otd: build/hint2/unspec-NowarCnCUI-RP-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-RP-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedBold.otd build/nowar/unspec-NowarCnCUI-RP-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-RP-CondensedBold.instr.gz build/hint2/unspec-NowarCnCUI-RP-CondensedBold.otd build/nowar/unspec-NowarCnCUI-RP-CondensedBold.otd
 build/hint2/unspec-NowarCnCUI-RP-CondensedBold.instr.gz: build/hint2/unspec-NowarCnCUI-RP-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-RP-CondensedBold.otd build/hint2/unspec-NowarCnCUI-RP-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-RP-CondensedBold.otd build/hint2/unspec-NowarCnCUI-RP-CondensedBold.hint.gz build/hint2/unspec-NowarCnCUI-RP-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-CondensedBold.otd: build/hint1/unspec-NowarCnCUI-RP-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5324,9 +5324,9 @@ build/nowar/unspec-NowarCnCUI-RP-ExtendedBold.ttf: build/nowar/unspec-NowarCnCUI
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCUI-RP-ExtendedBold.otd: build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.instr.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.otd build/nowar/unspec-NowarCnCUI-RP-ExtendedBold.otd
 build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.otd build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.hint.gz build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnCUI-RP-ExtendedBold.otd: build/hint1/unspec-NowarCnCUI-RP-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5335,9 +5335,9 @@ build/nowar/unspec-NowarCnC-RP-ExtendedBold.ttf: build/nowar/unspec-NowarCnC-RP-
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-ExtendedBold.otd: build/hint2/unspec-NowarCnC-RP-ExtendedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-RP-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedBold.otd build/nowar/unspec-NowarCnC-RP-ExtendedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-RP-ExtendedBold.instr.gz build/hint2/unspec-NowarCnC-RP-ExtendedBold.otd build/nowar/unspec-NowarCnC-RP-ExtendedBold.otd
 build/hint2/unspec-NowarCnC-RP-ExtendedBold.instr.gz: build/hint2/unspec-NowarCnC-RP-ExtendedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-RP-ExtendedBold.otd build/hint2/unspec-NowarCnC-RP-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-RP-ExtendedBold.otd build/hint2/unspec-NowarCnC-RP-ExtendedBold.hint.gz build/hint2/unspec-NowarCnC-RP-ExtendedBold.instr.gz
 build/hint2/unspec-NowarCnC-RP-ExtendedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-ExtendedBold.otd: build/hint1/unspec-NowarCnC-RP-ExtendedBold.ttf
 	mkdir -p build/hint2/
@@ -5346,9 +5346,9 @@ build/nowar/unspec-NowarCnCWarcraft-RP-Bold.ttf: build/nowar/unspec-NowarCnCWarc
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnCWarcraft-RP-Bold.otd: build/hint2/unspec-NowarCnCWarcraft-RP-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnCWarcraft-RP-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Bold.otd build/nowar/unspec-NowarCnCWarcraft-RP-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-RP-Bold.instr.gz build/hint2/unspec-NowarCnCWarcraft-RP-Bold.otd build/nowar/unspec-NowarCnCWarcraft-RP-Bold.otd
 build/hint2/unspec-NowarCnCWarcraft-RP-Bold.instr.gz: build/hint2/unspec-NowarCnCWarcraft-RP-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnCWarcraft-RP-Bold.otd build/hint2/unspec-NowarCnCWarcraft-RP-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnCWarcraft-RP-Bold.otd build/hint2/unspec-NowarCnCWarcraft-RP-Bold.hint.gz build/hint2/unspec-NowarCnCWarcraft-RP-Bold.instr.gz
 build/hint2/unspec-NowarCnCWarcraft-RP-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnCWarcraft-RP-Bold.otd: build/hint1/unspec-NowarCnCWarcraft-RP-Bold.ttf
 	mkdir -p build/hint2/
@@ -5357,9 +5357,9 @@ build/nowar/unspec-NowarCnC-RP-CondensedBold.ttf: build/nowar/unspec-NowarCnC-RP
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-CondensedBold.otd: build/hint2/unspec-NowarCnC-RP-CondensedBold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-RP-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedBold.otd build/nowar/unspec-NowarCnC-RP-CondensedBold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-RP-CondensedBold.instr.gz build/hint2/unspec-NowarCnC-RP-CondensedBold.otd build/nowar/unspec-NowarCnC-RP-CondensedBold.otd
 build/hint2/unspec-NowarCnC-RP-CondensedBold.instr.gz: build/hint2/unspec-NowarCnC-RP-CondensedBold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-RP-CondensedBold.otd build/hint2/unspec-NowarCnC-RP-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedBold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-RP-CondensedBold.otd build/hint2/unspec-NowarCnC-RP-CondensedBold.hint.gz build/hint2/unspec-NowarCnC-RP-CondensedBold.instr.gz
 build/hint2/unspec-NowarCnC-RP-CondensedBold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-CondensedBold.otd: build/hint1/unspec-NowarCnC-RP-CondensedBold.ttf
 	mkdir -p build/hint2/
@@ -5368,9 +5368,9 @@ build/nowar/unspec-NowarCnC-RP-Bold.ttf: build/nowar/unspec-NowarCnC-RP-Bold.otd
 	otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null
 build/nowar/unspec-NowarCnC-RP-Bold.otd: build/hint2/unspec-NowarCnC-RP-Bold.instr.gz
 	mkdir -p build/nowar/
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c 700.json build/hint2/unspec-NowarCnC-RP-Bold.instr.gz build/hint2/unspec-NowarCnC-RP-Bold.otd build/nowar/unspec-NowarCnC-RP-Bold.otd
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/700.json build/hint2/unspec-NowarCnC-RP-Bold.instr.gz build/hint2/unspec-NowarCnC-RP-Bold.otd build/nowar/unspec-NowarCnC-RP-Bold.otd
 build/hint2/unspec-NowarCnC-RP-Bold.instr.gz: build/hint2/unspec-NowarCnC-RP-Bold.hint.gz
-	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c 700.json build/hint2/unspec-NowarCnC-RP-Bold.otd build/hint2/unspec-NowarCnC-RP-Bold.hint.gz build/hint2/unspec-NowarCnC-RP-Bold.instr.gz
+	node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/700.json build/hint2/unspec-NowarCnC-RP-Bold.otd build/hint2/unspec-NowarCnC-RP-Bold.hint.gz build/hint2/unspec-NowarCnC-RP-Bold.instr.gz
 build/hint2/unspec-NowarCnC-RP-Bold.hint.gz: hint2
 build/hint2/unspec-NowarCnC-RP-Bold.otd: build/hint1/unspec-NowarCnC-RP-Bold.ttf
 	mkdir -p build/hint2/
