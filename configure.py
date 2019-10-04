@@ -458,7 +458,7 @@ if __name__ == "__main__":
 				],
 			},
 			"all": {
-				"depend": [ "out/SharedMedia-NowarSans-${VERSION}.7z" ],
+				"depend": [ "out/SharedMedia-NowarCnC-${VERSION}.7z" ],
 			},
 			"clean": {
 				"command": [
@@ -475,7 +475,7 @@ if __name__ == "__main__":
 
 	# SharedMedia font provider
 	hintInstance += sum(config.fontProviderInstance.values(), [])
-	makefile["rule"]["out/SharedMedia-NowarSans-${VERSION}.7z"] = {
+	makefile["rule"]["out/SharedMedia-NowarCnC-${VERSION}.7z"] = {
 		"depend": [ "build/nowar/{}.ttf".format(GenerateFilename(p)) for p in sum(config.fontProviderInstance.values(), []) ],
 		"command": [
 			# copy interface directory
@@ -537,7 +537,7 @@ if __name__ == "__main__":
 				)
 			),
 			# copy font files
-			"for file in $^; do cp $$file out/NowarCnCTypeface/Fonts/$${file#out/nowar/*-}; done",
+			"for file in $^; do cp $$file out/NowarCnCTypeface/Fonts/$${file#build/nowar/*-}; done",
 			# pack with 7z, group them by weight to generate smaller file in less time
 			"cd out/; 7z a -t7z -m0=LZMA:d=512m:fb=273 -ms ../$@ NowarCnCTypeface/ -x!NowarCnCTypeface/Fonts/\\*.ttf",
 		] + [
@@ -552,7 +552,7 @@ if __name__ == "__main__":
 	# font pack for each regional variant and weight
 	for r, w in product(config.fontPackRegion, config.fontPackWeight):
 		target = "{}-{}".format(r, w)
-		pack = "out/NowarSans-{}-${{VERSION}}.7z".format(target)
+		pack = "out/NowarCnC-{}-${{VERSION}}.7z".format(target)
 		makefile["rule"]["all"]["depend"].append(pack)
 		fontlist = {
 			"ARIALN": GetLatinChatFont(w, r),
