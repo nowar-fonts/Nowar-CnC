@@ -453,6 +453,8 @@ if __name__ == "__main__":
 				"depend": [
 					"all",
 					"hint2",
+				] + [
+					"hint2-{}".format(w) for w in config.fontPackWeight
 				],
 			},
 			"all": {
@@ -624,19 +626,16 @@ if __name__ == "__main__":
 
 	# IDH
 	makefile["rule"]["hint2"] = {
-		"depend": [],
-		"command": [
-			"mkdir -p cache/",
-		],
+		"depend": [ "hint2-{}".format(w) for w in config.fontPackWeight ],
 	}
 	for w in config.fontPackWeight:
-		makefile["rule"]["hint2"]["depend"].extend([
-			"build/hint2/{}.otd".format(GenerateFilename(f)) for f in hintGroup[w]
-		])
-		makefile["rule"]["hint2"]["command"].append(
-			"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js hint -c source/idh/{0}.json -h cache/idh-{0}.gz -j ${{IDH_JOBS}} ".format(w) +
+		makefile["rule"]["hint2-{}".format(w)] = {
+			"depend": [ "build/hint2/{}.otd".format(GenerateFilename(f)) for f in hintGroup[w] ],
+			"command": [
+				"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js hint -c source/idh/{0}.json -h cache/idh-{0}.gz -j ${{IDH_JOBS}} ".format(w) +
 				" ".join([ "build/hint2/{0}.otd build/hint2/{0}.hint.gz".format(GenerateFilename(f)) for f in hintGroup[w] ])
-		)
+			],
+		}
 		for f in hintGroup[w]:
 			makefile["rule"]["build/nowar/{}.ttf".format(GenerateFilename(f))] = {
 				"depend": [ "build/nowar/{}.otd".format(GenerateFilename(f)) ],
