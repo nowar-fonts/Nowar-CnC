@@ -73,7 +73,8 @@ Nowar C² is also avialable as an addon (REALLY HUGE!), to register Nowar C² ty
 
 ### Dependencies
 
-* basic Unix utils
+* Basic Unix utils,
+  + GNU Make — use POSIX build on Windows ([MSYS2’s](https://www.msys2.org) or [Nowar’s](https://github.com/nowar-fonts/Toolchain-Windows-Build));
 * [Python](https://www.python.org/);
 * [otfcc](https://github.com/caryll/otfcc);
 * [ttfautohint](https://www.freetype.org/ttfautohint/);
