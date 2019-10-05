@@ -489,7 +489,7 @@ if __name__ == "__main__":
 				"\\n".join(
 					[
 						# backslashes will be escaped twice by `make` and `sed`
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\\\Addons\\\\NowarCnCTypeface\\\\Fonts\\\\{}.ttf]], western + ruRU)'.format(
+						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
 							GenerateFriendlyFamily(p)[0x0409],
 							GenerateFilename(p).replace("unspec-", "")
 						) for p in config.fontProviderInstance["western1"]
@@ -499,7 +499,7 @@ if __name__ == "__main__":
 			"sed -i '/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{{s/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
 				"\\n".join(
 					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\\\Addons\\\\NowarCnCTypeface\\\\Fonts\\\\{}.ttf]], western + ruRU)'.format(
+						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
 							GenerateFriendlyFamily(p)[0x0409],
 							GenerateFilename(p).replace("unspec-", "")
 						) for p in config.fontProviderInstance["western2"]
@@ -509,7 +509,7 @@ if __name__ == "__main__":
 			"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
 				"\\n".join(
 					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\\\Addons\\\\NowarCnCTypeface\\\\Fonts\\\\{}.ttf]], zhCN)'.format(
+						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhCN)'.format(
 							GenerateFriendlyFamily(p)[0x0804],
 							GenerateFilename(p).replace("unspec-", "")
 						) for p in config.fontProviderInstance["zhCN"]
@@ -519,7 +519,7 @@ if __name__ == "__main__":
 			"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
 				"\\n".join(
 					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\\\Addons\\\\NowarCnCTypeface\\\\Fonts\\\\{}.ttf]], zhTW)'.format(
+						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhTW)'.format(
 							GenerateFriendlyFamily(p)[0x0404],
 							GenerateFilename(p).replace("unspec-", "")
 						) for p in config.fontProviderInstance["zhTW"]
@@ -529,7 +529,7 @@ if __name__ == "__main__":
 			"sed -i '/__REPLACE_IN_BUILD__REGISTER_KOKR__/{{s/__REPLACE_IN_BUILD__REGISTER_KOKR__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
 				"\\n".join(
 					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\\\Addons\\\\NowarCnCTypeface\\\\Fonts\\\\{}.ttf]], koKR)'.format(
+						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], koKR)'.format(
 							GenerateFriendlyFamily(p)[0x0412],
 							GenerateFilename(p).replace("unspec-", "")
 						) for p in config.fontProviderInstance["koKR"]
