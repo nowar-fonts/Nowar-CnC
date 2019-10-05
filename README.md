@@ -22,6 +22,7 @@ Nowar C² is shipped in 5 weights and 9 regional variants.
 
 ### Weights
 
+* 200: ExtraLight
 * 300: Light
 * 400: Regular
 * 500: Medium
@@ -147,13 +148,12 @@ Then, run `python configure.py` to generate `Makefile`.
 
 ### Build Your Flavor
 
-Put Source Han Sans OTF files to `source/shs/`.
-
+Put Source Han Sans OTF files to `source/shs/`. Then, run
 ```bash
 make -j<threads> IDH_JOBS=<threads>
 ```
 
-The font pack will be in `out/`
+The font pack will be in `out/`.
 
 ## Credit
 
