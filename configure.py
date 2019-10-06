@@ -474,80 +474,81 @@ if __name__ == "__main__":
 	unique = lambda l: reduce(lambda l, x: l + [ x ] if x not in l else l, l, [])
 
 	# SharedMedia font provider
-	hintInstance += sum(config.fontProviderInstance.values(), [])
-	makefile["rule"]["out/SharedMedia-NowarCnC-${VERSION}.7z"] = {
-		"depend": [ "build/nowar/{}.ttf".format(GenerateFilename(p)) for p in sum(config.fontProviderInstance.values(), []) ],
-		"command": [
-			# copy interface directory
-			"mkdir -p out/",
-			"cp -r source/libsm out/NowarCnCTypeface",
-			"cp LICENSE.txt out/NowarCnCTypeface/",
-			"mkdir -p out/NowarCnCTypeface/Fonts/",
-			# replace dummy strings
-			"sed -i 's/__REPLACE_IN_BUILD__VERSION__/${VERSION}/' out/NowarCnCTypeface/NowarCnCTypeface.toc",
-			"sed -i '/__REPLACE_IN_BUILD__REGISTER_WESTERN1__/{{s/__REPLACE_IN_BUILD__REGISTER_WESTERN1__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-				"\\n".join(
-					[
-						# backslashes will be escaped twice by `make` and `sed`
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
-							GenerateFriendlyFamily(p)[0x0409],
-							GenerateFilename(p).replace("unspec-", "")
-						) for p in config.fontProviderInstance["western1"]
-					]
-				)
-			),
-			"sed -i '/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{{s/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-				"\\n".join(
-					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
-							GenerateFriendlyFamily(p)[0x0409],
-							GenerateFilename(p).replace("unspec-", "")
-						) for p in config.fontProviderInstance["western2"]
-					]
-				)
-			),
-			"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-				"\\n".join(
-					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhCN)'.format(
-							GenerateFriendlyFamily(p)[0x0804],
-							GenerateFilename(p).replace("unspec-", "")
-						) for p in config.fontProviderInstance["zhCN"]
-					]
-				)
-			),
-			"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-				"\\n".join(
-					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhTW)'.format(
-							GenerateFriendlyFamily(p)[0x0404],
-							GenerateFilename(p).replace("unspec-", "")
-						) for p in config.fontProviderInstance["zhTW"]
-					]
-				)
-			),
-			"sed -i '/__REPLACE_IN_BUILD__REGISTER_KOKR__/{{s/__REPLACE_IN_BUILD__REGISTER_KOKR__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-				"\\n".join(
-					[
-						r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], koKR)'.format(
-							GenerateFriendlyFamily(p)[0x0412],
-							GenerateFilename(p).replace("unspec-", "")
-						) for p in config.fontProviderInstance["koKR"]
-					]
-				)
-			),
-			# copy font files
-			"for file in $^; do cp $$file out/NowarCnCTypeface/Fonts/$${file#build/nowar/*-}; done",
-			# pack with 7z, group them by weight to generate smaller file in less time
-			"cd out/; 7z a -t7z -m0=LZMA:d=512m:fb=273 -ms ../$@ NowarCnCTypeface/ -x!NowarCnCTypeface/Fonts/\\*.ttf",
-		] + [
-			"cd out/; 7z a -t7z -m0=LZMA:d=512m:fb=273 -ms ../$@ " + " ".join([
-				"NowarCnCTypeface/Fonts/{}.ttf".format(GenerateFilename(p).replace("unspec-", ""))
-					for p in unique(sum(config.fontProviderInstance.values(), []))
-					if p.weight == w
-			]) for w in config.fontProviderWeight
-		]
-	}
+	if "out/SharedMedia-NowarCnC-${VERSION}.7z" in makefile["rule"]["all"]["depend"]:
+		hintInstance += sum(config.fontProviderInstance.values(), [])
+		makefile["rule"]["out/SharedMedia-NowarCnC-${VERSION}.7z"] = {
+			"depend": [ "build/nowar/{}.ttf".format(GenerateFilename(p)) for p in sum(config.fontProviderInstance.values(), []) ],
+			"command": [
+				# copy interface directory
+				"mkdir -p out/",
+				"cp -r source/libsm out/NowarCnCTypeface",
+				"cp LICENSE.txt out/NowarCnCTypeface/",
+				"mkdir -p out/NowarCnCTypeface/Fonts/",
+				# replace dummy strings
+				"sed -i 's/__REPLACE_IN_BUILD__VERSION__/${VERSION}/' out/NowarCnCTypeface/NowarCnCTypeface.toc",
+				"sed -i '/__REPLACE_IN_BUILD__REGISTER_WESTERN1__/{{s/__REPLACE_IN_BUILD__REGISTER_WESTERN1__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
+					"\\n".join(
+						[
+							# backslashes will be escaped twice by `make` and `sed`
+							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
+								GenerateFriendlyFamily(p)[0x0409],
+								GenerateFilename(p).replace("unspec-", "")
+							) for p in config.fontProviderInstance["western1"]
+						]
+					)
+				),
+				"sed -i '/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{{s/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
+					"\\n".join(
+						[
+							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
+								GenerateFriendlyFamily(p)[0x0409],
+								GenerateFilename(p).replace("unspec-", "")
+							) for p in config.fontProviderInstance["western2"]
+						]
+					)
+				),
+				"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
+					"\\n".join(
+						[
+							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhCN)'.format(
+								GenerateFriendlyFamily(p)[0x0804],
+								GenerateFilename(p).replace("unspec-", "")
+							) for p in config.fontProviderInstance["zhCN"]
+						]
+					)
+				),
+				"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
+					"\\n".join(
+						[
+							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhTW)'.format(
+								GenerateFriendlyFamily(p)[0x0404],
+								GenerateFilename(p).replace("unspec-", "")
+							) for p in config.fontProviderInstance["zhTW"]
+						]
+					)
+				),
+				"sed -i '/__REPLACE_IN_BUILD__REGISTER_KOKR__/{{s/__REPLACE_IN_BUILD__REGISTER_KOKR__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
+					"\\n".join(
+						[
+							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], koKR)'.format(
+								GenerateFriendlyFamily(p)[0x0412],
+								GenerateFilename(p).replace("unspec-", "")
+							) for p in config.fontProviderInstance["koKR"]
+						]
+					)
+				),
+				# copy font files
+				"for file in $^; do cp $$file out/NowarCnCTypeface/Fonts/$${file#build/nowar/*-}; done",
+				# pack with 7z, group them by weight to generate smaller file in less time
+				"cd out/; 7z a -t7z -m0=LZMA:d=512m:fb=273 -ms ../$@ NowarCnCTypeface/ -x!NowarCnCTypeface/Fonts/\\*.ttf",
+			] + [
+				"cd out/; 7z a -t7z -m0=LZMA:d=512m:fb=273 -ms ../$@ " + " ".join([
+					"NowarCnCTypeface/Fonts/{}.ttf".format(GenerateFilename(p).replace("unspec-", ""))
+						for p in unique(sum(config.fontProviderInstance.values(), []))
+						if p.weight == w
+				]) for w in config.fontProviderWeight
+			]
+		}
 
 	# font pack for each regional variant and weight
 	for r, w in product(config.fontPackRegion, config.fontPackWeight):
