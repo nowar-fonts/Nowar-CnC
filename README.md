@@ -16,7 +16,7 @@ Nowar C², well hinted font packs for _World of Warcraft_ and _WoW Classic_ that
 
 [Latest release at GitHub](https://github.com/nowar-fonts/Nowar-CnC/releases)
 
-Mirrors: [Latest release at Gitee](https://gitee.com/nowar-fonts/Nowar-CnC/releases)
+Mirrors: [Gitee (release repo)](https://gitee.com/nowar-fonts/Nowar-CnC)
 
 Nowar C² is shipped in 5 weights and 9 regional variants.
 

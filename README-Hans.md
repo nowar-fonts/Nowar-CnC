@@ -16,7 +16,7 @@
 
 [GitHub 上的最新版](https://github.com/nowar-fonts/Nowar-CnC/releases)
 
-镜像：[Gitee 上的最新版](https://gitee.com/nowar-fonts/Nowar-CnC/releases)
+镜像：[Gitee](https://gitee.com/nowar-fonts/Nowar-CnC)
 
 有爱锐方有 5 种字重和 9 种地区变体。
 

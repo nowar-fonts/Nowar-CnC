@@ -16,7 +16,7 @@
 
 [GitHub 上的最新發佈](https://github.com/nowar-fonts/Nowar-CnC/releases)
 
-鏡像：[Gitee 上的最新發佈](https://gitee.com/nowar-fonts/Nowar-CnC/releases)
+鏡像：[Gitee](https://gitee.com/nowar-fonts/Nowar-CnC)
 
 有愛銳方有 5 種字重和 9 種地區變體。
 
