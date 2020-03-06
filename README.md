@@ -65,10 +65,6 @@ RP is a special offer for Chinese RP realms. The RP distributions aim at unified
 * UI: Ambiguous punctations are treated as Western; CJK puctations are half-width; Kana are proportional.
 * RP: `丶` (U+4E36) is mapped to the same glyph as `·` (U+00B7, MIDDLE DOT).
 
-### SharedMedia Font Provider
-
-Nowar C² is also avialable as an addon (REALLY HUGE!), to register Nowar C² typeface to SharedMedia.
-
 ## How to Build
 
 ### Dependencies
@@ -100,21 +96,6 @@ class Config:
 
 # if you want to customize your variant, add it here.
 regionalVariant = { ... }
-
-if __name__ == "__main__":
-    makefile = {
-        "variable": { ... },
-        "rule": {
-            ".PHONY": { ... },
-            "all": {
-                "depend": [
-                    # remove it, the font provider requires all fonts.
-                    "out/SharedMedia-NowarCnC-${VERSION}.7z",
-                ]
-            },
-            "clean": { ... },
-        },
-    }
 ```
 
 For example, “I enjoy Japna’s orthography, and I’d like to apply it to every language!”
@@ -131,18 +112,6 @@ regionalVariant = {
         "ko": "JP",
     }
 }
-
-if __name__ == "__main__":
-    makefile = {
-        "variable": { ... },
-        "rule": {
-            ".PHONY": { ... },
-            "all": {
-                "depend": []
-            },
-            "clean": { ... },
-        },
-    }
 ```
 
 Then, run `python configure.py` to generate `Makefile`.

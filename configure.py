@@ -21,47 +21,6 @@ class Config:
 	fontPackWeight = [ 200, 300, 400, 500, 700 ]
 	fontPackRegion = [ "CN", "TW", "HK", "JP", "KR", "CL", "OSF", "GB", "RP" ]
 
-	fontProviderWeight = [ 200, 300, 400, 500, 700 ]
-	fontProviderWidth = [ 3, 5, 7 ]
-	fontProviderInstance = {
-		# seperate western to 2 parts, avoid sed argument strips
-		"western1": [ Namespace(
-			weight = w,
-			width = wd,
-			family = "UI",
-			region = r,
-			encoding = "unspec"
-		) for w, wd, r in product(fontProviderWeight, fontProviderWidth, [ "CN", "TW", "HK", "JP" ]) ],
-		"western2": [ Namespace(
-			weight = w,
-			width = wd,
-			family = "UI",
-			region = r,
-			encoding = "unspec"
-		) for w, wd, r in product(fontProviderWeight, fontProviderWidth, [ "CL", "OSF" ]) ],
-		"zhCN": [ Namespace(
-			weight = w,
-			width = wd,
-			family = "Sans",
-			region = r,
-			encoding = "unspec"
-		) for w, wd, r in product(fontProviderWeight, fontProviderWidth, [ "CN", "CL" ]) ],
-		"zhTW": [ Namespace(
-			weight = w,
-			width = wd,
-			family = "Sans",
-			region = r,
-			encoding = "unspec"
-		) for w, wd, r in product(fontProviderWeight, fontProviderWidth, [ "TW", "HK", "CL" ]) ],
-		"koKR": [ Namespace(
-			weight = w,
-			width = wd,
-			family = "Sans",
-			region = r,
-			encoding = "unspec"
-		) for w, wd, r in product(fontProviderWeight, fontProviderWidth, [ "KR" ]) ],
-	}
-
 config = Config()
 
 weightMap = {
@@ -446,25 +405,22 @@ if __name__ == "__main__":
 	makefile = {
 		"variable": {
 			"VERSION": config.version,
-			"IDH_JOBS?": 1,
+			"IDH_JOBS?": 8,
 		},
 		"rule": {
 			".PHONY": {
 				"depend": [
 					"all",
 					"hint2",
-				] + [
-					"hint2-{}".format(w) for w in config.fontPackWeight
 				],
 			},
 			"all": {
-				"depend": [ "out/SharedMedia-NowarCnC-${VERSION}.7z" ],
+				"depend": [],
 			},
 			"clean": {
 				"command": [
 					"-rm -rf build/",
-					"-rm -rf out/NowarCnCTypeface",
-					"-rm -rf " + " ".join([ "out/{}-{}/".format(r, w) for r, w in product(config.fontPackRegion, config.fontPackWeight) ]),
+					"-rm -rf out/??*-???/",
 				],
 			},
 		},
@@ -472,83 +428,6 @@ if __name__ == "__main__":
 
 	hintInstance = []
 	unique = lambda l: reduce(lambda l, x: l + [ x ] if x not in l else l, l, [])
-
-	# SharedMedia font provider
-	if "out/SharedMedia-NowarCnC-${VERSION}.7z" in makefile["rule"]["all"]["depend"]:
-		hintInstance += sum(config.fontProviderInstance.values(), [])
-		makefile["rule"]["out/SharedMedia-NowarCnC-${VERSION}.7z"] = {
-			"depend": [ "build/nowar/{}.ttf".format(GenerateFilename(p)) for p in sum(config.fontProviderInstance.values(), []) ],
-			"command": [
-				# copy interface directory
-				"mkdir -p out/",
-				"cp -r source/libsm out/NowarCnCTypeface",
-				"cp LICENSE.txt out/NowarCnCTypeface/",
-				"mkdir -p out/NowarCnCTypeface/Fonts/",
-				# replace dummy strings
-				"sed -i 's/__REPLACE_IN_BUILD__VERSION__/${VERSION}/' out/NowarCnCTypeface/NowarCnCTypeface.toc",
-				"sed -i '/__REPLACE_IN_BUILD__REGISTER_WESTERN1__/{{s/__REPLACE_IN_BUILD__REGISTER_WESTERN1__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-					"\\n".join(
-						[
-							# backslashes will be escaped twice by `make` and `sed`
-							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
-								GenerateFriendlyFamily(p)[0x0409],
-								GenerateFilename(p).replace("unspec-", "")
-							) for p in config.fontProviderInstance["western1"]
-						]
-					)
-				),
-				"sed -i '/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{{s/__REPLACE_IN_BUILD__REGISTER_WESTERN2__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-					"\\n".join(
-						[
-							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], western + ruRU)'.format(
-								GenerateFriendlyFamily(p)[0x0409],
-								GenerateFilename(p).replace("unspec-", "")
-							) for p in config.fontProviderInstance["western2"]
-						]
-					)
-				),
-				"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHCN__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-					"\\n".join(
-						[
-							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhCN)'.format(
-								GenerateFriendlyFamily(p)[0x0804],
-								GenerateFilename(p).replace("unspec-", "")
-							) for p in config.fontProviderInstance["zhCN"]
-						]
-					)
-				),
-				"sed -i '/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{{s/__REPLACE_IN_BUILD__REGISTER_ZHTW__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-					"\\n".join(
-						[
-							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], zhTW)'.format(
-								GenerateFriendlyFamily(p)[0x0404],
-								GenerateFilename(p).replace("unspec-", "")
-							) for p in config.fontProviderInstance["zhTW"]
-						]
-					)
-				),
-				"sed -i '/__REPLACE_IN_BUILD__REGISTER_KOKR__/{{s/__REPLACE_IN_BUILD__REGISTER_KOKR__/{}/}}' out/NowarCnCTypeface/NowarCnCTypeface.lua".format(
-					"\\n".join(
-						[
-							r'NowarCnCTypeface:Register("font", "{}", [[Interface\\Addons\\NowarCnCTypeface\\Fonts\\{}.ttf]], koKR)'.format(
-								GenerateFriendlyFamily(p)[0x0412],
-								GenerateFilename(p).replace("unspec-", "")
-							) for p in config.fontProviderInstance["koKR"]
-						]
-					)
-				),
-				# copy font files
-				"for file in $^; do cp $$file out/NowarCnCTypeface/Fonts/$${file#build/nowar/*-}; done",
-				# pack with 7z, group them by weight to generate smaller file in less time
-				"cd out/; 7z a -t7z -m0=LZMA:d=512m:fb=273 -ms ../$@ NowarCnCTypeface/ -x!NowarCnCTypeface/Fonts/\\*.ttf",
-			] + [
-				"cd out/; 7z a -t7z -m0=LZMA:d=512m:fb=273 -ms ../$@ " + " ".join([
-					"NowarCnCTypeface/Fonts/{}.ttf".format(GenerateFilename(p).replace("unspec-", ""))
-						for p in unique(sum(config.fontProviderInstance.values(), []))
-						if p.weight == w
-				]) for w in config.fontProviderWeight
-			]
-		}
 
 	# font pack for each regional variant and weight
 	for r, w in product(config.fontPackRegion, config.fontPackWeight):
@@ -623,36 +502,33 @@ if __name__ == "__main__":
 			hintGroup[f.weight].append(f)
 	for k, v in hintGroup.items():
 		hintGroup[k] = unique(v)
-	# pprint(hintGroup)
 
 	# IDH
 	makefile["rule"]["hint2"] = {
-		"depend": [ "hint2-{}".format(w) for w in config.fontPackWeight ],
+		"depend": [ "build/hint2/{}.otd".format(GenerateFilename(f)) for w in config.fontPackWeight for f in hintGroup[w] ],
+		"command": [ "mkdir -p cache/" ] + [
+			"node node_modules/@chlorophytum/cli/bin/_startup hint -c source/idh/{0}.json -h cache/idh-{0}.gz -j ${{IDH_JOBS}} ".format(w) +
+			" ".join([ "build/hint2/{0}.otd build/hint2/{0}.hint.gz".format(GenerateFilename(f)) for f in hintGroup[w] ])
+			for w in config.fontPackWeight
+		],
 	}
 	for w in config.fontPackWeight:
-		makefile["rule"]["hint2-{}".format(w)] = {
-			"depend": [ "build/hint2/{}.otd".format(GenerateFilename(f)) for f in hintGroup[w] ],
-			"command": [
-				"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js hint -c source/idh/{0}.json -h cache/idh-{0}.gz -j ${{IDH_JOBS}} ".format(w) +
-				" ".join([ "build/hint2/{0}.otd build/hint2/{0}.hint.gz".format(GenerateFilename(f)) for f in hintGroup[w] ])
-			],
-		}
 		for f in hintGroup[w]:
 			makefile["rule"]["build/nowar/{}.ttf".format(GenerateFilename(f))] = {
 				"depend": [ "build/nowar/{}.otd".format(GenerateFilename(f)) ],
-				"command": [ "otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null" ],
+				"command": [ "otfccbuild -q -O3 --keep-average-char-width $< -o $@" ],
 			}
 			makefile["rule"]["build/nowar/{}.otd".format(GenerateFilename(f))] = {
 				"depend": [ "build/hint2/{}.instr.gz".format(GenerateFilename(f)) ],
 				"command": [
 					"mkdir -p build/nowar/",
-					"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js integrate -c source/idh/{0}.json build/hint2/{1}.instr.gz build/hint2/{1}.otd build/nowar/{1}.otd".format(w, GenerateFilename(f)),
+					"node node_modules/@chlorophytum/cli/bin/_startup integrate -c source/idh/{0}.json build/hint2/{1}.instr.gz build/hint2/{1}.otd build/nowar/{1}.otd".format(w, GenerateFilename(f)),
 				],
 			}
 			makefile["rule"]["build/hint2/{}.instr.gz".format(GenerateFilename(f))] = {
 				"depend": [ "build/hint2/{}.hint.gz".format(GenerateFilename(f)) ],
 				"command": [
-					"node --max-old-space-size=8192 node_modules/@chlorophytum/cli/lib/index.js instruct -c source/idh/{0}.json build/hint2/{1}.otd build/hint2/{1}.hint.gz build/hint2/{1}.instr.gz".format(w, GenerateFilename(f)),
+					"node node_modules/@chlorophytum/cli/bin/_startup instruct -c source/idh/{0}.json build/hint2/{1}.otd build/hint2/{1}.hint.gz build/hint2/{1}.instr.gz".format(w, GenerateFilename(f)),
 				],
 			}
 			makefile["rule"]["build/hint2/{}.hint.gz".format(GenerateFilename(f))] = {
@@ -696,7 +572,7 @@ if __name__ == "__main__":
 		)
 		makefile["rule"]["build/unhinted/{}.ttf".format(GenerateFilename(param))] = {
 			"depend": ["build/unhinted/{}.otd".format(GenerateFilename(param))],
-			"command": [ "otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null" ]
+			"command": [ "otfccbuild -q -O3 --keep-average-char-width $< -o $@" ]
 		}
 		dep = ResolveDependency(param)
 		makefile["rule"]["build/unhinted/{}.otd".format(GenerateFilename(param))] = {
@@ -724,7 +600,7 @@ if __name__ == "__main__":
 			"depend": [ "source/shs/{}.otf".format(GenerateFilename(dep["CJK"])) ],
 			"command": [
 				"mkdir -p build/shs/",
-				"otfccdump --ignore-hints $< | node node_modules/otfcc-c2q/_c2q_startup.js | otfccbuild -O3 -o $@",
+				"otfccdump --ignore-hints $< | node node_modules/otfcc-c2q/_c2q_startup.js | otfccbuild -q -O3 -o $@",
 			],
 		}
 
@@ -739,7 +615,7 @@ if __name__ == "__main__":
 			)
 			makefile["rule"]["build/nowar/{}.ttf".format(GenerateFilename(enc))] = {
 				"depend": ["build/nowar/{}.otd".format(GenerateFilename(enc))],
-				"command": [ "otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null" ]
+				"command": [ "otfccbuild -q -O3 --keep-average-char-width $< -o $@" ]
 			}
 			makefile["rule"]["build/nowar/{}.otd".format(GenerateFilename(enc))] = {
 				"depend": ["build/nowar/{}.otd".format(GenerateFilename(param))],
@@ -757,7 +633,7 @@ if __name__ == "__main__":
 		)
 		makefile["rule"]["build/unhinted/{}.ttf".format(GenerateFilename(param))] = {
 			"depend": ["build/unhinted/{}.otd".format(GenerateFilename(param))],
-			"command": [ "otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null" ]
+			"command": [ "otfccbuild -q -O3 --keep-average-char-width $< -o $@" ]
 		}
 		dep = ResolveDependency(param)
 		makefile["rule"]["build/unhinted/{}.otd".format(GenerateFilename(param))] = {
@@ -793,7 +669,7 @@ if __name__ == "__main__":
 			"depend": [ "source/shs/{}.otf".format(GenerateFilename(dep["CJK"])) ],
 			"command": [
 				"mkdir -p build/shs/",
-				"otfccdump --ignore-hints $< | node node_modules/otfcc-c2q/_c2q_startup.js | otfccbuild -O3 -o $@",
+				"otfccdump --ignore-hints $< | node node_modules/otfcc-c2q/_c2q_startup.js | otfccbuild -q -O3 -o $@",
 			],
 		}
 
@@ -807,7 +683,7 @@ if __name__ == "__main__":
 			)
 			makefile["rule"]["build/nowar/{}.ttf".format(GenerateFilename(enc))] = {
 				"depend": ["build/nowar/{}.otd".format(GenerateFilename(enc))],
-				"command": [ "otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null" ]
+				"command": [ "otfccbuild -q -O3 --keep-average-char-width $< -o $@" ]
 			}
 			makefile["rule"]["build/nowar/{}.otd".format(GenerateFilename(enc))] = {
 				"depend": ["build/nowar/{}.otd".format(GenerateFilename(param))],
@@ -823,7 +699,7 @@ if __name__ == "__main__":
 		)
 		makefile["rule"]["build/unhinted/{}.ttf".format(GenerateFilename(param))] = {
 			"depend": ["build/unhinted/{}.otd".format(GenerateFilename(param))],
-			"command": [ "otfccbuild -O3 --keep-average-char-width $< -o $@ 2>/dev/null" ]
+			"command": [ "otfccbuild -q -O3 --keep-average-char-width $< -o $@" ]
 		}
 		dep = ResolveDependency(param)
 		makefile["rule"]["build/unhinted/{}.otd".format(GenerateFilename(param))] = {
