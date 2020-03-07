@@ -126,9 +126,17 @@ regionalVariant = {
 }
 ```
 
-Then, run `python configure.py` to generate `Makefile`.
-
 ### Build Your Flavor
+
+Prepare submodules:
+```bash
+git submodule update --init --recursive
+```
+
+Run `configure.py` to generate Makefile.
+```bash
+python configure.py
+```
 
 Put Source Han Sans OTF files to `source/shs/`. Then, run
 ```bash
