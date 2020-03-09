@@ -129,7 +129,7 @@ def NameFont(param, font):
 				"encodingID": 1,
 				"languageID": langId,
 				"nameID": 16,
-				"nameString": family[langId]
+				"nameString": family[langId] + "; keep hinted, like DFKaiShu" if langId == 0x0409 else family[langId]
 			},
 		] for langId in langIdList],
 		[]
